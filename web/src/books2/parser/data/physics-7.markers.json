@@ -1,0 +1,39 @@
+[
+ {
+  "type": "law",
+  "patterns": [
+   "օրենք"
+  ]
+ },
+ {
+  "type": "laboratory",
+  "patterns": [
+   "Լաբորատոր",
+   "Փորձ"
+  ]
+ },
+ {
+  "type": "question",
+  "patterns": [
+   "Հարցեր և առաջադրանք"
+  ]
+ },
+ {
+  "type": "reflect",
+  "patterns": [
+   "Ամփոփ"
+  ]
+ },
+ {
+  "type": "think",
+  "patterns": [
+   "Դիտում"
+  ]
+ },
+ {
+  "type": "additional_material",
+  "patterns": [
+   "Հետաքրքիր է"
+  ]
+ }
+]

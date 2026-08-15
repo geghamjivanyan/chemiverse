@@ -1,0 +1,1959 @@
+[
+ {
+  "id": "H",
+  "name": "Ջրածին",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (H)։ Կարգահամարը՝ 1։",
+  "aliases": [
+   "Ջրածին",
+   "Hydrogen",
+   "Водород"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "H"
+ },
+ {
+  "id": "He",
+  "name": "Հելիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (He)։ Կարգահամարը՝ 2։",
+  "aliases": [
+   "Հելիում",
+   "Helium",
+   "Гелий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "He"
+ },
+ {
+  "id": "Li",
+  "name": "Լիթիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Li)։ Կարգահամարը՝ 3։",
+  "aliases": [
+   "Լիթիում",
+   "Lithium",
+   "Литий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Li"
+ },
+ {
+  "id": "Be",
+  "name": "Բերիլիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Be)։ Կարգահամարը՝ 4։",
+  "aliases": [
+   "Բերիլիում",
+   "Beryllium",
+   "Бериллий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Be"
+ },
+ {
+  "id": "B",
+  "name": "Բոր",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (B)։ Կարգահամարը՝ 5։",
+  "aliases": [
+   "Բոր",
+   "Boron",
+   "Бор"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "B"
+ },
+ {
+  "id": "C",
+  "name": "Ածխածին",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (C)։ Կարգահամարը՝ 6։",
+  "aliases": [
+   "Ածխածին",
+   "Carbon",
+   "Углерод"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "C"
+ },
+ {
+  "id": "N",
+  "name": "Ազոտ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (N)։ Կարգահամարը՝ 7։",
+  "aliases": [
+   "Ազոտ",
+   "Nitrogen",
+   "Азот"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "N"
+ },
+ {
+  "id": "O",
+  "name": "Թթվածին",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (O)։ Կարգահամարը՝ 8։",
+  "aliases": [
+   "Թթվածին",
+   "Oxygen",
+   "Кислород"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "O"
+ },
+ {
+  "id": "F",
+  "name": "Ֆտոր",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (F)։ Կարգահամարը՝ 9։",
+  "aliases": [
+   "Ֆտոր",
+   "Fluorine",
+   "Фтор"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "F"
+ },
+ {
+  "id": "Ne",
+  "name": "Նեոն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ne)։ Կարգահամարը՝ 10։",
+  "aliases": [
+   "Նեոն",
+   "Neon",
+   "Неон"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ne"
+ },
+ {
+  "id": "Na",
+  "name": "Նատրիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Na)։ Կարգահամարը՝ 11։",
+  "aliases": [
+   "Նատրիում",
+   "Sodium",
+   "Натрий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Na"
+ },
+ {
+  "id": "Mg",
+  "name": "Մագնեզիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Mg)։ Կարգահամարը՝ 12։",
+  "aliases": [
+   "Մագնեզիում",
+   "Magnesium",
+   "Магний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Mg"
+ },
+ {
+  "id": "Al",
+  "name": "Ալյումին",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Al)։ Կարգահամարը՝ 13։",
+  "aliases": [
+   "Ալյումին",
+   "Aluminium",
+   "Алюминий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Al"
+ },
+ {
+  "id": "Si",
+  "name": "Սիլիցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Si)։ Կարգահամարը՝ 14։",
+  "aliases": [
+   "Սիլիցիում",
+   "Silicon",
+   "Кремний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Si"
+ },
+ {
+  "id": "P",
+  "name": "Ֆոսֆոր",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (P)։ Կարգահամարը՝ 15։",
+  "aliases": [
+   "Ֆոսֆոր",
+   "Phosphorus",
+   "Фосфор"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "P"
+ },
+ {
+  "id": "S",
+  "name": "Ծծումբ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (S)։ Կարգահամարը՝ 16։",
+  "aliases": [
+   "Ծծումբ",
+   "Sulfur",
+   "Сера"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "S"
+ },
+ {
+  "id": "Cl",
+  "name": "Քլոր",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cl)։ Կարգահամարը՝ 17։",
+  "aliases": [
+   "Քլոր",
+   "Chlorine",
+   "Хлор"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cl"
+ },
+ {
+  "id": "Ar",
+  "name": "Արգոն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ar)։ Կարգահամարը՝ 18։",
+  "aliases": [
+   "Արգոն",
+   "Argon",
+   "Аргон"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ar"
+ },
+ {
+  "id": "K",
+  "name": "Կալիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (K)։ Կարգահամարը՝ 19։",
+  "aliases": [
+   "Կալիում",
+   "Potassium",
+   "Калий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "K"
+ },
+ {
+  "id": "Ca",
+  "name": "Կալցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ca)։ Կարգահամարը՝ 20։",
+  "aliases": [
+   "Կալցիում",
+   "Calcium",
+   "Кальций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ca"
+ },
+ {
+  "id": "Sc",
+  "name": "Սկանդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Sc)։ Կարգահամարը՝ 21։",
+  "aliases": [
+   "Սկանդիում",
+   "Scandium",
+   "Скандий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Sc"
+ },
+ {
+  "id": "Ti",
+  "name": "Տիտան",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ti)։ Կարգահամարը՝ 22։",
+  "aliases": [
+   "Տիտան",
+   "Titanium",
+   "Титан"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ti"
+ },
+ {
+  "id": "V",
+  "name": "Վանադիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (V)։ Կարգահամարը՝ 23։",
+  "aliases": [
+   "Վանադիում",
+   "Vanadium",
+   "Ванадий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "V"
+ },
+ {
+  "id": "Cr",
+  "name": "Քրոմ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cr)։ Կարգահամարը՝ 24։",
+  "aliases": [
+   "Քրոմ",
+   "Chromium",
+   "Хром"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cr"
+ },
+ {
+  "id": "Mn",
+  "name": "Մանգան",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Mn)։ Կարգահամարը՝ 25։",
+  "aliases": [
+   "Մանգան",
+   "Manganese",
+   "Марганец"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Mn"
+ },
+ {
+  "id": "Fe",
+  "name": "Երկաթ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Fe)։ Կարգահամարը՝ 26։",
+  "aliases": [
+   "Երկաթ",
+   "Iron",
+   "Железо"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Fe"
+ },
+ {
+  "id": "Co",
+  "name": "Կոբալտ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Co)։ Կարգահամարը՝ 27։",
+  "aliases": [
+   "Կոբալտ",
+   "Cobalt",
+   "Кобальт"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Co"
+ },
+ {
+  "id": "Ni",
+  "name": "Նիկել",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ni)։ Կարգահամարը՝ 28։",
+  "aliases": [
+   "Նիկել",
+   "Nickel",
+   "Никель"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ni"
+ },
+ {
+  "id": "Cu",
+  "name": "Պղինձ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cu)։ Կարգահամարը՝ 29։",
+  "aliases": [
+   "Պղինձ",
+   "Copper",
+   "Медь"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cu"
+ },
+ {
+  "id": "Zn",
+  "name": "Ցինկ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Zn)։ Կարգահամարը՝ 30։",
+  "aliases": [
+   "Ցինկ",
+   "Zinc",
+   "Цинк"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Zn"
+ },
+ {
+  "id": "Ga",
+  "name": "Գալիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ga)։ Կարգահամարը՝ 31։",
+  "aliases": [
+   "Գալիում",
+   "Gallium",
+   "Галлий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ga"
+ },
+ {
+  "id": "Ge",
+  "name": "Գերմանիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ge)։ Կարգահամարը՝ 32։",
+  "aliases": [
+   "Գերմանիում",
+   "Germanium",
+   "Германий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ge"
+ },
+ {
+  "id": "As",
+  "name": "Արսեն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (As)։ Կարգահամարը՝ 33։",
+  "aliases": [
+   "Արսեն",
+   "Arsenic",
+   "Мышьяк"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "As"
+ },
+ {
+  "id": "Se",
+  "name": "Սելեն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Se)։ Կարգահամարը՝ 34։",
+  "aliases": [
+   "Սելեն",
+   "Selenium",
+   "Селен"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Se"
+ },
+ {
+  "id": "Br",
+  "name": "Բրոմ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Br)։ Կարգահամարը՝ 35։",
+  "aliases": [
+   "Բրոմ",
+   "Bromine",
+   "Бром"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Br"
+ },
+ {
+  "id": "Kr",
+  "name": "Կրիպտոն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Kr)։ Կարգահամարը՝ 36։",
+  "aliases": [
+   "Կրիպտոն",
+   "Krypton",
+   "Криптон"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Kr"
+ },
+ {
+  "id": "Rb",
+  "name": "Ռուբիդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Rb)։ Կարգահամարը՝ 37։",
+  "aliases": [
+   "Ռուբիդիում",
+   "Rubidium",
+   "Рубидий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Rb"
+ },
+ {
+  "id": "Sr",
+  "name": "Ստրոնցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Sr)։ Կարգահամարը՝ 38։",
+  "aliases": [
+   "Ստրոնցիում",
+   "Strontium",
+   "Стронций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Sr"
+ },
+ {
+  "id": "Y",
+  "name": "Իտրիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Y)։ Կարգահամարը՝ 39։",
+  "aliases": [
+   "Իտրիում",
+   "Yttrium",
+   "Иттрий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Y"
+ },
+ {
+  "id": "Zr",
+  "name": "Ցիրկոնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Zr)։ Կարգահամարը՝ 40։",
+  "aliases": [
+   "Ցիրկոնիում",
+   "Zirconium",
+   "Цирконий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Zr"
+ },
+ {
+  "id": "Nb",
+  "name": "Նիոբիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Nb)։ Կարգահամարը՝ 41։",
+  "aliases": [
+   "Նիոբիում",
+   "Niobium",
+   "Ниобий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Nb"
+ },
+ {
+  "id": "Mo",
+  "name": "Մոլիբդեն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Mo)։ Կարգահամարը՝ 42։",
+  "aliases": [
+   "Մոլիբդեն",
+   "Molybdenum",
+   "Молибден"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Mo"
+ },
+ {
+  "id": "Tc",
+  "name": "Տեխնեցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Tc)։ Կարգահամարը՝ 43։",
+  "aliases": [
+   "Տեխնեցիում",
+   "Technetium",
+   "Технеций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Tc"
+ },
+ {
+  "id": "Ru",
+  "name": "Ռութենիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ru)։ Կարգահամարը՝ 44։",
+  "aliases": [
+   "Ռութենիում",
+   "Ruthenium",
+   "Рутений"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ru"
+ },
+ {
+  "id": "Rh",
+  "name": "Ռոդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Rh)։ Կարգահամարը՝ 45։",
+  "aliases": [
+   "Ռոդիում",
+   "Rhodium",
+   "Родий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Rh"
+ },
+ {
+  "id": "Pd",
+  "name": "Պալադիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pd)։ Կարգահամարը՝ 46։",
+  "aliases": [
+   "Պալադիում",
+   "Palladium",
+   "Палладий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pd"
+ },
+ {
+  "id": "Ag",
+  "name": "Արծաթ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ag)։ Կարգահամարը՝ 47։",
+  "aliases": [
+   "Արծաթ",
+   "Silver",
+   "Серебро"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ag"
+ },
+ {
+  "id": "Cd",
+  "name": "Կադմիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cd)։ Կարգահամարը՝ 48։",
+  "aliases": [
+   "Կադմիում",
+   "Cadmium",
+   "Кадмий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cd"
+ },
+ {
+  "id": "In",
+  "name": "Ինդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (In)։ Կարգահամարը՝ 49։",
+  "aliases": [
+   "Ինդիում",
+   "Indium",
+   "Индий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "In"
+ },
+ {
+  "id": "Sn",
+  "name": "Անագ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Sn)։ Կարգահամարը՝ 50։",
+  "aliases": [
+   "Անագ",
+   "Tin",
+   "Олово"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Sn"
+ },
+ {
+  "id": "Sb",
+  "name": "Ծարիր",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Sb)։ Կարգահամարը՝ 51։",
+  "aliases": [
+   "Ծարիր",
+   "Antimony",
+   "Сурьма"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Sb"
+ },
+ {
+  "id": "Te",
+  "name": "Տելուր",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Te)։ Կարգահամարը՝ 52։",
+  "aliases": [
+   "Տելուր",
+   "Tellurium",
+   "Теллур"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Te"
+ },
+ {
+  "id": "I",
+  "name": "Յոդ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (I)։ Կարգահամարը՝ 53։",
+  "aliases": [
+   "Յոդ",
+   "Iodine",
+   "Иод"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "I"
+ },
+ {
+  "id": "Xe",
+  "name": "Քսենոն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Xe)։ Կարգահամարը՝ 54։",
+  "aliases": [
+   "Քսենոն",
+   "Xenon",
+   "Ксенон"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Xe"
+ },
+ {
+  "id": "Cs",
+  "name": "Ցեզիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cs)։ Կարգահամարը՝ 55։",
+  "aliases": [
+   "Ցեզիում",
+   "Cesium",
+   "Цезий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cs"
+ },
+ {
+  "id": "Ba",
+  "name": "Բարիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ba)։ Կարգահամարը՝ 56։",
+  "aliases": [
+   "Բարիում",
+   "Barium",
+   "Барий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ba"
+ },
+ {
+  "id": "La",
+  "name": "Լանթան",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (La)։ Կարգահամարը՝ 57։",
+  "aliases": [
+   "Լանթան",
+   "Lanthanum",
+   "Лантан"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "La"
+ },
+ {
+  "id": "Ce",
+  "name": "Ցերիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ce)։ Կարգահամարը՝ 58։",
+  "aliases": [
+   "Ցերիում",
+   "Cerium",
+   "Церий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ce"
+ },
+ {
+  "id": "Pr",
+  "name": "Պրազեդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pr)։ Կարգահամարը՝ 59։",
+  "aliases": [
+   "Պրազեդիում",
+   "Praseodymium",
+   "Празеодим"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pr"
+ },
+ {
+  "id": "Nd",
+  "name": "Նեոդիմ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Nd)։ Կարգահամարը՝ 60։",
+  "aliases": [
+   "Նեոդիմ",
+   "Neodymium",
+   "Неодим"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Nd"
+ },
+ {
+  "id": "Pm",
+  "name": "Պրոմեթիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pm)։ Կարգահամարը՝ 61։",
+  "aliases": [
+   "Պրոմեթիում",
+   "Promethium",
+   "Прометий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pm"
+ },
+ {
+  "id": "Sm",
+  "name": "Սամարիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Sm)։ Կարգահամարը՝ 62։",
+  "aliases": [
+   "Սամարիում",
+   "Samarium",
+   "Самарий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Sm"
+ },
+ {
+  "id": "Eu",
+  "name": "Եվրոպիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Eu)։ Կարգահամարը՝ 63։",
+  "aliases": [
+   "Եվրոպիում",
+   "Europium",
+   "Европий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Eu"
+ },
+ {
+  "id": "Gd",
+  "name": "Գադոլինիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Gd)։ Կարգահամարը՝ 64։",
+  "aliases": [
+   "Գադոլինիում",
+   "Gadolinium",
+   "Гадолиний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Gd"
+ },
+ {
+  "id": "Tb",
+  "name": "Տերբիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Tb)։ Կարգահամարը՝ 65։",
+  "aliases": [
+   "Տերբիում",
+   "Terbium",
+   "Тербий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Tb"
+ },
+ {
+  "id": "Dy",
+  "name": "Դիսպրոզիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Dy)։ Կարգահամարը՝ 66։",
+  "aliases": [
+   "Դիսպրոզիում",
+   "Dysprosium",
+   "Диспрозий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Dy"
+ },
+ {
+  "id": "Ho",
+  "name": "Հոլմիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ho)։ Կարգահամարը՝ 67։",
+  "aliases": [
+   "Հոլմիում",
+   "Holmium",
+   "Гольмий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ho"
+ },
+ {
+  "id": "Er",
+  "name": "Էրբիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Er)։ Կարգահամարը՝ 68։",
+  "aliases": [
+   "Էրբիում",
+   "Erbium",
+   "Эрбий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Er"
+ },
+ {
+  "id": "Tm",
+  "name": "Թուլիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Tm)։ Կարգահամարը՝ 69։",
+  "aliases": [
+   "Թուլիում",
+   "Thulium",
+   "Тулий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Tm"
+ },
+ {
+  "id": "Yb",
+  "name": "Իտերբիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Yb)։ Կարգահամարը՝ 70։",
+  "aliases": [
+   "Իտերբիում",
+   "Ytterbium",
+   "Иттербий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Yb"
+ },
+ {
+  "id": "Lu",
+  "name": "Լուտեցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Lu)։ Կարգահամարը՝ 71։",
+  "aliases": [
+   "Լուտեցիում",
+   "Lutetium",
+   "Лютеций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Lu"
+ },
+ {
+  "id": "Hf",
+  "name": "Հաֆնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Hf)։ Կարգահամարը՝ 72։",
+  "aliases": [
+   "Հաֆնիում",
+   "Hafnium",
+   "Гафний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Hf"
+ },
+ {
+  "id": "Ta",
+  "name": "Տանտալ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ta)։ Կարգահամարը՝ 73։",
+  "aliases": [
+   "Տանտալ",
+   "Tantalum",
+   "Тантал"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ta"
+ },
+ {
+  "id": "W",
+  "name": "Վոլֆրամ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (W)։ Կարգահամարը՝ 74։",
+  "aliases": [
+   "Վոլֆրամ",
+   "Tungsten",
+   "Вольфрам"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "W"
+ },
+ {
+  "id": "Re",
+  "name": "Ռենիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Re)։ Կարգահամարը՝ 75։",
+  "aliases": [
+   "Ռենիում",
+   "Rhenium",
+   "Рений"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Re"
+ },
+ {
+  "id": "Os",
+  "name": "Օսմիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Os)։ Կարգահամարը՝ 76։",
+  "aliases": [
+   "Օսմիում",
+   "Osmium",
+   "Осмий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Os"
+ },
+ {
+  "id": "Ir",
+  "name": "Իրիդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ir)։ Կարգահամարը՝ 77։",
+  "aliases": [
+   "Իրիդիում",
+   "Iridium",
+   "Иридий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ir"
+ },
+ {
+  "id": "Pt",
+  "name": "Պլատին",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pt)։ Կարգահամարը՝ 78։",
+  "aliases": [
+   "Պլատին",
+   "Platinum",
+   "Платина"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pt"
+ },
+ {
+  "id": "Au",
+  "name": "Ոսկի",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Au)։ Կարգահամարը՝ 79։",
+  "aliases": [
+   "Ոսկի",
+   "Gold",
+   "Золото"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Au"
+ },
+ {
+  "id": "Hg",
+  "name": "Սնդիկ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Hg)։ Կարգահամարը՝ 80։",
+  "aliases": [
+   "Սնդիկ",
+   "Mercury",
+   "Ртуть"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Hg"
+ },
+ {
+  "id": "Tl",
+  "name": "Թալիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Tl)։ Կարգահամարը՝ 81։",
+  "aliases": [
+   "Թալիում",
+   "Thallium",
+   "Таллий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Tl"
+ },
+ {
+  "id": "Pb",
+  "name": "Կապար",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pb)։ Կարգահամարը՝ 82։",
+  "aliases": [
+   "Կապար",
+   "Lead",
+   "Свинец"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pb"
+ },
+ {
+  "id": "Bi",
+  "name": "Բիսմութ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Bi)։ Կարգահամարը՝ 83։",
+  "aliases": [
+   "Բիսմութ",
+   "Bismuth",
+   "Висмут"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Bi"
+ },
+ {
+  "id": "Po",
+  "name": "Պոլոնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Po)։ Կարգահամարը՝ 84։",
+  "aliases": [
+   "Պոլոնիում",
+   "Polonium",
+   "Полоний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Po"
+ },
+ {
+  "id": "At",
+  "name": "Աստատ",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (At)։ Կարգահամարը՝ 85։",
+  "aliases": [
+   "Աստատ",
+   "Astatine",
+   "Астат"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "At"
+ },
+ {
+  "id": "Rn",
+  "name": "Ռադոն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Rn)։ Կարգահամարը՝ 86։",
+  "aliases": [
+   "Ռադոն",
+   "Radon",
+   "Радон"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Rn"
+ },
+ {
+  "id": "Fr",
+  "name": "Ֆրանսիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Fr)։ Կարգահամարը՝ 87։",
+  "aliases": [
+   "Ֆրանսիում",
+   "Francium",
+   "Франций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Fr"
+ },
+ {
+  "id": "Ra",
+  "name": "Ռադիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ra)։ Կարգահամարը՝ 88։",
+  "aliases": [
+   "Ռադիում",
+   "Radium",
+   "Радий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ra"
+ },
+ {
+  "id": "Ac",
+  "name": "Ակտինիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ac)։ Կարգահամարը՝ 89։",
+  "aliases": [
+   "Ակտինիում",
+   "Actinium",
+   "Актиний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ac"
+ },
+ {
+  "id": "Th",
+  "name": "Թորիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Th)։ Կարգահամարը՝ 90։",
+  "aliases": [
+   "Թորիում",
+   "Thorium",
+   "Торий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Th"
+ },
+ {
+  "id": "Pa",
+  "name": "Պրոտակտինիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pa)։ Կարգահամարը՝ 91։",
+  "aliases": [
+   "Պրոտակտինիում",
+   "Protactinium",
+   "Протактиний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pa"
+ },
+ {
+  "id": "U",
+  "name": "Ուրան",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (U)։ Կարգահամարը՝ 92։",
+  "aliases": [
+   "Ուրան",
+   "Uranium",
+   "Уран"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "U"
+ },
+ {
+  "id": "Np",
+  "name": "Նեպտունիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Np)։ Կարգահամարը՝ 93։",
+  "aliases": [
+   "Նեպտունիում",
+   "Neptunium",
+   "Нептуний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Np"
+ },
+ {
+  "id": "Pu",
+  "name": "Պլուտոնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Pu)։ Կարգահամարը՝ 94։",
+  "aliases": [
+   "Պլուտոնիում",
+   "Plutonium",
+   "Плутоний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Pu"
+ },
+ {
+  "id": "Am",
+  "name": "Ամերիցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Am)։ Կարգահամարը՝ 95։",
+  "aliases": [
+   "Ամերիցիում",
+   "Americium",
+   "Америций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Am"
+ },
+ {
+  "id": "Cm",
+  "name": "Կյուրիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cm)։ Կարգահամարը՝ 96։",
+  "aliases": [
+   "Կյուրիում",
+   "Curium",
+   "Кюрий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cm"
+ },
+ {
+  "id": "Bk",
+  "name": "Բերկլիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Bk)։ Կարգահամարը՝ 97։",
+  "aliases": [
+   "Բերկլիում",
+   "Berkelium",
+   "Берклий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Bk"
+ },
+ {
+  "id": "Cf",
+  "name": "Կալիֆոռնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cf)։ Կարգահամարը՝ 98։",
+  "aliases": [
+   "Կալիֆոռնիում",
+   "Californium",
+   "Калифорний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cf"
+ },
+ {
+  "id": "Es",
+  "name": "Էյնշտեյնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Es)։ Կարգահամարը՝ 99։",
+  "aliases": [
+   "Էյնշտեյնիում",
+   "Einsteinium",
+   "Эйнштейний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Es"
+ },
+ {
+  "id": "Fm",
+  "name": "Ֆերմիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Fm)։ Կարգահամարը՝ 100։",
+  "aliases": [
+   "Ֆերմիում",
+   "Fermium",
+   "Фермий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Fm"
+ },
+ {
+  "id": "Md",
+  "name": "Մենդելևիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Md)։ Կարգահամարը՝ 101։",
+  "aliases": [
+   "Մենդելևիում",
+   "Mendelevium",
+   "Менделевий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Md"
+ },
+ {
+  "id": "No",
+  "name": "Նոբելիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (No)։ Կարգահամարը՝ 102։",
+  "aliases": [
+   "Նոբելիում",
+   "Nobelium",
+   "Нобелий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "No"
+ },
+ {
+  "id": "Lr",
+  "name": "Լոուրենսիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Lr)։ Կարգահամարը՝ 103։",
+  "aliases": [
+   "Լոուրենսիում",
+   "Lawrencium",
+   "Лоуренсий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Lr"
+ },
+ {
+  "id": "Rf",
+  "name": "Ռեզերֆորդիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Rf)։ Կարգահամարը՝ 104։",
+  "aliases": [
+   "Ռեզերֆորդիում",
+   "Rutherfordium",
+   "Резерфордий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Rf"
+ },
+ {
+  "id": "Db",
+  "name": "Դուբնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Db)։ Կարգահամարը՝ 105։",
+  "aliases": [
+   "Դուբնիում",
+   "Dubnium",
+   "Дубний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Db"
+ },
+ {
+  "id": "Sg",
+  "name": "Սիբորգիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Sg)։ Կարգահամարը՝ 106։",
+  "aliases": [
+   "Սիբորգիում",
+   "Seaborgium",
+   "Сиборгий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Sg"
+ },
+ {
+  "id": "Bh",
+  "name": "Բորիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Bh)։ Կարգահամարը՝ 107։",
+  "aliases": [
+   "Բորիում",
+   "Bohrium",
+   "Борий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Bh"
+ },
+ {
+  "id": "Hs",
+  "name": "Հասիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Hs)։ Կարգահամարը՝ 108։",
+  "aliases": [
+   "Հասիում",
+   "Hassium",
+   "Хассий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Hs"
+ },
+ {
+  "id": "Mt",
+  "name": "Մայտներիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Mt)։ Կարգահամարը՝ 109։",
+  "aliases": [
+   "Մայտներիում",
+   "Meitnerium",
+   "Мейтнерий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Mt"
+ },
+ {
+  "id": "Ds",
+  "name": "Դարմշտադտիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ds)։ Կարգահամարը՝ 110։",
+  "aliases": [
+   "Դարմշտադտիում",
+   "Darmstadtium",
+   "Дармштадтий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ds"
+ },
+ {
+  "id": "Rg",
+  "name": "Ռենտգենիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Rg)։ Կարգահամարը՝ 111։",
+  "aliases": [
+   "Ռենտգենիում",
+   "Roentgenium",
+   "Рентгений"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Rg"
+ },
+ {
+  "id": "Cn",
+  "name": "Կոպեռնիցիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Cn)։ Կարգահամարը՝ 112։",
+  "aliases": [
+   "Կոպեռնիցիում",
+   "Copernicium",
+   "Коперниций"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Cn"
+ },
+ {
+  "id": "Nh",
+  "name": "Նիհոնիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Nh)։ Կարգահամարը՝ 113։",
+  "aliases": [
+   "Նիհոնիում",
+   "Nihonium",
+   "Нихоний"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Nh"
+ },
+ {
+  "id": "Fl",
+  "name": "Ֆլերովիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Fl)։ Կարգահամարը՝ 114։",
+  "aliases": [
+   "Ֆլերովիում",
+   "Flerovium",
+   "Флеровий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Fl"
+ },
+ {
+  "id": "Mc",
+  "name": "Մոսկովիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Mc)։ Կարգահամարը՝ 115։",
+  "aliases": [
+   "Մոսկովիում",
+   "Moscovium",
+   "Московий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Mc"
+ },
+ {
+  "id": "Lv",
+  "name": "Լիվերմորիում",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Lv)։ Կարգահամարը՝ 116։",
+  "aliases": [
+   "Լիվերմորիում",
+   "Livermorium",
+   "Ливерморий"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Lv"
+ },
+ {
+  "id": "Ts",
+  "name": "Թենեսսին",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Ts)։ Կարգահամարը՝ 117։",
+  "aliases": [
+   "Թենեսսին",
+   "Tennessine",
+   "Теннессин"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Ts"
+ },
+ {
+  "id": "Og",
+  "name": "Օգանեսոն",
+  "type": "chemical_element",
+  "description": "Քիմիական տարր (Og)։ Կարգահամարը՝ 118։",
+  "aliases": [
+   "Օգանեսոն",
+   "Oganesson",
+   "Оганесон"
+  ],
+  "relatedEntities": [
+   "atom",
+   "molecule"
+  ],
+  "matKey": "Og"
+ },
+ {
+  "id": "water",
+  "name": "Ջուր",
+  "type": "molecule",
+  "description": "Նյութ, որն ուսումնասիրվում է քիմիայի դասընթացում։",
+  "aliases": [
+   "Ապակ",
+   "water",
+   "H₂O",
+   "Ջուր",
+   "Вода"
+  ],
+  "relatedEntities": [
+   "molecule",
+   "substance",
+   "atom"
+  ],
+  "matKey": "water",
+  "formula": "H2O"
+ },
+ {
+  "id": "glass",
+  "name": "Ապակի",
+  "type": "substance",
+  "description": "Նյութ, որն ուսումնասիրվում է քիմիայի դասընթացում։",
+  "aliases": [
+   "Ապակ",
+   "glass",
+   "Ապակի",
+   "Стекло"
+  ],
+  "relatedEntities": [
+   "substance",
+   "compound"
+  ],
+  "matKey": "glass"
+ },
+ {
+  "id": "rubber",
+  "name": "Ռետին",
+  "type": "substance",
+  "description": "Նյութ, որն ուսումնասիրվում է քիմիայի դասընթացում։",
+  "aliases": [
+   "ռետին",
+   "rubber",
+   "Ռետին",
+   "Резина"
+  ],
+  "relatedEntities": [
+   "substance"
+  ],
+  "matKey": "rubber"
+ },
+ {
+  "id": "wood",
+  "name": "Փայտ",
+  "type": "substance",
+  "description": "Նյութ, որն ուսումնասիրվում է քիմիայի դասընթացում։",
+  "aliases": [
+   "փայտ",
+   "wood",
+   "Փայտ",
+   "Дерево"
+  ],
+  "relatedEntities": [
+   "substance"
+  ],
+  "matKey": "wood"
+ }
+]

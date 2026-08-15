@@ -1,0 +1,59 @@
+[
+ {
+  "type": "definition",
+  "patterns": [
+   "Սահման"
+  ]
+ },
+ {
+  "type": "law",
+  "patterns": [
+   "օրենք"
+  ]
+ },
+ {
+  "type": "think",
+  "patterns": [
+   "Մտած"
+  ]
+ },
+ {
+  "type": "reflect",
+  "patterns": [
+   "Կշռադ"
+  ]
+ },
+ {
+  "type": "recall",
+  "patterns": [
+   "Վերհիշ"
+  ]
+ },
+ {
+  "type": "laboratory",
+  "patterns": [
+   "Լաբորատոր"
+  ]
+ },
+ {
+  "type": "additional_material",
+  "patterns": [
+   "Լրացուցիչ"
+  ]
+ },
+ {
+  "type": "question",
+  "pages": [
+   10,
+   15,
+   22,
+   36,
+   42,
+   46,
+   50,
+   55,
+   57,
+   61
+  ]
+ }
+]

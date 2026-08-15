@@ -1,0 +1,4 @@
+obs_wl_air(nm)	ritz_wl_air(nm)	intens	Aki(s^-1)	Acc	Ei(cm-1)	Ek(cm-1)	Type	tp_ref	line_ref	
+"516.174"	""	"10000s"	""		""	""		""	"L2225"	
+"520.440"	""	"10000l"	""		""	""		""	"L2225"	
+"561.551"	""	"3000l"	""		""	""		""	"L2225"	

@@ -1,0 +1,5 @@
+SELECT ?cid ?label WHERE {
+  ?article schema:about ?c ; schema:isPartOf <https://hy.wikipedia.org/> .
+  ?c wdt:P662 ?cid .
+  ?c rdfs:label ?label . FILTER(LANG(?label)="hy")
+}

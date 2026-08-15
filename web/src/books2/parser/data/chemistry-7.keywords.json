@@ -1,0 +1,612 @@
+[
+ {
+  "term": "Ջրածին",
+  "display": "Ջրածին",
+  "matKey": "H"
+ },
+ {
+  "term": "Հելիում",
+  "display": "Հելիում",
+  "matKey": "He"
+ },
+ {
+  "term": "Լիթիում",
+  "display": "Լիթիում",
+  "matKey": "Li"
+ },
+ {
+  "term": "Բերիլիում",
+  "display": "Բերիլիում",
+  "matKey": "Be"
+ },
+ {
+  "term": "Բոր",
+  "display": "Բոր",
+  "matKey": "B"
+ },
+ {
+  "term": "Ածխածին",
+  "display": "Ածխածին",
+  "matKey": "C"
+ },
+ {
+  "term": "Ազոտ",
+  "display": "Ազոտ",
+  "matKey": "N"
+ },
+ {
+  "term": "Թթվածին",
+  "display": "Թթվածին",
+  "matKey": "O"
+ },
+ {
+  "term": "Ֆտոր",
+  "display": "Ֆտոր",
+  "matKey": "F"
+ },
+ {
+  "term": "Նեոն",
+  "display": "Նեոն",
+  "matKey": "Ne"
+ },
+ {
+  "term": "Նատրիում",
+  "display": "Նատրիում",
+  "matKey": "Na"
+ },
+ {
+  "term": "Մագնեզիում",
+  "display": "Մագնեզիում",
+  "matKey": "Mg"
+ },
+ {
+  "term": "Ալյումին",
+  "display": "Ալյումին",
+  "matKey": "Al"
+ },
+ {
+  "term": "Սիլիցիում",
+  "display": "Սիլիցիում",
+  "matKey": "Si"
+ },
+ {
+  "term": "Ֆոսֆոր",
+  "display": "Ֆոսֆոր",
+  "matKey": "P"
+ },
+ {
+  "term": "Ծծումբ",
+  "display": "Ծծումբ",
+  "matKey": "S"
+ },
+ {
+  "term": "Քլոր",
+  "display": "Քլոր",
+  "matKey": "Cl"
+ },
+ {
+  "term": "Արգոն",
+  "display": "Արգոն",
+  "matKey": "Ar"
+ },
+ {
+  "term": "Կալիում",
+  "display": "Կալիում",
+  "matKey": "K"
+ },
+ {
+  "term": "Կալցիում",
+  "display": "Կալցիում",
+  "matKey": "Ca"
+ },
+ {
+  "term": "Սկանդիում",
+  "display": "Սկանդիում",
+  "matKey": "Sc"
+ },
+ {
+  "term": "Տիտան",
+  "display": "Տիտան",
+  "matKey": "Ti"
+ },
+ {
+  "term": "Վանադիում",
+  "display": "Վանադիում",
+  "matKey": "V"
+ },
+ {
+  "term": "Քրոմ",
+  "display": "Քրոմ",
+  "matKey": "Cr"
+ },
+ {
+  "term": "Մանգան",
+  "display": "Մանգան",
+  "matKey": "Mn"
+ },
+ {
+  "term": "Երկաթ",
+  "display": "Երկաթ",
+  "matKey": "Fe"
+ },
+ {
+  "term": "Կոբալտ",
+  "display": "Կոբալտ",
+  "matKey": "Co"
+ },
+ {
+  "term": "Նիկել",
+  "display": "Նիկել",
+  "matKey": "Ni"
+ },
+ {
+  "term": "Պղինձ",
+  "display": "Պղինձ",
+  "matKey": "Cu"
+ },
+ {
+  "term": "Ցինկ",
+  "display": "Ցինկ",
+  "matKey": "Zn"
+ },
+ {
+  "term": "Գալիում",
+  "display": "Գալիում",
+  "matKey": "Ga"
+ },
+ {
+  "term": "Գերմանիում",
+  "display": "Գերմանիում",
+  "matKey": "Ge"
+ },
+ {
+  "term": "Արսեն",
+  "display": "Արսեն",
+  "matKey": "As"
+ },
+ {
+  "term": "Սելեն",
+  "display": "Սելեն",
+  "matKey": "Se"
+ },
+ {
+  "term": "Բրոմ",
+  "display": "Բրոմ",
+  "matKey": "Br"
+ },
+ {
+  "term": "Կրիպտոն",
+  "display": "Կրիպտոն",
+  "matKey": "Kr"
+ },
+ {
+  "term": "Ռուբիդիում",
+  "display": "Ռուբիդիում",
+  "matKey": "Rb"
+ },
+ {
+  "term": "Ստրոնցիում",
+  "display": "Ստրոնցիում",
+  "matKey": "Sr"
+ },
+ {
+  "term": "Իտրիում",
+  "display": "Իտրիում",
+  "matKey": "Y"
+ },
+ {
+  "term": "Ցիրկոնիում",
+  "display": "Ցիրկոնիում",
+  "matKey": "Zr"
+ },
+ {
+  "term": "Նիոբիում",
+  "display": "Նիոբիում",
+  "matKey": "Nb"
+ },
+ {
+  "term": "Մոլիբդեն",
+  "display": "Մոլիբդեն",
+  "matKey": "Mo"
+ },
+ {
+  "term": "Տեխնեցիում",
+  "display": "Տեխնեցիում",
+  "matKey": "Tc"
+ },
+ {
+  "term": "Ռութենիում",
+  "display": "Ռութենիում",
+  "matKey": "Ru"
+ },
+ {
+  "term": "Ռոդիում",
+  "display": "Ռոդիում",
+  "matKey": "Rh"
+ },
+ {
+  "term": "Պալադիում",
+  "display": "Պալադիում",
+  "matKey": "Pd"
+ },
+ {
+  "term": "Արծաթ",
+  "display": "Արծաթ",
+  "matKey": "Ag"
+ },
+ {
+  "term": "Կադմիում",
+  "display": "Կադմիում",
+  "matKey": "Cd"
+ },
+ {
+  "term": "Ինդիում",
+  "display": "Ինդիում",
+  "matKey": "In"
+ },
+ {
+  "term": "Անագ",
+  "display": "Անագ",
+  "matKey": "Sn"
+ },
+ {
+  "term": "Ծարիր",
+  "display": "Ծարիր",
+  "matKey": "Sb"
+ },
+ {
+  "term": "Տելուր",
+  "display": "Տելուր",
+  "matKey": "Te"
+ },
+ {
+  "term": "Յոդ",
+  "display": "Յոդ",
+  "matKey": "I"
+ },
+ {
+  "term": "Քսենոն",
+  "display": "Քսենոն",
+  "matKey": "Xe"
+ },
+ {
+  "term": "Ցեզիում",
+  "display": "Ցեզիում",
+  "matKey": "Cs"
+ },
+ {
+  "term": "Բարիում",
+  "display": "Բարիում",
+  "matKey": "Ba"
+ },
+ {
+  "term": "Լանթան",
+  "display": "Լանթան",
+  "matKey": "La"
+ },
+ {
+  "term": "Ցերիում",
+  "display": "Ցերիում",
+  "matKey": "Ce"
+ },
+ {
+  "term": "Պրազեդիում",
+  "display": "Պրազեդիում",
+  "matKey": "Pr"
+ },
+ {
+  "term": "Նեոդիմ",
+  "display": "Նեոդիմ",
+  "matKey": "Nd"
+ },
+ {
+  "term": "Պրոմեթիում",
+  "display": "Պրոմեթիում",
+  "matKey": "Pm"
+ },
+ {
+  "term": "Սամարիում",
+  "display": "Սամարիում",
+  "matKey": "Sm"
+ },
+ {
+  "term": "Եվրոպիում",
+  "display": "Եվրոպիում",
+  "matKey": "Eu"
+ },
+ {
+  "term": "Գադոլինիում",
+  "display": "Գադոլինիում",
+  "matKey": "Gd"
+ },
+ {
+  "term": "Տերբիում",
+  "display": "Տերբիում",
+  "matKey": "Tb"
+ },
+ {
+  "term": "Դիսպրոզիում",
+  "display": "Դիսպրոզիում",
+  "matKey": "Dy"
+ },
+ {
+  "term": "Հոլմիում",
+  "display": "Հոլմիում",
+  "matKey": "Ho"
+ },
+ {
+  "term": "Էրբիում",
+  "display": "Էրբիում",
+  "matKey": "Er"
+ },
+ {
+  "term": "Թուլիում",
+  "display": "Թուլիում",
+  "matKey": "Tm"
+ },
+ {
+  "term": "Իտերբիում",
+  "display": "Իտերբիում",
+  "matKey": "Yb"
+ },
+ {
+  "term": "Լուտեցիում",
+  "display": "Լուտեցիում",
+  "matKey": "Lu"
+ },
+ {
+  "term": "Հաֆնիում",
+  "display": "Հաֆնիում",
+  "matKey": "Hf"
+ },
+ {
+  "term": "Տանտալ",
+  "display": "Տանտալ",
+  "matKey": "Ta"
+ },
+ {
+  "term": "Վոլֆրամ",
+  "display": "Վոլֆրամ",
+  "matKey": "W"
+ },
+ {
+  "term": "Ռենիում",
+  "display": "Ռենիում",
+  "matKey": "Re"
+ },
+ {
+  "term": "Օսմիում",
+  "display": "Օսմիում",
+  "matKey": "Os"
+ },
+ {
+  "term": "Իրիդիում",
+  "display": "Իրիդիում",
+  "matKey": "Ir"
+ },
+ {
+  "term": "Պլատին",
+  "display": "Պլատին",
+  "matKey": "Pt"
+ },
+ {
+  "term": "Ոսկի",
+  "display": "Ոսկի",
+  "matKey": "Au"
+ },
+ {
+  "term": "Սնդիկ",
+  "display": "Սնդիկ",
+  "matKey": "Hg"
+ },
+ {
+  "term": "Թալիում",
+  "display": "Թալիում",
+  "matKey": "Tl"
+ },
+ {
+  "term": "Կապար",
+  "display": "Կապար",
+  "matKey": "Pb"
+ },
+ {
+  "term": "Բիսմութ",
+  "display": "Բիսմութ",
+  "matKey": "Bi"
+ },
+ {
+  "term": "Պոլոնիում",
+  "display": "Պոլոնիում",
+  "matKey": "Po"
+ },
+ {
+  "term": "Աստատ",
+  "display": "Աստատ",
+  "matKey": "At"
+ },
+ {
+  "term": "Ռադոն",
+  "display": "Ռադոն",
+  "matKey": "Rn"
+ },
+ {
+  "term": "Ֆրանսիում",
+  "display": "Ֆրանսիում",
+  "matKey": "Fr"
+ },
+ {
+  "term": "Ռադիում",
+  "display": "Ռադիում",
+  "matKey": "Ra"
+ },
+ {
+  "term": "Ակտինիում",
+  "display": "Ակտինիում",
+  "matKey": "Ac"
+ },
+ {
+  "term": "Թորիում",
+  "display": "Թորիում",
+  "matKey": "Th"
+ },
+ {
+  "term": "Պրոտակտինիում",
+  "display": "Պրոտակտինիում",
+  "matKey": "Pa"
+ },
+ {
+  "term": "Ուրան",
+  "display": "Ուրան",
+  "matKey": "U"
+ },
+ {
+  "term": "Նեպտունիում",
+  "display": "Նեպտունիում",
+  "matKey": "Np"
+ },
+ {
+  "term": "Պլուտոնիում",
+  "display": "Պլուտոնիում",
+  "matKey": "Pu"
+ },
+ {
+  "term": "Ամերիցիում",
+  "display": "Ամերիցիում",
+  "matKey": "Am"
+ },
+ {
+  "term": "Կյուրիում",
+  "display": "Կյուրիում",
+  "matKey": "Cm"
+ },
+ {
+  "term": "Բերկլիում",
+  "display": "Բերկլիում",
+  "matKey": "Bk"
+ },
+ {
+  "term": "Կալիֆոռնիում",
+  "display": "Կալիֆոռնիում",
+  "matKey": "Cf"
+ },
+ {
+  "term": "Էյնշտեյնիում",
+  "display": "Էյնշտեյնիում",
+  "matKey": "Es"
+ },
+ {
+  "term": "Ֆերմիում",
+  "display": "Ֆերմիում",
+  "matKey": "Fm"
+ },
+ {
+  "term": "Մենդելևիում",
+  "display": "Մենդելևիում",
+  "matKey": "Md"
+ },
+ {
+  "term": "Նոբելիում",
+  "display": "Նոբելիում",
+  "matKey": "No"
+ },
+ {
+  "term": "Լոուրենսիում",
+  "display": "Լոուրենսիում",
+  "matKey": "Lr"
+ },
+ {
+  "term": "Ռեզերֆորդիում",
+  "display": "Ռեզերֆորդիում",
+  "matKey": "Rf"
+ },
+ {
+  "term": "Դուբնիում",
+  "display": "Դուբնիում",
+  "matKey": "Db"
+ },
+ {
+  "term": "Սիբորգիում",
+  "display": "Սիբորգիում",
+  "matKey": "Sg"
+ },
+ {
+  "term": "Բորիում",
+  "display": "Բորիում",
+  "matKey": "Bh"
+ },
+ {
+  "term": "Հասիում",
+  "display": "Հասիում",
+  "matKey": "Hs"
+ },
+ {
+  "term": "Մայտներիում",
+  "display": "Մայտներիում",
+  "matKey": "Mt"
+ },
+ {
+  "term": "Դարմշտադտիում",
+  "display": "Դարմշտադտիում",
+  "matKey": "Ds"
+ },
+ {
+  "term": "Ռենտգենիում",
+  "display": "Ռենտգենիում",
+  "matKey": "Rg"
+ },
+ {
+  "term": "Կոպեռնիցիում",
+  "display": "Կոպեռնիցիում",
+  "matKey": "Cn"
+ },
+ {
+  "term": "Նիհոնիում",
+  "display": "Նիհոնիում",
+  "matKey": "Nh"
+ },
+ {
+  "term": "Ֆլերովիում",
+  "display": "Ֆլերովիում",
+  "matKey": "Fl"
+ },
+ {
+  "term": "Մոսկովիում",
+  "display": "Մոսկովիում",
+  "matKey": "Mc"
+ },
+ {
+  "term": "Լիվերմորիում",
+  "display": "Լիվերմորիում",
+  "matKey": "Lv"
+ },
+ {
+  "term": "Թենեսսին",
+  "display": "Թենեսսին",
+  "matKey": "Ts"
+ },
+ {
+  "term": "Օգանեսոն",
+  "display": "Օգանեսոն",
+  "matKey": "Og"
+ },
+ {
+  "term": "Ապակ",
+  "display": "Ապակ",
+  "matKey": "glass"
+ },
+ {
+  "term": "ռетин",
+  "display": "ռетин",
+  "matKey": "rubber"
+ },
+ {
+  "term": "փайт",
+  "display": "փайт",
+  "matKey": "wood"
+ },
+ {
+  "term": "ջур",
+  "display": "ջур",
+  "matKey": "water"
+ }
+]

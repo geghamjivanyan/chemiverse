@@ -1,0 +1,3986 @@
+[
+ {
+  "page": 1,
+  "pageType": "front-matter",
+  "topic": "Textbook cover — Chemistry 7 (Armenian 7th grade)",
+  "interactions": [
+   {
+    "kind": "molecule",
+    "where": "figure",
+    "target": "",
+    "label": "Central decorative 3D molecule (ball-and-stick, colored atoms)",
+    "recommendation": "Make the cover's central molecule a live entry point: render it with our R3F ball-and-stick viewer so it gently rotates/glows on load, and on click/pinch open the molecule assembly lab. Treat it as a generic 'welcome' molecule (could map to a simple known one like H2O or CH4) that invites the user into Phase 3 molecule building."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "target": "",
+    "label": "Faint periodic-table grid in background",
+    "recommendation": "The background shows a Mendeleev-table grid texture. Offer a 'tap the table' affordance: embed our live interactive 118-element periodic table behind/under the cover art, so tapping the background region launches the periodic table view (Phase 1)."
+   },
+   {
+    "kind": "experiment",
+    "where": "figure",
+    "target": "",
+    "label": "Lab glassware (flasks, test tubes with colored liquids)",
+    "recommendation": "Use the decorative flasks/test tubes as a hotspot that opens the reaction player / lab. Clicking the glassware could start an introductory demo reaction, setting expectations for the experiment feature."
+   },
+   {
+    "kind": "none",
+    "where": "heading",
+    "target": "",
+    "label": "Title 'Քիմիա 7' and author names",
+    "recommendation": "No chemistry interaction. Render as the app's title/landing header with our multilingual support (English / Հայերen / Русский); show authors as metadata. Serves as navigation entry to the digital edition's table of contents."
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "pageType": "front-matter",
+  "topic": "Title page — Chemistry 7th grade textbook",
+  "interactions": []
+ },
+ {
+  "page": 3,
+  "pageType": "front-matter",
+  "topic": "Copyright and imprint page (title, authors, ISBN)",
+  "interactions": [
+   {
+    "kind": "none",
+    "where": "whole-page",
+    "label": "Imprint / copyright page",
+    "recommendation": "No chemistry content. This is bibliographic front matter (library codes, authors Bdoyan/Karapetyan/Gapoyan, title 'CHEMISTRY 7', publisher, ISBN 978-9939-0-4457-6, 2023 copyright). Render as static page; nothing to make interactive.",
+    "target": ""
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "pageType": "front-matter",
+  "topic": "Preface — \"Dear student\" foreword",
+  "interactions": [
+   {
+    "kind": "none",
+    "where": "whole-page",
+    "label": "Preface / foreword text",
+    "target": "",
+    "recommendation": "This is the introductory address ('Sireli ashakert / Dear student') opening 'Chemistry 7'. It is motivational prose about exploring the world of chemistry and mentions that everyday objects and Armenian landmarks (Geghard rock-hewn church, Opera theatre, 'Yerevan Park', the sports-concert complex) are made of substances whose structure and properties chemistry studies. No chemical elements, formulas, substances, diagrams, tables, questions or experiments appear on this page. No chemistry interaction to build here. Optional engagement-only idea: render as an animated welcome/intro screen with a subtle 'enter the lab' transition button, but it carries no chemistry data to make interactive."
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "pageType": "front-matter",
+  "topic": "Legend of conventional icons used in the textbook",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "table",
+    "target": "",
+    "label": "Lab-experiments icon (flask)",
+    "recommendation": "This flask pictogram marks 'Lab experiments' (Լաբորատոր փորձեր) throughout the book. Use it as the visual hook for our reaction player: wherever this icon appears on later lesson pages, render it as a clickable badge that opens the interactive reaction/experiment player. On this legend page, make the row a tooltip explaining the convention."
+   },
+   {
+    "kind": "glossary",
+    "where": "table",
+    "target": "",
+    "label": "Key words & phrases icon (magnifier)",
+    "recommendation": "This magnifier-on-text icon marks 'Key words and phrases' (Բանալի բառեր). Wire it to our glossary: clicking it (where it appears later) reveals the highlighted key terms with definitions; here, present it as a legend entry describing the glossary feature."
+   },
+   {
+    "kind": "none",
+    "where": "whole-page",
+    "target": "",
+    "label": "Icon legend / navigation key",
+    "recommendation": "Render the whole page as an interactive legend: each of the 9 rows (answer-in-lesson, deliberate, think, definition/law, recall, coming-later, lab experiments, key words, extra materials) becomes a small card that, when tapped, shows a one-line explanation of how that marker behaves in the digital edition. No element/formula/periodic-table content to embed here."
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "pageType": "front-matter",
+  "topic": "Legend of textbook rubric icons (how to use this book)",
+  "interactions": [
+   {
+    "kind": "none",
+    "where": "whole-page",
+    "label": "Icon legend / key",
+    "target": "",
+    "recommendation": "No chemistry content on this page. It is a front-matter legend explaining the eight rubric icons used throughout the book (Check & apply knowledge, Investigate, Use the internet, Link to other subjects, Group work, Other learning materials, Homework, Knowledge portfolio). Recommendation: do NOT embed chemistry interactives here. Instead, treat these icons as the app's navigation/rubric system — register each icon as a reusable UI badge so that wherever it appears on later lesson pages it becomes a tappable affordance (e.g. the magnifier 'Investigate' opens our reaction/experiment player, the cube 'Check & apply' opens the quiz module, the QR 'Other materials' resolves to embedded media, the globe links out). Make this page a clickable legend that explains those badge behaviors."
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "pageType": "front-matter",
+  "topic": "Chapter 1 opener: learning outcomes for \"Knowledge of Substances and Phenomena\"",
+  "interactions": [
+   {
+    "kind": "none",
+    "where": "heading",
+    "label": "Chapter 1 title: Knowledge of Substances and Phenomena",
+    "target": "",
+    "recommendation": "Stylize the unit-opener heading (hexagon '1' badge) as the chapter cover. No chemistry object to embed; could serve as a navigation anchor / chapter intro animation, but no interactive chemistry element belongs here."
+   },
+   {
+    "kind": "none",
+    "where": "region",
+    "label": "Learning-outcomes list (6 goals: subject of chemistry, substance vs physical body, physical properties color/density/solubility, lab safety rules, simple lab equipment, physical vs chemical phenomena)",
+    "target": "",
+    "recommendation": "Turn the 6 outcomes into a clickable chapter roadmap/checklist: each item links forward to the lesson page where it is taught (e.g. 'lab safety' -> safety lesson, 'simple lab equipment' -> equipment lesson, 'physical vs chemical phenomena' -> reaction-player lessons). Track completion as the student progresses. No element/formula/substance is named on this page, so no element cards or molecule embeds apply here."
+   }
+  ]
+ },
+ {
+  "page": 8,
+  "pageType": "lesson",
+  "topic": "Chemistry as a natural science; what chemistry studies (intro lesson)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Fe",
+    "label": "Iron (in nails and Delhi pillar)",
+    "recommendation": "Make every mention of iron (երկաթ) tappable to open our element card for Fe (Z=26, electron config, neutrons), with a focus on iron's reactivity/oxidation as the hook for this lesson."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen (breathing / yanging)",
+    "recommendation": "Link 'թթվածին' (oxygen) to the O element card; note its role in respiration and in rusting, tying it to the Fe story and the CO2 exhalation mention."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon (in carbon dioxide)",
+    "recommendation": "Link the carbon-dioxide mention to the C element card; use as a bridge to the CO2 molecule embed."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "rust",
+    "label": "Rust / iron oxide (ժանգ)",
+    "recommendation": "Add a glossary tooltip for 'ժանգ' (rust) explaining it is a new substance (iron oxide) formed from iron + oxygen + moisture; link to the Fe + O2 reaction in the reaction player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "water",
+    "label": "Water (ջուր)",
+    "recommendation": "Make 'ջուր' tappable to open the H2O molecule embed (3D water molecule) and its substance card."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "air",
+    "label": "Air / oxygen + CO2 (օդ)",
+    "recommendation": "Tooltip for 'օդ' (air) showing it as a mixture; chips for its components linking to O (oxygen) and CO2."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "",
+    "label": "Everyday substances (soap, toothpaste, paint, perfume, stone, concrete, medicine, vitamins)",
+    "recommendation": "Render the list of household substances (օճառ, ատամի մածուկ, ներկեր, օծանելիք, քար, բետոն, դեղեր, վիտամիններ) as a clickable chip strip; each chip opens a short substance glossary card. Reinforces 'everything around us is a substance.'"
+   },
+   {
+    "kind": "molecule",
+    "where": "text",
+    "target": "H2O",
+    "label": "Water molecule",
+    "recommendation": "Embed our 3D H2O molecule viewer inline when the reader taps 'ջուր'."
+   },
+   {
+    "kind": "molecule",
+    "where": "text",
+    "target": "CO2",
+    "label": "Carbon dioxide molecule",
+    "recommendation": "Embed our 3D CO2 molecule viewer for the 'ածխաթթու գազ' (carbon dioxide) mention in the respiration passage."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "Fe",
+    "label": "Rusting of iron nails vs. Delhi Iron Pillar",
+    "recommendation": "Build a reaction-player scene around the page's central story: iron nails in a damp cellar turning to rust (Fe + O2 + H2O -> iron oxide) versus the non-rusting Delhi Iron Pillar in dry air. Let the user toggle humidity to see whether rust forms, demonstrating that substance properties/conditions matter."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Margin prompt: 'Think / List other known substances'",
+    "recommendation": "Turn the 'Մտածի՛ր / Թվարկի՛ր' (Think / List) margin prompt into an interactive answer box where the student types substances they know; auto-match valid answers against our substance dataset and award discovery badges."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Chapter-opener icon/illustration (top of page)",
+    "recommendation": "Make the lesson-header graphic an animated intro banner (subtle lab-neon motion) that sets the chapter; optional link to a short 'what is chemistry' overview screen."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Key term: 'substance' (նյութ) and 'properties' (հատկություն)",
+    "recommendation": "Add glossary tooltips for the foundational terms նյութ (substance), հատկություն (property: color, aggregate state, smell), and the idea that substances interact to form new substances — anchoring later lessons."
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "pageType": "lesson",
+  "topic": "What chemistry is; properties of substances (marble, metals, copper)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Cu",
+    "label": "Copper (պղինձ) mentioned",
+    "recommendation": "Make the word 'պղինձ/copper' clickable to open our element card for Cu (Z=29): atomic structure (29 protons, electron shells), properties (conductivity, malleability) tying to the text, and a note on its biological role in the nervous system."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "marble (CaCO3)",
+    "label": "Marble mineral",
+    "recommendation": "Clickable term opening a material card for marble: composition CaCO3, link to Ca and C/O element cards, properties (durable, heat-resistant), and the Figure 1 photos as a gallery (mineral, metro station, sculpture)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "copper ore",
+    "label": "Copper ore (հանքանյութ) from Lori",
+    "recommendation": "Clickable term that explains ore -> contains copper; link to a short 'from ore to metal Cu' extraction snippet and to the Cu element card."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "metals",
+    "label": "Metals and their properties",
+    "recommendation": "Highlightable phrase listing metal properties (luster, plasticity, thermal/electrical conductivity); link to an interactive view of the metals block in our periodic table that visualizes these shared properties."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "marble (CaCO3)",
+    "label": "Figure 1 a/b/c: marble mineral, metro station, sculpture",
+    "recommendation": "Turn Figure 1 into an interactive 3-image gallery with captions (a-marble mineral, b-marble-clad Yerevan metro station, c-marble statue of Tigran the Great); each image links back to the marble material card showing why marble suits that use."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "'Think' prompt: who else needs to know material properties",
+    "recommendation": "Convert the 'Մտածի՛ր' boxes into open-ended reflection prompts (who besides chemists needs material properties; which specialists care about metals) with a tappable answer-reveal area and sample answers (builders, sculptors, engineers, doctors)."
+   },
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "target": "",
+    "label": "Inline question: role of chemistry among natural sciences",
+    "recommendation": "Make the rhetorical heading question an expandable Q&A card summarizing how geology/physics/biology/chemistry interconnect (the Lori copper example), as a short interactive interlinked-sciences diagram."
+   }
+  ]
+ },
+ {
+  "page": 10,
+  "pageType": "mixed",
+  "topic": "Role of chemistry; Lake Sevan case study; review questions",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms line",
+    "target": "",
+    "recommendation": "Line 22 lists the chapter's key terms (chemistry, substance, natural science, problems of chemistry). Render each as a tappable glossary chip that opens a short definition popover; link 'substance/nyut' to our substances explorer."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Drinking water / environment (air, water, soil)",
+    "target": "water",
+    "recommendation": "The problems list mentions clean drinking water and protecting air/water/soil. Make 'water' a clickable chip linking to the H2O molecule card (3D water molecule in our viewer) and a short 'why water matters' note."
+   },
+   {
+    "kind": "substance",
+    "where": "region",
+    "label": "Lake Sevan ecology case study",
+    "target": "Lake Sevan",
+    "recommendation": "Build an illustrated info-card / mini-story panel for the Lake Sevan section: a before/after water-level slider, map of island-to-peninsula change, and notes on eutrophication ('chahjacum'). Tie to environmental-chemistry theme; optional 'explore freshwater' link."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Think prompt (Mtatsir)",
+    "target": "",
+    "recommendation": "The side 'Think' box asks which problems of chemistry the student could help solve. Turn into a reflective open-answer field with a save-to-profile note (no single correct answer)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Review questions 1-4",
+    "target": "",
+    "recommendation": "Convert the 4 end-of-section questions into an interactive quiz: Q1-Q2 and Q4 as open/short-answer reflection fields; Q3 as a multiple-select question (options a-f: arms growth, mineral-resource depletion, overpopulation, environmental protection, weather forecasting, epidemic prevention) where the chemistry-related options are checked and auto-graded with feedback."
+   }
+  ]
+ },
+ {
+  "page": 11,
+  "pageType": "questions",
+  "topic": "Chemistry as a science: review questions and chapter summary",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Discussion questions (Քննարկման հարցեր) — 4 open prompts",
+    "target": "",
+    "recommendation": "Turn the 4 reflection prompts (life without chemistry; benefits of knowing chemistry; are chemistry-made substances useful; what would you do as a chemist) into an interactive open-answer/discussion area with free-text fields, AI-assisted hints, and the ability to save responses to the user's profile. Since these are opinion/reflection rather than single-answer, render as 'reflection cards' rather than auto-graded quiz."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "'Դու արդեն գիտես' (You already know) summary box",
+    "target": "",
+    "recommendation": "Render as an expandable key-concepts panel defining chemistry (science of substances, their structure and properties), and link the term 'chemistry / նյութ (substance)' to a glossary entry plus the app's main interactive periodic table as a 'see substances/elements' entry point."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "'Դու արդեն կարող ես' (You already can) skills box",
+    "target": "",
+    "recommendation": "Show as a checklist of learning objectives (define chemistry, list its tasks, describe its role among natural sciences). Make each item a tappable checkbox that learners mark as mastered, feeding a per-chapter progress tracker."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Task box: list chemistry-made items in your bookcase (а) and wardrobe (б)",
+    "target": "",
+    "recommendation": "Build a tag/sorting mini-activity: user lists or drags items from a 'bookcase' and 'wardrobe' set, then the app reveals which everyday materials (paper, ink, plastic, synthetic fabric, dye, rubber) are products of chemistry, each linking to a short substance card."
+   }
+  ]
+ },
+ {
+  "page": 12,
+  "pageType": "lesson",
+  "topic": "Project work: ecological problems of Lake Sevan",
+  "interactions": [
+   {
+    "kind": "none",
+    "where": "whole-page",
+    "label": "Civic/environmental project assignment (no chemistry content)",
+    "target": "",
+    "recommendation": "This page is a project-work brief titled 'The problem of Lake Sevan' — a 9-step plan for students to organize an awareness campaign about lake pollution (untreated communal/household wastewater and waste inflow). It contains no chemical elements, substances, formulas, figures, tables, periodic table, or lab experiments to make interactive. Optional light enhancement: turn the 9-step numbered plan into an interactive checklist/progress tracker the student can tick off, and surface the closing motto 'You are the master of your country' as a highlighted callout. No periodic-table embed, molecule, or reaction-player hooks apply here."
+   }
+  ]
+ },
+ {
+  "page": 13,
+  "pageType": "lesson",
+  "topic": "Body and substance; properties of substances (intro)",
+  "interactions": [
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "wood",
+    "label": "Wood (փայտ)",
+    "recommendation": "Make the word 'փայտ' (wood) tappable to open a material card describing wood as a natural composite material (cellulose/lignin), with its main element carbon (C) highlighted and a note that desks/blackboard are made from it."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "plastic",
+    "label": "Plastic (պլաստիկ)",
+    "recommendation": "Make 'պլաստիկ' (plastic) tappable to open a material card on plastics as synthetic polymers, linking to constituent elements C, H, O and a short note on how a pen/ruler is shaped from one material into different forms."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "water",
+    "label": "Water drop (ջրի կաթիլ)",
+    "recommendation": "Make 'ջրի կաթիլ' (water drop) tappable -> open H2O molecule card with our 3D molecule viewer, since water is the canonical natural-body example here."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "H2O",
+    "label": "Snow (ձյան փաթիլ)",
+    "recommendation": "Make 'ձյան փաթիլ' (snowflake) tappable -> note that snow is solid water (same H2O substance, different state); link to the same H2O card to introduce states of matter."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "stone",
+    "label": "Stone (քար)",
+    "recommendation": "Make 'քար' (stone/rock) tappable -> material card on rock/minerals as natural non-living bodies, with example minerals and a teaser that rocks are mixtures of substances (link to silicates, SiO2)."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Figure 2: man-made bodies (computer, pen, ball, car)",
+    "recommendation": "Make Figure 2 an interactive 'natural vs man-made' sorter: each depicted body (computer, pen, ball, car) is clickable and reveals what material/substance it is made of, reinforcing that a body has shape/mass/volume while substance is what it is made of."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Living vs non-living nature (a/b)",
+    "recommendation": "Build a drag-and-drop classification mini-game from the (a) living / (b) non-living examples (deer, apricot tree vs stone, cloud): student sorts bodies into natural/man-made and living/non-living categories."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "target": "",
+    "label": "'Think' prompt: name other man-made bodies",
+    "recommendation": "Turn the 'Մտածի՛ր / Բե՛ր ձեռակերտ մարմինների այլ օրինակներ' (think: give other examples of man-made bodies) prompt into a short open-answer/quiz card where the student lists examples and gets validation against a sample set."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Key terms: body, substance, natural/man-made, living/non-living",
+    "recommendation": "Add a glossary popover for the bolded definitions (ֆիզիկական մարմին, բնական/ձեռակերտ, կենդանի/անկենդան մարմին) so tapping a term shows its short definition and the body-vs-substance distinction."
+   }
+  ]
+ },
+ {
+  "page": 14,
+  "pageType": "lesson",
+  "topic": "Substance vs physical body; what bodies are made of (materials)",
+  "interactions": [
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "glass",
+    "label": "Glass (ապակի)",
+    "recommendation": "Make 'ապակի' tappable -> material card for glass: composition (mainly SiO2), amorphous structure, examples of objects (sheet glass, labware). Link to Si and O element cards."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "iron",
+    "label": "Iron (երկաթ)",
+    "recommendation": "Tap 'երկաթ' -> material card for iron highlighting properties named on page (solid, grey, metallic luster, magnetic). Link directly to our Fe element card and atom-embed."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Fe",
+    "label": "Iron element",
+    "recommendation": "Embed Fe element card / atom-embed for the iron discussion; let the reader open the live periodic table at Fe."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "cotton",
+    "label": "Cotton (բամբակ)",
+    "recommendation": "Tap 'բամբակ' -> material card: cotton as cellulose fiber, made into socks/shirts. Note it is an organic material (C, H, O)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "clay",
+    "label": "Clay (կավ)",
+    "recommendation": "Tap 'կավ' -> material card: clay (hydrated aluminosilicates), used for jugs/pots. Link to Al, Si, O elements."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "rubber",
+    "label": "Rubber (ռետին)",
+    "recommendation": "Tap 'ռետին' -> material card: rubber as elastic polymer, used for balls/tires; emphasize elastic property contrast with iron."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "water",
+    "label": "Water (ջուր)",
+    "recommendation": "Tap 'ջուր' -> water material card; link to formula H2O and our 3D molecule-embed (ice castle/statue example for solid state)."
+   },
+   {
+    "kind": "molecule",
+    "where": "text",
+    "target": "H2O",
+    "label": "Water molecule",
+    "recommendation": "Surface H2O as a clickable formula chip near 'ջուր' -> open 3D water molecule in molecule-embed."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "paraffin",
+    "label": "Paraffin (պարաֆին)",
+    "recommendation": "Tap 'պարաֆին' -> material card: paraffin wax, hydrocarbon (CnH2n+2), used to make candles (մոմ)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "wood",
+    "label": "Wood (փայտ)",
+    "recommendation": "Tap 'փայտ' -> material card: wood as natural cellulose/lignin material; appears as one of the four sphere materials in Fig.4."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "Fe",
+    "label": "Fig.3 Iron-made bodies",
+    "recommendation": "Make Figure 3 (different objects all made of iron) an interactive: tapping any object shows the shared properties panel (solid, grey, metallic luster, magnetic) and links to the Fe element/atom-embed. Reinforces 'same substance, different bodies'."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Fig.4 Spheres of 4 materials",
+    "recommendation": "Make Figure 4 (identical spheres of iron/rubber/wood/glass) a clickable compare-widget: tap each sphere -> its material card; side panel contrasts properties (hardness, elasticity, luster, density) to teach 'same body, different substances'. Could add a mini drag-to-compare interaction."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Definition of substance (նյութ)",
+    "recommendation": "Highlight the boxed definition of 'նյութ' (matter/substance: aggregate of interacting particles occupying volume) as a glossary term with tap-to-expand and trilingual EN/HY/RU explanation."
+   },
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "label": "Opening question: what is a body made of?",
+    "recommendation": "Turn the lead question 'Ինչից է պատրաստված ֆիզիկական մարմինը?' into a quick interactive sorting quiz: match objects (candle, ball, jug, socks) to their material (paraffin, rubber, clay, cotton)."
+   }
+  ]
+ },
+ {
+  "page": 15,
+  "pageType": "lesson",
+  "topic": "Physical properties of substances (states, density, solubility)",
+  "interactions": [
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Glass (transparent ball)",
+    "target": "glass",
+    "recommendation": "Make the word 'ապակե/ապակի' (glass) a tappable chip opening a material card: amorphous SiO2-based solid, transparent, brittle. Link to our SiO2 molecule view and a brittleness note tied to the dropped-ball example."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Iron (metal ball)",
+    "target": "Fe",
+    "recommendation": "Tap 'երկաթ' (iron) to open the Fe element card (Z=26) from our live periodic table; highlight metallic luster, gray color, high density used in the sink/float example."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Iron element",
+    "target": "Fe",
+    "recommendation": "Deep-link iron mentions to our interactive periodic table element card for Fe (atom view: 26 protons, shells)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Wood ball",
+    "target": "wood",
+    "recommendation": "Tappable chip for 'փայտ' (wood): low-density organic material that floats; pair with the density mini-demo below."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Rubber ball (elastic)",
+    "target": "rubber",
+    "recommendation": "Chip for 'ռետին' (rubber): elastic polymer that bounces instead of shattering; short note on elasticity property."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Water (medium for sink/float)",
+    "target": "H2O",
+    "recommendation": "Link 'ջուր' (water) to our H2O molecule-embed 3D view; used as reference medium for density (sink/float) and solubility examples."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Sink-or-float density demo (metal vs wood in water)",
+    "target": "",
+    "recommendation": "Build a small interactive: drop iron, wood, glass, rubber balls into a water tank; show which sinks/floats based on density relative to water. Reinforces 'denser particles packed tighter' idea."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Drop test: glass shatters vs rubber bounces",
+    "target": "",
+    "recommendation": "Interactive drop animation onto floor: glass ball shatters, rubber ball bounces, illustrating brittleness vs elasticity as physical properties."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Sugar (sucrose) - odorless, sweet, solid",
+    "target": "sugar",
+    "recommendation": "Tap 'շաքարավազ' to open a substance card: white sweet odorless solid, dissolves in water; could link to sucrose C12H22O11 molecule view."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Vinegar (acetic acid) - pungent, sour liquid",
+    "target": "vinegar",
+    "recommendation": "Chip for 'քացախ' (vinegar): sour pungent liquid; link to acetic acid CH3COOH molecule and note acidic property."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Table salt - white, water-soluble",
+    "target": "NaCl",
+    "recommendation": "Tap 'կերակրի աղ' to open NaCl card; white solid that dissolves in water. Optional dissolve animation in our reaction/solubility player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Sulfur - yellow, insoluble in water",
+    "target": "S",
+    "recommendation": "Link 'ծծումբ' (sulfur) to the S element card (Z=16); pair with Figure 5 showing it does not dissolve in water."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 5: sulfur does not dissolve in water",
+    "target": "S",
+    "recommendation": "Make Figure 5 interactive: tap to open a solubility demo (yellow sulfur stays undissolved in water vs salt/sugar which dissolve). Link caption to S element card."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Oxygen - gas at room temperature",
+    "target": "O2",
+    "recommendation": "Tap 'թթվածին' (oxygen) to O element card / O2 molecule; example of gaseous aggregate state."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Vegetable oil - liquid example",
+    "target": "vegetable oil",
+    "recommendation": "Chip for 'բուսայուղ' as an everyday liquid-state example; brief card, no deep chemistry needed."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Soda - solid example",
+    "target": "soda",
+    "recommendation": "Chip for 'սոդա' (soda/sodium bicarbonate NaHCO3) as a solid-state example; link to NaHCO3 card."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "States of matter: solid / liquid / gas examples",
+    "target": "",
+    "recommendation": "Interactive 'states of matter' widget: sort oxygen(gas), oil(liquid), soda(solid) into the three aggregate states; show particle arrangement animations for each state."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: property, physical properties, aggregate state",
+    "target": "",
+    "recommendation": "Glossary popovers for highlighted terms: հատկություն (property), ֆիզիկական հատկություններ (color, smell, density, thermal/electrical conductivity, solubility, aggregate state)."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Inline questions (what is a property / which are physical)",
+    "target": "",
+    "recommendation": "Convert the two bold inline questions into a short check-quiz: 'What is a substance property?' and multi-select 'Which of these are physical properties?'"
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "'Think' prompt: list more solid/liquid/gas examples",
+    "target": "",
+    "recommendation": "Turn the 'Մտածի՛ր' sidebar task into an interactive sorting/free-answer activity where students drag everyday substances into solid/liquid/gas bins."
+   }
+  ]
+ },
+ {
+  "page": 16,
+  "pageType": "questions",
+  "topic": "Body, substance, and properties of substances (review exercises)",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Define body, substance, properties",
+    "target": "",
+    "recommendation": "Turn Q1 (define physical body, substance, substance properties) into an interactive flashcard/match-the-definition quiz with model answers revealed on tap."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "List physical properties",
+    "target": "",
+    "recommendation": "Turn Q2 (list physical properties) into a tap-to-collect interactive where the student selects valid physical properties (color, density, melting point, hardness...) from a pool, with instant feedback."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "States of aggregation + examples",
+    "target": "",
+    "recommendation": "Q3 (which aggregate states can substances be in): build a sort/drag quiz with solid/liquid/gas buckets and an animated state-of-matter explainer; let students drag example substances into the correct state."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Find the odd one out (3 rows)",
+    "target": "",
+    "recommendation": "Q4 'find the extra one' for three rows (a: iron, vinegar, vegetable oil, ball, table salt; b: phone, clock, mountain, marble, rod; c: flower in field/on bush/on dress/on tree): build a tap-to-eliminate puzzle that highlights the odd item and explains the body-vs-substance reasoning."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Compare substance pairs, fill a table",
+    "target": "",
+    "recommendation": "Q5 (compare pairs: oil/vinegar, sugar/soda, iron/gold, chalk/graphite) into an interactive two-column table builder where students enter similarities and differences; prefill hints and a reveal-answer mode."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Iron (երկաթ)",
+    "target": "Fe",
+    "recommendation": "Make 'երկաթ' a clickable term linking to the Fe element card in our periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Gold (ոսկի)",
+    "target": "Au",
+    "recommendation": "Make 'ոսկի' a clickable term linking to the Au element card; pairs with iron in the compare exercise."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Table salt (կերակրի աղ)",
+    "target": "NaCl",
+    "recommendation": "Link 'կերակրի աղ' to a substance card for NaCl with a 3D crystal/molecule view from our molecule embed."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Marble (մարմար)",
+    "target": "CaCO3",
+    "recommendation": "Link 'մարմար' to a substance card noting it is calcium carbonate (CaCO3); contrast with chalk which shares the same formula."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Chalk (կավիճ)",
+    "target": "CaCO3",
+    "recommendation": "Link 'կավիճ' to a CaCO3 substance card; use the chalk-vs-graphite compare pair to show same-element vs same-compound contrasts."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Graphite (գրաֆիտ)",
+    "target": "C",
+    "recommendation": "Link 'գրաֆիտ' (pencil lead) to a carbon (C) substance card with a 3D graphite lattice view; supports the chalk-vs-graphite comparison."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Sugar (շաքար)",
+    "target": "C12H22O11",
+    "recommendation": "Link 'շաքար' to a sucrose substance card (C12H22O11) with 3D molecule embed; used in the sugar-vs-soda compare pair."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Soda / baking soda (սոդա)",
+    "target": "NaHCO3",
+    "recommendation": "Link 'սոդա' to a sodium bicarbonate substance card (NaHCO3) with 3D molecule view; pairs with sugar in the comparison exercise."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Vinegar (քացախ)",
+    "target": "CH3COOH",
+    "recommendation": "Link 'քացախ' to an acetic acid substance card (CH3COOH, aqueous) with 3D molecule view; pairs with vegetable oil."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Vegetable oil (բուսական յուղ)",
+    "target": "",
+    "recommendation": "Link 'բուսական յուղ' to a substance card describing it as a liquid mixture (triglycerides); contrast immiscibility with vinegar/water."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "QR game-task: substances and bodies",
+    "target": "",
+    "recommendation": "The QR code labeled 'Game-task: substances and bodies' should open an in-app mini-game inside the digital edition (classify items as body vs substance) instead of an external link, reusing the odd-one-out and sorting mechanics."
+   },
+   {
+    "kind": "glossary",
+    "where": "heading",
+    "label": "Section title: Body, substance, properties",
+    "target": "",
+    "recommendation": "Render the colored section heading 'Մարմին, նյութ, նյութի հատկություններ' as a glossary anchor linking each of the three key terms to its definition card."
+   }
+  ]
+ },
+ {
+  "page": 17,
+  "pageType": "experiment",
+  "topic": "Classifying bodies: living nature, non-living nature, man-made (group activity)",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "",
+    "label": "Group classification activity",
+    "recommendation": "Turn the six-group instruction into an interactive sorting exercise: present the scene's objects and let the user drag each into one of three bins — living nature, non-living nature, man-made. Auto-score and reveal correct grouping, mirroring the textbook's cross-evaluation flow."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Village scene illustration",
+    "recommendation": "Make the illustration a clickable 'find the objects' hotspot scene: tapping each object (house, tree, person, mountain, animal, etc.) tags it and asks the user to classify it as living / non-living / man-made, feeding the score into the sorting game above."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "target": "",
+    "label": "Cross-evaluation table",
+    "recommendation": "Implement the Փoxgnահatман (cross-evaluation) table as an interactive form/scoreboard: fields for count of noticed objects, count of missed objects, and named well-/poorly-visible missed objects. Auto-fill counts from the hotspot exercise and let peers compare results."
+   }
+  ]
+ },
+ {
+  "page": 18,
+  "pageType": "lesson",
+  "topic": "Physical bodies vs. substances; properties of substances",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: physical body, substance, properties",
+    "target": "",
+    "recommendation": "Make the bolded terms 'ֆիզիկական մարմին' (physical body), 'նյութ' (substance), and 'հատկություններ' (properties) tappable glossary chips that open a definition card. Distinguish natural vs. artisanal (բնական/ձեռակերտ) and living/non-living nature (կենդանի/անկենդան բնություն) with example illustrations."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "QR: 'Properties of substances' video + lab task",
+    "target": "",
+    "recommendation": "Replace the two QR codes (Տեսանյութ - video on substance properties; Առաջադրանք - lab task studying physical properties of a substance) with embedded inline media: an in-app video player and a guided experiment card linking to our reaction/observation player where the student records observed physical properties (color, state, density, solubility)."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "'You already know' / 'You can already' objectives",
+    "target": "",
+    "recommendation": "Turn the 'Դու արդեն գիտես' and 'Դու արդեն կարող ես' boxes into a self-check quiz: matching task (substance vs. physical body), classify items as natural vs. artisanal and living vs. non-living, and a short 'name a physical property' input. Track completion in the learner profile."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Observation prompt: name bodies and their substances",
+    "target": "",
+    "recommendation": "Convert the orange 'Դիտարկի՛ր' prompt (observe surrounding bodies, identify what substances they are made of, classify natural/artisanal) into an interactive sorting activity: present everyday objects (house, tree, glass, spoon...) and let the student tag substance + natural/artisanal category with instant feedback."
+   }
+  ]
+ },
+ {
+  "page": 19,
+  "pageType": "lesson",
+  "topic": "Chemistry lab equipment and safety rules; chemistry as experimental science",
+  "interactions": [
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Match burning in space (zero gravity)",
+    "target": "",
+    "recommendation": "Small illustration of a match flame in weightlessness. Make it a clickable figure that opens a short explainer/animation comparing a candle/match flame on Earth (teardrop, convection-driven) vs in microgravity (spherical, diffusion-driven). Could link to our reaction player showing combustion of the match head (P/S + O2 oxidation) as a demonstration of an experiment."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Match combustion / lab experiments concept",
+    "target": "",
+    "recommendation": "The text frames chemistry as experimental ('miracle experiments', synthesizing new substances). Add a 'Try an experiment' callout that opens the reaction player with a starter set of safe demonstrations, reinforcing that experiments reveal substance properties."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Lab terms: laboratory, glassware, reagents, synthesis",
+    "target": "",
+    "recommendation": "Several key terms appear (քիմիական լաբորատորիա/lab, ապակե ամանեղեն/glassware, ազդանյութ/reagent, սինթեզ/synthesis, թունավոր/toxic). Turn them into tappable glossary terms with definitions and icons; the glassware term can preview an interactive gallery of lab equipment introduced on following pages."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Safety rules emphasis (do not taste chemicals, toxicity)",
+    "target": "",
+    "recommendation": "The highlighted box warns chemicals must never be tasted and can be toxic. Build an interactive safety-rules checklist/mini-quiz ('Safe or unsafe?' scenarios with hazard-symbol cards) reinforcing the basic safety rules referenced (Appendix 1, p.37)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Recall/reflection prompts",
+    "target": "",
+    "recommendation": "Inline rhetorical prompts ('Recall what experiments you have done...', 'Is studying chemistry possible without experiments?'). Convert these into a short reflective quiz / open-answer area where the student types or selects answers and gets feedback."
+   }
+  ]
+ },
+ {
+  "page": 20,
+  "pageType": "lesson",
+  "topic": "Laboratory equipment and glassware (metal stand, test tubes, beakers, flasks)",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "target": "",
+    "label": "Opening question: what lab equipment is used?",
+    "recommendation": "Turn the opening question (\"What chemical equipment and glassware are used in a chemistry laboratory?\") into an interactive warm-up: a tap-to-reveal prompt or a drag-and-match mini-quiz where students name lab items before the lesson reveals them."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Figure 6: metal stand (kalan) with numbered parts",
+    "recommendation": "Make Figure 6 an interactive labeled diagram: hotspots on each numbered part (1 base/takdir, 2 rod, 3 clamp/segmak, 4 paw/tat, 5 ring/oghak) that highlight and show the Armenian term + function on tap. Pair with the 'demonstration of structure and use' callout as an embedded short animation/3D model of assembling the stand."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "",
+    "label": "Demonstration: metal stand assembly",
+    "recommendation": "Implement the 'Մետաղե կալանի կառուցվածքի և օգտագործման ցուցադրում' callout as a play button opening a short demo player / 3D interactive showing how the stand is assembled and used to hold glassware."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Test tubes (a), rack/stand (b), holders (c)",
+    "recommendation": "Interactive glossary-figure: clickable items a/b/c (test tube, test-tube rack, holder) each opening a card with name, use, and a tip on safe handling. Could link to a virtual bench where the user places a test tube into the rack or grips it with a holder."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Figure 7: beakers, flasks, cylinders",
+    "recommendation": "Make Figure 7 a tappable glassware catalog: each vessel (beaker, flask, graduated cylinder) highlights with its Armenian name, capacity/use, and 'for working with solutions' note. Link each to a labware item in the molecule lab so students recognize the vessel in experiments."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "glass",
+    "label": "Heat-resistant glass / thin-walled glassware",
+    "recommendation": "Add a glossary tooltip on 'ջերմակայուն ապակի' (heat-resistant glass) explaining why lab glassware tolerates heating and is fragile, with a short safe-handling tip card distinguishing it from kitchen glassware."
+   }
+  ]
+ },
+ {
+  "page": 21,
+  "pageType": "lesson",
+  "topic": "Lab equipment: measuring devices and tools for handling powders",
+  "interactions": [
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Measuring devices: graduated cylinder, beaker, pipette",
+    "target": "",
+    "recommendation": "Top photo shows three graduated volume-measuring tools labeled a (chափիչ գլան / graduated cylinder), b (chափիչ բաժակ / measuring beaker), g (chափիչ պիպետ / measuring pipette). Build an interactive labeled diagram: hover/tap each device to show its name (AM/RU/EN), typical use, and graduation scale (e.g. 1 mL vs 0.5 mL per division). Add a small simulation where the user reads the liquid level off the scale to practice volume measurement."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Powder-handling tools: spatula and chemical spoon",
+    "target": "",
+    "recommendation": "Middle illustration shows a (շպատել / spatula) and b (chemical spoon / գդալիկ) for transferring small amounts of powdered substances. Make each clickable to show name, purpose, and an animation of scooping/transferring a powder into a vessel."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 8: Mortar and pestle (Hավանգ)",
+    "target": "",
+    "recommendation": "Diagram of mortar (hավանգ) and pestle (hավանգակոթ) used to grind hardened/caked powders. Build an interactive that demonstrates grinding: drag the pestle in circular motion to crush chunks into fine powder, with a short caption explaining why caked substances must be pulverized before experiments."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 9: Porcelain ware (Ճենապակե ամանեղեն)",
+    "target": "porcelain",
+    "recommendation": "Photo of porcelain dishes/crucibles, noted as more heat-resistant for prolonged heating. Make it a clickable material card explaining porcelain as a heat-resistant ceramic, linking to a substances/materials entry; optionally connect to a heating experiment in the reaction player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Porcelain (ceramic material)",
+    "target": "porcelain",
+    "recommendation": "Add a material glossary entry for porcelain (Ճենապակ): composition (clay/kaolin-based ceramic), key property = high heat resistance, used for crucibles and evaporating dishes."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Think! prompt: why is a mortar used in the kitchen?",
+    "target": "",
+    "recommendation": "The 'Մտածի՛ր' (Think) box asks for what purpose a mortar is used in the kitchen. Convert into an interactive open-answer / multiple-choice question (e.g. grinding spices, sugar, salt) with feedback, reinforcing the grinding concept from Figure 8."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Lab equipment terms (graduation, mL volumes)",
+    "target": "",
+    "recommendation": "Build a tappable glossary for key terms appearing in the text: սանդղակ (scale/graduation), ծավալ (volume), մլ (milliliter), փոշիացնել (to pulverize). Each term shows a short trilingual definition; numeric mentions (1 mL, 0.5 mL per division) can highlight on the device scale illustration."
+   }
+  ]
+ },
+ {
+  "page": 22,
+  "pageType": "lesson",
+  "topic": "Heating devices in the chemistry lab: Bunsen burner and spirit lamp (alcohol burner)",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "target": "",
+    "label": "Opening question: which heating devices are used in a chem lab?",
+    "recommendation": "Turn the opening question (lines 1-2) into a short interactive prompt with a reveal answer / multiple-choice card (gas burners, Bunsen burner, spirit lamp), seeding the lesson and tracking the learner's guess."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "C2H5OH",
+    "label": "Ethyl alcohol (ethanol) used as fuel",
+    "recommendation": "Make 'ethyl alcohol / medical spirit' a clickable term that opens a substance card for ethanol with formula C2H5OH, links to its molecule embed, and notes it as the spirit lamp fuel plus the combustion reaction C2H5OH + O2 -> CO2 + H2O."
+   },
+   {
+    "kind": "molecule-embed",
+    "where": "text",
+    "target": "C2H5OH",
+    "label": "Ethanol 3D molecule",
+    "recommendation": "Embed a clickable 3D model of the ethanol molecule (C2H5OH) next to the fuel mention so learners can rotate and inspect the structure of the burner's fuel."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "C2H5OH",
+    "label": "Combustion of ethanol in the spirit lamp",
+    "recommendation": "Add a reaction player for the burning of ethanol (C2H5OH + 3 O2 -> 2 CO2 + 3 H2O), visualizing the flame and products, tied to the lesson's heating theme."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Fig. 10 — Bunsen burner",
+    "recommendation": "Make Fig. 10 (Bunsen burner) an interactive labeled diagram: hover/tap hotspots for barrel, air vent, gas inlet, base; optional animation showing air-vent adjustment changing flame color. Link to a glossary entry for 'Bunsen burner'."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Fig. 11 — Spirit lamp structure (numbered parts 1-4)",
+    "recommendation": "Build an interactive exploded/labeled diagram of the spirit lamp with clickable numbered hotspots: (1) reservoir/fuel container, (2) cap/cover for extinguishing, (3) cotton wick, (4) disc-limited tube. Each hotspot shows its name and function from the text; include a fill-level cue showing fuel should be no more than 2/3 of the reservoir."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Safety figures (a) correct lighting, (b) forbidden lighting",
+    "recommendation": "Convert the (a)/(b) lighting illustrations into an interactive safety drill: present scenarios (match vs. another burner) and let the learner mark allowed/forbidden, reinforcing 'light only with a match, never from another flame.' Could be a tap-the-safe-method mini-quiz with fire-hazard feedback."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Key lab terms: Bunsen burner, spirit lamp, wick, reservoir, cap",
+    "recommendation": "Add glossary tooltips for lab apparatus terms (Bunsen burner, spirit lamp / alcohol burner, wick, cap/extinguisher, fuel) so each highlighted term opens a short definition card with the relevant figure thumbnail."
+   }
+  ]
+ },
+ {
+  "page": 23,
+  "pageType": "questions",
+  "topic": "Chemistry lab, equipment, and safety rules",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "text",
+    "target": "",
+    "label": "Exercise 1: spot the unsafe lab action",
+    "recommendation": "Turn the six lab-conduct statements (a-zh) into a multiple-select 'which action would you stop?' quiz. Each option (e.g. heating a test tube more than half-full, lighting a spirit lamp with a burning match, smelling a substance by direct inhalation, pouring chemical solution down the drain, overfilling the spirit lamp reservoir) is tappable; correct/incorrect feedback explains the safety rule. This is a lab-safety mini-game."
+   },
+   {
+    "kind": "quiz",
+    "where": "figure",
+    "target": "",
+    "label": "Exercise 2: pick the tool to pour a volume into a flask",
+    "recommendation": "Make figures a/b/c (graduated cylinders, separating funnel, wash/squeeze bottles) clickable. User selects the correct apparatus for measuring and pouring a set volume of solution into a flask, then names it. Build as a click-the-image-and-name interaction with validation and the Armenian term reveal."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "target": "",
+    "label": "Exercise 3: match equipment image to its name",
+    "recommendation": "Two-column matching table (images a-d vs names 1-6: pipette, measuring beaker, test-tube holder, test-tube rack, test tube, graduated cylinder). Build a drag-to-connect / line-matching interactive that grades the pairing and teaches each instrument's Armenian name and use."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Lab glassware figures (Ex. 2: a, b, c)",
+    "recommendation": "Tap each figure to open an equipment info card (graduated cylinder, separating funnel, plastic wash bottle) with name, purpose, and safe-handling note. Could link into a glossary of lab apparatus."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Lab equipment figures (Ex. 3: a, b, c, d)",
+    "recommendation": "Tap each figure (test tube, measuring beaker, test-tube rack, pipettes) to reveal a labeled equipment card; these images feed the matching quiz above and a shared lab-equipment glossary."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "",
+    "label": "Lab safety / equipment usage context",
+    "recommendation": "Add an interactive 'virtual lab bench' tutorial that demonstrates correct use of these instruments and the safety rules referenced (heating a test tube, lighting a spirit lamp, measuring volumes). Acts as a hands-on companion to the safety quiz; no reaction chemistry yet, but introduces the reaction-player UI."
+   },
+   {
+    "kind": "glossary",
+    "where": "whole-page",
+    "target": "",
+    "label": "Lab apparatus terms (Armenian)",
+    "recommendation": "Compile the apparatus names introduced here (pipette, measuring beaker, test-tube holder, test-tube rack, test tube, graduated cylinder, separating funnel, spirit lamp, flask, wash bottle) into a tappable trilingual glossary so any term on the page links to a definition with an icon."
+   }
+  ]
+ },
+ {
+  "page": 24,
+  "pageType": "lesson",
+  "topic": "Laboratory safety rules and lab equipment (introductory)",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Lab safety rules block (\"Du arden gites\")",
+    "target": "",
+    "recommendation": "Build an interactive lab-safety primer that opens before the reaction player: a checklist of safety rules (goggles, no eating, handling glassware) the student must acknowledge. Gate the reaction-player experiments behind this so safety context carries through the app."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Lab equipment / glassware recognition task (\"Du arden karoxh es\")",
+    "target": "",
+    "recommendation": "Create an interactive equipment gallery: clickable cards/3D models of common lab glassware and apparatus (beaker, flask, test tube, burette, etc.) with names in EN/HY/RU. Add a drag-and-match mini-game where the student picks the right tool for a given lab action, matching this page's prompt about choosing equipment for a purpose."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Reflection questions on household equipment & safety",
+    "target": "",
+    "recommendation": "Turn the two open-ended prompts (what equipment is used at home; are safety rules followed at home) into an open-answer reflection card or short poll/quiz with free-text and saved responses in the student profile."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Research task: compare 18th-21st century lab equipment",
+    "target": "",
+    "recommendation": "Build a guided web-research / timeline activity: an interactive timeline comparing lab glassware and instruments across the 18-19th vs 20-21st centuries, with a slot for the student to assemble a slideshow (as the textbook asks). Could link out to curated historical sources and famous-scientist instruments."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Creative task: memorize safety rules via art/poem/map",
+    "target": "",
+    "recommendation": "Offer a creative-submission area where students upload a drawing, poem, or concept map encoding the safety rules; store in profile gallery. Low-priority interactive but fits the page's creative prompt."
+   },
+   {
+    "kind": "none",
+    "where": "whole-page",
+    "label": "No elements, formulas, or substances on page",
+    "target": "",
+    "recommendation": "Page is methodological (lab safety + equipment intro). No periodic-table embed, element cards, molecule/formula links, or chemical figures apply here."
+   }
+  ]
+ },
+ {
+  "page": 25,
+  "pageType": "experiment",
+  "topic": "Lab Work 1: using laboratory equipment and test-tube heating safety rules",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "heading",
+    "label": "Lab Work 1: laboratory equipment",
+    "target": "",
+    "recommendation": "Make the lab-work heading launch an interactive 'virtual lab bench' module: a clickable inventory of the lab tools (stand/clamp, test tube, flask, spirit burner, holder) where tapping each tool shows its name in EN/HY/RU, a 3D/illustrated model and its purpose."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Lab equipment terms (clamp, test tube, flask, spirit burner, holder)",
+    "target": "",
+    "recommendation": "Turn the equipment names mentioned in the intro and fairy tale (մետաղե կալան/clamp, փորձանոթ/test tube, կոլբ/flask, սպիրտայրոց/spirit burner, բռնիչ/holder) into tappable glossary chips with hover tooltips and trilingual labels, linking to the equipment cards."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Test-tube heating safety rules",
+    "target": "",
+    "recommendation": "Convert the three safety rules into an interactive checklist/animated guide: animate correct liquid fill level (max 1/3 of tube), tube mouth pointed away from people, and gradual-then-targeted heating. Use as a gated 'safety briefing' the student must acknowledge before unlocking the reaction player."
+   },
+   {
+    "kind": "experiment",
+    "where": "figure",
+    "label": "Figure 12: heating a test tube over a spirit burner",
+    "target": "",
+    "recommendation": "Make Figure 12 a clickable interactive: an animated reaction-player scene showing a test tube held by a holder being heated over a spirit-burner flame, demonstrating the safe heating technique with hotspots on the flame, holder, and tube mouth orientation."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Reflective prompt: 'What does the tale teach?'",
+    "target": "",
+    "recommendation": "Turn the in-text question (Հեքիաթն ի՞նչ կցուցանե / what does the fairy tale show) into a short interactive quiz item about teamwork of lab tools, plus a drag-and-match mini-quiz pairing each tool to its function."
+   }
+  ]
+ },
+ {
+  "page": 26,
+  "pageType": "experiment",
+  "topic": "Lab practical: assembling the retort stand and handling glassware (heating water, using a spirit burner)",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "heading",
+    "label": "Փորձ 1 — assembling the metal clamp/stand",
+    "target": "",
+    "recommendation": "Build an interactive 3D lab-equipment assembly mini-game: drag clamp parts (base/foot 'թաթ', ring 'օղակ', screw clamps 'սեղմակ') into correct left-to-right order, then mount a test tube 1 cm below its mouth and rotate it to vertical/horizontal positions. Step-checklist UI mirrors the textbook instructions."
+   },
+   {
+    "kind": "experiment",
+    "where": "heading",
+    "label": "Փորձ 2 — glassware ID and heating water",
+    "target": "",
+    "recommendation": "Open our reaction/lab player: let the user identify and select equipment (spirit burner, test tubes, rack, holder, conical flask, measuring cylinder, pipette, funnel, rubber bulb), pour 2 mL water into a test tube, heat over the spirit burner flame to boiling, then practice the correct way to extinguish the flame. Animated boiling-water step."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Water (ջուր) used in experiments",
+    "target": "H2O",
+    "recommendation": "Make the word 'ջուր' tappable to open the H2O substance/molecule card with our 3D water model and boiling-point info (links to the heating step in Փորձ 2)."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Heating water to boiling with spirit burner",
+    "target": "H2O",
+    "recommendation": "Animated step in the reaction player: water in a test tube held by holder over flame, visual transition liquid->boiling, plus a safety prompt asking how to safely extinguish the burner (cap, not blow)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Colored solution added by drops (գունավոր լուծույթ)",
+    "target": "",
+    "recommendation": "Interactive dropper step: add 1-2 drops of a colored solution onto 10 mL water in the conical flask and show the color diffusing/mixing animation (intro to solutions/concentration)."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Equipment images (ա) rubber bulb, (բ) dropper",
+    "target": "",
+    "recommendation": "Make figures (ա) and (բ) clickable hotspots that open labeled equipment cards: rubber bulb/teat ('ռետինե տանձիկ') and dropper/pipette ('կաթոցիկ'), each with a short how-to-use animation."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Embedded prompts: 'why not clamp too tight?', 'how to extinguish flame?', drawing/marking tasks",
+    "target": "",
+    "recommendation": "Turn the in-text questions (why mustn't you over-tighten the clamp; how to put out the spirit burner; which operations were hard) into a short interactive quiz with a free-text/draw answer area and instant feedback."
+   }
+  ]
+ },
+ {
+  "page": 27,
+  "pageType": "experiment",
+  "topic": "Lab safety, pipette use, and Experiment 3: chalk vs salt in water (solubility)",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Experiment 3: chalk powder vs table salt mixed in water",
+    "target": "",
+    "recommendation": "Build an interactive reaction/solubility player: two beakers with equal volumes of water; user adds a small amount of chalk powder (CaCO3) to one and table salt (NaCl) to the other, stirs with a glass rod, and watches the salt dissolve (clear solution) while chalk stays as a turbid suspension. Animate dissolving vs settling so the student visually discovers the difference in solubility."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Water (jur) used as solvent in both beakers",
+    "target": "H2O",
+    "recommendation": "Clickable term opening a water substance card (H2O) with a link to our 3D molecule view; reuse as the solvent fluid in the Experiment 3 player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Chalk / chalk powder (kavich) — calcium carbonate",
+    "target": "CaCO3",
+    "recommendation": "Substance card for chalk (CaCO3): note it is poorly soluble, forms a suspension in water; link to the Ca and C/O elements and to a 3D CaCO3 structure. Mark as the 'insoluble' sample in the experiment."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Table salt (kerakri ax) — sodium chloride",
+    "target": "NaCl",
+    "recommendation": "Substance card for table salt (NaCl): highlights high solubility, dissolves to a clear solution; link to Na and Cl element cards and an NaCl crystal-lattice 3D view. Mark as the 'soluble' sample."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Calcium (in chalk, CaCO3)",
+    "target": "Ca",
+    "recommendation": "Link the chalk substance card to the live Ca element card in our interactive periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Sodium (in table salt, NaCl)",
+    "target": "Na",
+    "recommendation": "Link the salt substance card to the Na element card in our periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Chlorine (in table salt, NaCl)",
+    "target": "Cl",
+    "recommendation": "Link the salt substance card to the Cl element card."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Lab apparatus listed: metal clamp, test tube, flask, spirit burner, holder",
+    "target": "",
+    "recommendation": "Build a clickable interactive lab-bench glossary: hotspots for each apparatus (metal clamp, test tube/porboxan, flask/kolb, spirit lamp/spirtayroc, holder) that open a short tooltip with the tool's name (EN/HY/RU), purpose, and a safety note. Doubles as the equipment palette for the experiment player."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Pipette filling with rubber bulb — safety rule (never fill by mouth)",
+    "target": "",
+    "recommendation": "Interactive safety micro-card / animation showing correct pipette filling with a rubber bulb, with a 'why not by mouth?' reveal answering the inline question. Turn the prompt into a quick safety quiz item."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Post-experiment questions (3) + opening 'why not fill pipette by mouth' question",
+    "target": "",
+    "recommendation": "Convert the inline question and the three numbered follow-up questions (ambiguity in instructions, which properties of salt vs chalk were revealed, which apparatus was most important) into an interactive quiz/answer area with free-text and reveal-answer support, tied to the experiment results."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "'You can already...' self-assessment skills list",
+    "target": "",
+    "recommendation": "Render the 'Du arden karox es' (you can already) block as an interactive self-assessment checklist: each skill (use lab tools safely, heat a test tube following heating rules) is a tappable checkbox the student marks as mastered, feeding a simple progress tracker."
+   }
+  ]
+ },
+ {
+  "page": 28,
+  "pageType": "lesson",
+  "topic": "Physical and chemical phenomena (intro)",
+  "interactions": [
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "Fe",
+    "label": "Rusting of iron objects",
+    "recommendation": "Make the phrase 'erkate irer zhangotvum en' (iron objects rust) clickable. Link to an element card for Fe and a reaction player showing 4Fe + 3O2 -> 2Fe2O3 (rust), framed as a real chemical phenomenon/change. Reinforces the lesson's example of a chemical change."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "wax",
+    "label": "Candle/wax melting",
+    "recommendation": "Clickable term 'momy halvum e' (candle melts). Open a micro-animation contrasting a physical change (solid->liquid wax, same substance) vs chemical change. Tie into the page's physical-vs-chemical classification goal."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "H2O",
+    "label": "Flowing water",
+    "recommendation": "Clickable 'jury hosum e' (water flows). Link to H2O molecule card / 3D molecule embed; flag as a physical phenomenon (no new substance). Pairs with melting/rusting examples for a physical-vs-chemical mini set."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "",
+    "label": "Examples of phenomena (volcano, leaves yellowing, melting, flowing, rusting)",
+    "recommendation": "Build an interactive sort/classify widget: drag each listed example (volcano erupting, leaves yellowing, candle melting, water flowing, iron rusting, rain, dew, eclipses) into 'physical' vs 'chemical' buckets, with instant feedback. Directly operationalizes this lesson's core skill."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Recall prompt: remember physical/chemical phenomena",
+    "recommendation": "Turn the 'Verhishir... orinakner' recall task into a short open-answer/quiz card where students list examples and the app checks them against a tagged list of physical vs chemical phenomena."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Fig. 13 — Aivazovsky 'The Ninth Wave' (storm at sea)",
+    "recommendation": "Painting illustrating a natural/physical phenomenon (storm). Add a caption tooltip: classify the depicted storm as a physical phenomenon, with a brief note. Mostly contextual art, not a chemical diagram; keep interaction light (info popover only)."
+   },
+   {
+    "kind": "glossary",
+    "where": "heading",
+    "target": "",
+    "label": "Key term: phenomenon (yerevuyt)",
+    "recommendation": "Add a glossary tooltip for the bolded definition of 'yerevuyt' (any change of bodies/substances = a phenomenon) and its split into physical vs chemical. Provide quick definitions on hover and a link to the lesson's worked examples."
+   }
+  ]
+ },
+ {
+  "page": 29,
+  "pageType": "lesson",
+  "topic": "Physical and chemical phenomena (changes)",
+  "interactions": [
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "water",
+    "label": "Water boiling / melting chocolate (physical changes)",
+    "recommendation": "Make 'water' and 'chocolate' tappable -> open a substance card; for water link to H2O molecule-embed (3D model) and show a state-change animation (solid/liquid/gas) illustrating that composition stays constant during a physical phenomenon."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "wood combustion",
+    "label": "Burning of wood (chemical phenomenon)",
+    "recommendation": "Turn the 'burning of wood' example into a reaction-player entry: animate combustion producing CO2, smoke (soot) and heat/light, highlighting the chemical-reaction signs (gas, light, heat) listed on this page."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "Fe",
+    "label": "Rusting of iron (chemical phenomenon)",
+    "recommendation": "Make 'iron rusting' clickable -> reaction player showing Fe + O2 + H2O -> rust (iron oxide), with an Fe element-card link and a before/after color-change visual to demonstrate a chemical change."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Fe",
+    "label": "Iron (referenced via rusting)",
+    "recommendation": "Link the word 'iron' to the live periodic-table Fe element card (Z=26, properties), reachable from the rusting example."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "Cu",
+    "label": "Copper blackening (chemical phenomenon)",
+    "recommendation": "Make 'copper blackening' interactive -> reaction player showing copper oxidation (Cu -> CuO / dark patina) with a Cu element-card link; emphasize the color-change reaction sign."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Cu",
+    "label": "Copper (referenced via blackening)",
+    "recommendation": "Link 'copper' to the Cu element card (Z=29) in the interactive periodic table."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "O3",
+    "label": "Special air smell after a thunderstorm (ozone)",
+    "recommendation": "Add an info/interactive callout linking the 'special smell after thunderstorm' to ozone formation (O2 -> O3) under electric discharge, with an O3 molecule-embed; presented as an example of a chemical phenomenon."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "C",
+    "label": "Formation of soot (chemical phenomenon)",
+    "recommendation": "Make 'soot formation' tappable -> short reaction animation of incomplete combustion producing carbon soot, linking to the C element card."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "target": "",
+    "label": "Inline review questions (recall physics classification; why study phenomena)",
+    "recommendation": "Convert the two prompts ('recall the classification of physical phenomena from physics' and 'why is it necessary to study phenomena') into an interactive quiz/answer area with reveal-answer cards or short free-text response fields."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Sort phenomena: physical vs chemical",
+    "recommendation": "Build a drag-and-drop classification mini-game using this page's examples (glass breaking, water boiling, chocolate melting = physical; wood burning, iron rusting, copper blackening, soot, thunderstorm smell = chemical) so the student categorizes each."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Definitions: physical phenomenon, chemical phenomenon / reaction",
+    "recommendation": "Make the two boxed definitions glossary entries with tap-to-expand explanations and a 'signs of a chemical reaction' checklist (color/smell change, light, heat, gas, precipitate forming/disappearing)."
+   }
+  ]
+ },
+ {
+  "page": 30,
+  "pageType": "lesson",
+  "topic": "Physical vs chemical phenomena; everyday examples (candle burning, lightning, rain)",
+  "interactions": [
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "paraffin",
+    "label": "Paraffin candle wax",
+    "recommendation": "Add a substance card for paraffin (candle wax): show it as a hydrocarbon mixture, melting (physical) vs combustion (chemical). Link to a glossary entry and to the candle experiment below."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "paraffin combustion",
+    "label": "Candle burning (a) — physical + chemical",
+    "recommendation": "Build a reaction-player demo of candle combustion: paraffin + O2 -> CO2 + H2O (vapor). Visually split the scene into a 'physical' branch (wax melting) and a 'chemical' branch (combustion producing gas + vapor), reinforcing the page's core lesson that the two often co-occur."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "CO2",
+    "label": "Carbon dioxide (combustion product)",
+    "recommendation": "Make 'ածխաթթու գազ' (carbon dioxide) a clickable formula chip CO2 that opens our 3D molecule viewer (linear O=C=O) from the molecule collection."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "H2O",
+    "label": "Water vapor (combustion product / rain)",
+    "recommendation": "Make 'ջրային գոլորշի' / rain water a clickable H2O chip opening the 3D water molecule; reuse for the rain example (vapor -> liquid) to illustrate a physical state change."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen (implied in combustion)",
+    "recommendation": "When the candle experiment opens, surface an O2/oxygen element card from our periodic table as the reactant that the text omits, linking back to the live periodic table."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "metal",
+    "label": "Metals — melting (Stone Age to Metal Age)",
+    "recommendation": "Turn the 'melted metal' mention into a tappable concept that highlights the metals block on our interactive periodic table and shows melting as a physical change (state change, no new substance)."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Classify: physical vs chemical phenomenon",
+    "recommendation": "Convert the three examples (candle melting vs burning, lightning/thunder/rain, smell after rain in Dilijan forest) into a drag-or-tap quiz where the student labels each as Physical or Chemical, with instant feedback matching the textbook answers."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "target": "",
+    "label": "Key terms box (phenomena & reactions)",
+    "recommendation": "Render the highlighted keyword box (physical phenomenon, chemical phenomenon, chemical reactions, natural phenomena, human-made phenomena) as tappable glossary chips, each opening a short definition card with an example."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Figure 14: Tatev Monastery (Syunik)",
+    "recommendation": "Non-chemistry cultural image; offer a light info tooltip noting building stone/material as a human-shaped natural material, but no chemistry interactive needed."
+   }
+  ]
+ },
+ {
+  "page": 31,
+  "pageType": "mixed",
+  "topic": "Physical vs chemical phenomena — illustrations and classification exercises",
+  "interactions": [
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Photo row a-b-c-d (phenomena)",
+    "target": "",
+    "recommendation": "Make the 4-photo strip (ա,բ,գ,դ) a clickable gallery. Each photo opens a card stating whether it shows a physical or chemical phenomenon with a one-line explanation; tie into a 'physical vs chemical' concept explainer."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Rainbow photo (d) — diffraction",
+    "target": "",
+    "recommendation": "Clickable figure 'դ': open a mini-explainer of the rainbow as a PHYSICAL phenomenon (light + water droplets, diffraction/refraction). Optional light-through-droplet animation."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Water droplets",
+    "target": "H2O",
+    "recommendation": "Link 'water droplets' to the water substance card (H2O); embed our 3D H2O molecule and note that the rainbow is a physical, not chemical, change of water."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Sugar (crush / decompose)",
+    "target": "C12H22O11",
+    "recommendation": "Tap 'sugar' to open a substance card; show that crushing sugar = physical change, while decomposing (caramelizing/charring) = chemical change. Could open reaction player for thermal decomposition of sucrose."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Copper (blackening)",
+    "target": "Cu",
+    "recommendation": "Link 'copper blackening' to the Cu element card; show oxidation Cu + O2 -> CuO as a chemical phenomenon in the reaction player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Iron nail (bend vs rust)",
+    "target": "Fe",
+    "recommendation": "Link iron nail to Fe element card; bending = physical, rusting = chemical. Open reaction player for rust formation (4Fe + 3O2 + 6H2O -> 4Fe(OH)3 / Fe2O3)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Silver jewelry (darken vs break)",
+    "target": "Ag",
+    "recommendation": "Link silver to Ag element card; tarnishing (Ag + S -> Ag2S) = chemical, breaking = physical. Show tarnish reaction in reaction player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Rubber (stretching)",
+    "target": "rubber",
+    "recommendation": "Material card for rubber; illustrate that stretching is a physical (reversible) change. Brief note on elasticity."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Wood (carving)",
+    "target": "wood",
+    "recommendation": "Material card for wood; carving = physical change. Contrast with burning (chemical) as a discussion prompt."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Candle / wax (melt vs burn)",
+    "target": "wax",
+    "recommendation": "Material card for candle wax; melting = physical, burning = chemical (combustion). Open reaction player for paraffin combustion -> CO2 + H2O."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Clay jug (breaking)",
+    "target": "clay",
+    "recommendation": "Material card for clay/ceramic; breaking the jug = physical change, used as a classification example."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Classify phenomena (sort exercise)",
+    "target": "",
+    "recommendation": "Turn exercise 3 into an interactive drag-and-drop / two-column sort: items (crush sugar, snowstorm, fire ignition, dew forming, copper blackening, wood carving, jug breaking, nail rusting, rubber stretching) dropped into 'Physical' vs 'Chemical' bins with instant scoring (1 point each, matching the peer-grading rule)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Define physical & chemical phenomena (Q1-2)",
+    "target": "",
+    "recommendation": "Short open-answer / flashcard items for the definitions and 'natural vs non-natural phenomena' list, with reveal-answer model definitions."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Compare pairs (Q4)",
+    "target": "",
+    "recommendation": "Interactive 'tap the chemical one' comparison cards for each pair (bend vs rust, melt vs burn, darken vs break, crush vs decompose) with explanation feedback."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Poem chemical-analysis group task",
+    "target": "",
+    "recommendation": "Optional creative module: load Hamo Sahyan's 'Hayastan aselis' quatrains; let groups tag phenomena found in each quatrain as physical/chemical and justify — a collaborative annotation/classification activity."
+   }
+  ]
+ },
+ {
+  "page": 32,
+  "pageType": "lesson",
+  "topic": "Physical and chemical phenomena (intro/summary)",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "Definition: physical vs chemical phenomenon",
+    "target": "",
+    "recommendation": "Turn the 'Du arden gites' (You already know) box into an interactive glossary card pair. Clicking 'physical phenomenon' vs 'chemical phenomenon' flips cards showing the distinction (no new substances vs new substances form). Add a small animated example for each (melting ice = physical; burning = chemical)."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Learning objectives -> self-check quiz",
+    "target": "",
+    "recommendation": "Convert the 'Du arden karogh es' (You already can) skills list into a quick self-assessment quiz: drag-and-drop classifier where the student sorts a set of everyday events (melting, rusting, boiling, burning, dissolving sugar, souring milk) into physical vs chemical buckets, with instant feedback."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Home experiment: cold plate over boiling kettle",
+    "target": "H2O",
+    "recommendation": "Build a guided mini-experiment / reaction-player card from the 'Ditarkir' (Observe) box: hold a cold plate over a boiling kettle, observe condensation. Add an interactive animation of water vapor -> condensation, and a prompt asking which natural phenomenon it models (rain/water cycle). Reinforces that this is a physical change."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "QR: video 'Physical and chemical phenomena'",
+    "target": "",
+    "recommendation": "Left QR code links to a video. In the digital edition, replace the QR with an inline embedded video player button so the student can watch in-app without scanning."
+   },
+   {
+    "kind": "experiment",
+    "where": "figure",
+    "label": "QR: lab experiments 'Physical and chemical phenomena'",
+    "target": "",
+    "recommendation": "Right QR code links to lab experiments. Replace with an in-app button that opens our reaction player / virtual lab demonstrating physical vs chemical change experiments."
+   }
+  ]
+ },
+ {
+  "page": 33,
+  "pageType": "experiment",
+  "topic": "Lab Work 2: studying physical and chemical phenomena (glass heating/shaping)",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "heading",
+    "label": "Lab Work 2 intro",
+    "target": "",
+    "recommendation": "Frame the whole page as an interactive lab module 'Physical vs Chemical phenomena'. Add a guided lab shell with safety notes (spirit lamp open flame) and a two-track outcome panel where the student tags observed effects as physical or chemical."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Experiment 1: heating and bending a glass rod",
+    "target": "glass",
+    "recommendation": "Build a step-by-step reaction/process player: light the spirit lamp, hold the glass rod ends, heat the middle over the flame while rotating slowly, then bend it once soft. Animate softening/glow and bending; emphasize this is a PHYSICAL change (no new substance), reinforcing the lesson's physical-vs-chemical distinction."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Glass (apaki)",
+    "target": "glass",
+    "recommendation": "Make 'glass' a tappable substance chip opening a material card: amorphous solid, main component silica (SiO2), softens on heating, used to shape objects. Link to the glass-shaping experiment."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Spirit / ethanol (spirt lamp fuel)",
+    "target": "ethanol",
+    "recommendation": "Make the spirit lamp's fuel a substance chip for ethanol (C2H5OH) opening a material card and noting combustion is a chemical phenomenon; contrast with the glass softening (physical)."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 15: glass heating/inflating (a) and resulting shaped body (b)",
+    "target": "glass",
+    "recommendation": "Make the two photos a before/after interactive: tap (a) to see the heating+inflation step animation, tap (b) to see the finished shaped glass object. Add hotspots labeling flame, softened glass, and final form; link to the Experiment 1 player."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Closing question: which phenomena occurred?",
+    "target": "",
+    "recommendation": "Turn the final prompt ('name the phenomena observed') into an interactive sort/quiz: student classifies each observed effect (glass softening = physical; flame combustion = chemical) and gets instant feedback with explanation."
+   }
+  ]
+ },
+ {
+  "page": 34,
+  "pageType": "experiment",
+  "topic": "Lab experiments: hydrochloric acid + chalk; acid-base neutralization with phenolphthalein",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "HCl + CaCO3",
+    "label": "Experiment 2: HCl dripped on chalk",
+    "recommendation": "Build a reaction player for CaCO3 (chalk) + 2HCl -> CaCl2 + H2O + CO2. Animate fizzing/gas bubbles when acid hits chalk in a Petri dish; let user 'drop' acid with a virtual pipette and watch CO2 release. Link to reaction in shared/reactions.ts."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "HCl + alkali + phenolphthalein",
+    "label": "Experiment 3: acid-base neutralization with indicator",
+    "recommendation": "Build an interactive neutralization/titration player: alkali solution turns pink on adding phenolphthalein, then becomes colorless as HCl is added dropwise. Slider/drip control for acid amount; color changes with pH crossing neutral. Reaction player + indicator color simulation."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "CaCO3",
+    "label": "Chalk (կավիճ)",
+    "recommendation": "Clickable material card for chalk -> calcium carbonate (CaCO3): show formula, that it is the limestone/chalk mineral, and link to its reaction with acids."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "HCl",
+    "label": "Hydrochloric acid (աղաթթու)",
+    "recommendation": "Clickable formula chip HCl -> compound card: strong acid, ions H+ and Cl-, link to constituent elements H and Cl in the periodic table and to its reactions (with chalk, with alkali)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "",
+    "label": "Alkali solution (ալկալի)",
+    "recommendation": "Material card for 'alkali' (soluble base, e.g. NaOH/KOH): explain bases, hydroxide ion OH-, why phenolphthalein turns pink. Link to neutralization experiment."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "",
+    "label": "Phenolphthalein indicator (ֆենոլֆտալեին)",
+    "recommendation": "Interactive indicator widget: show colorless in acid/neutral, pink/magenta in base. Let user toggle environment and watch color flip; tie into the titration player."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "Na2CO3",
+    "label": "Soda water for spills (սոդայաջուր)",
+    "recommendation": "Tooltip/card linking the safety note to sodium carbonate solution: explain why a mild base neutralizes acid skin spills. Optional micro-animation of neutralization."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "H3BO3",
+    "label": "Boric acid for spills (բորաթթու)",
+    "recommendation": "Tooltip/card for boric acid (dilute) used to wash alkali spills: explain weak-acid neutralization of base on skin. Compound card with formula H3BO3."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Petri dish (ա) and pipette (բ)",
+    "recommendation": "Make figure parts hoverable: 'ա' = Petri dish, 'բ' = pipette/dropper. Tooltips naming each lab tool; the pipette becomes the drag-to-drip control inside the reaction player for Experiment 2."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Reflection questions (both experiments)",
+    "recommendation": "Turn the 'describe the change / what phenomena are these?' prompts into a guided answer area + multiple-choice: classify each as a chemical change (gas evolution, color change, neutralization) vs physical, with feedback. One quiz block per experiment."
+   }
+  ]
+ },
+ {
+  "page": 35,
+  "pageType": "experiment",
+  "topic": "Lab safety and observing physical/chemical changes (experiments and skills)",
+  "interactions": [
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Experiment 4: heating a glass plate over a flame",
+    "target": "glass",
+    "recommendation": "Open our reaction/observation player for a heated-glass demo: show a glass plate held by tongs over a spirit-burner flame, with an animated timeline of what changes (heating, possible cracking/softening). Tag it as a PHYSICAL change and let the user toggle a 'what phenomenon is this?' answer reveal."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Glass (ապակե թիթեղ)",
+    "target": "glass",
+    "recommendation": "Make 'glass' a clickable material chip linking to a material card: composition (SiO2-based, amorphous), why it softens rather than melts sharply, behavior on heating. Cross-link to the SiO2 formula."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "(a) Glass plate, (b) crucible tongs",
+    "target": "",
+    "recommendation": "Make the two lab-apparatus images interactive hotspots: tap 'ա' (glass plate) and 'բ' (crucible tongs / տիգելի նրբունելի) to show a labeled tool card with name, purpose, and safe-handling note. Reuse in a lab-equipment glossary."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Home task: making a fizzy drink (citric acid + baking soda)",
+    "target": "C6H8O7 + NaHCO3",
+    "recommendation": "Build a reaction player for citric acid (lemon salt) dissolving in water then reacting with baking soda (sodium bicarbonate) to release CO2 bubbles. Animate dissolution ('crystals disappear') then effervescence; label dissolution vs chemical reaction; show CO2 gas evolution."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Citric acid / 'lemon salt' (կիտրոնի աղ)",
+    "target": "C6H8O7",
+    "recommendation": "Clickable material chip -> molecule card for citric acid with 3D structure and formula C6H8O7; note its crystalline form and dissolving behavior in water."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Baking soda (սոդա)",
+    "target": "NaHCO3",
+    "recommendation": "Clickable chip -> molecule/compound card for sodium bicarbonate (NaHCO3); link to its acid reaction producing CO2, water, and a salt."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "label": "Carbon dioxide produced by the fizz reaction",
+    "target": "CO2",
+    "recommendation": "Add a CO2 formula chip -> 3D molecule embed; surface it as the gas product when explaining why the drink fizzes."
+   },
+   {
+    "kind": "experiment",
+    "where": "figure",
+    "label": "QR: Lab experiment — sublimation of iodine",
+    "target": "I",
+    "recommendation": "Replace the printed QR code with an in-app button that opens our reaction player for iodine sublimation: animate solid iodine turning directly into violet vapor (and re-depositing), labeled as the sublimation phase change. Link iodine element card (I, Z=53)."
+   },
+   {
+    "kind": "element",
+    "where": "figure",
+    "label": "Iodine (referenced by sublimation experiment)",
+    "target": "I",
+    "recommendation": "Make iodine a tappable element token -> our element card (I, Z=53), highlighting that it sublimes; deep-link from the sublimation experiment."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Reflection question about Experiment 4",
+    "target": "",
+    "recommendation": "Turn the 'describe the change / what phenomenon is it / when have you seen it' prompt into an interactive short-answer + multiple-choice quiz item (physical vs chemical change classifier) with feedback."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Home-task reflection (compare home changes to lab experiments)",
+    "target": "",
+    "recommendation": "Convert the 'what changes did you observe; compare with lab experiments' prompt into a guided reflection/quiz: user classifies grating veggies (physical) vs soda+acid fizz (chemical) and matches each to a lab analogue."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "'You can already' skills summary box",
+    "target": "",
+    "recommendation": "Render the skills checklist (perform experiments, observe, record, classify phenomena, draw conclusions) as an interactive progress checklist tied to completed in-app experiments, marking each skill as practiced."
+   }
+  ]
+ },
+ {
+  "page": 36,
+  "pageType": "lesson",
+  "topic": "Chapter summary: substances, physical/chemical properties and phenomena",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms recap (substance, property, phenomenon, laboratory)",
+    "target": "",
+    "recommendation": "This is a bulleted theme-summary page. Render each bullet as a flip/expand glossary card for the core terms: 'substance' (nyut), 'physical property', 'chemical property', 'physical phenomenon', 'chemical phenomenon', 'chemical laboratory'. Tapping a term shows a short definition plus a link to the lesson page where it was introduced. Good anchor for an end-of-chapter review module."
+   },
+   {
+    "kind": "quiz",
+    "where": "whole-page",
+    "label": "Chapter self-check quiz",
+    "target": "",
+    "recommendation": "Auto-generate a short review quiz from the summary statements: e.g. true/false ('In a chemical phenomenon a new substance forms' = true), and match-the-pair (physical vs chemical phenomenon). Turn point (d) listing how chemistry helps humanity (food/clothing/shelter, drinking water, environment, energy) into a multi-select question. Present as an end-of-theme checkpoint."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Physical vs chemical phenomenon classifier",
+    "target": "",
+    "recommendation": "Build a small interactive sorter tied to the bullets contrasting physical vs chemical phenomena: show example processes (melting ice, burning, rusting, dissolving sugar) and let the user drag each into 'physical' or 'chemical', then confirm with our reaction player when a new substance is formed. Reinforces the page's central distinction."
+   },
+   {
+    "kind": "figure",
+    "where": "region",
+    "label": "QR code linking to theme summary",
+    "target": "",
+    "recommendation": "A QR code at the bottom links out to the printed theme-summary resource. In the digital edition, replace it with a native in-app button 'Open chapter review' that launches the summary/quiz module above, instead of an external scan."
+   }
+  ]
+ },
+ {
+  "page": 37,
+  "pageType": "questions",
+  "topic": "Self-check questions: substances vs bodies, physical/chemical phenomena, aggregate states, measuring instruments",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "whole-page",
+    "label": "5 self-check exercises",
+    "target": "",
+    "recommendation": "Wrap the entire page as an interactive self-assessment quiz module with 5 graded tasks. Mix question types: multiple-select (choose physical vs chemical phenomena), matching (substances to aggregate states), and short-answer with reveal. Track score in the user profile; reuse for all 'Հարցեր' self-check pages."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q1: city walk — which specialists / physical vs chemical phenomena",
+    "target": "Fe",
+    "recommendation": "Interactive scenario: list of city observations (traffic jam, unfinished building, rusted metal fence, broken traffic light, decayed monument, few trees, water leak, black factory smoke). User taps each to classify as physical or chemical phenomenon, and to flag where a chemist's role matters. The rusted iron fence and decaying monument link to an Fe oxidation/corrosion reaction in the reaction player (4Fe + 3O2 -> 2Fe2O3)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q2: compare rose in garden vs salt in shaker",
+    "target": "NaCl",
+    "recommendation": "Two-column compare widget for object properties: which are sensed (sight/smell/taste) vs determined by experiment. Include a warning card on which property of a chemical substance is forbidden to test by sense (taste) and name the organ. Link 'salt' to a NaCl substance/molecule card."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q3: substance vs body (bronze statue, cotton fabric, porcelain cup, stone flower, ink drop, sand pyramid)",
+    "target": "",
+    "recommendation": "Drag-or-tap classifier: for each phrase split the noun into 'substance' (bronze, cotton, porcelain, stone, ink, sand) vs 'body' (statue, fabric, cup, flower, drop, pyramid). Each substance chip opens a material card (bronze alloy Cu+Sn, sand SiO2, porcelain)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q4: match substances to aggregate state at room temp",
+    "target": "",
+    "recommendation": "Matching game between the listed substances and the figure's solid/liquid/gas illustrations (a, b, g). Substances: oxygen (gas), air (gas), vegetable oil (liquid), petroleum (liquid), charcoal (solid), sulfur (solid), vinegar (liquid), milk (liquid), nitrogen (gas), chalk (solid). Each chip links to its substance/element card."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Aggregate states diagram (a, b, g)",
+    "target": "",
+    "recommendation": "Make the 3-panel figure (labels ա/բ/գ) an interactive aggregate-states animation: tap a panel to see an animated particle model of solid, liquid, gas (fixed lattice / loose flowing / dispersed fast particles). Serves as the answer key target for the Q4 matching task."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Oxygen",
+    "target": "O",
+    "recommendation": "Link the word 'թթվածին' (oxygen) to the O element card and the O2 molecule (gas) in our periodic table / 3D molecule viewer."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Nitrogen",
+    "target": "N",
+    "recommendation": "Link 'ազոտ' (nitrogen) to the N element card and N2 molecule (gas)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Sulfur",
+    "target": "S",
+    "recommendation": "Link 'ծծումբ' (sulfur) to the S element card; show it as a yellow solid."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Charcoal / carbon",
+    "target": "C",
+    "recommendation": "Link 'ածուխ' (charcoal) to a carbon (C) element/material card showing it as a solid."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Table salt",
+    "target": "NaCl",
+    "recommendation": "Link 'կերակրի աղ' (table salt) to a NaCl substance card with crystal structure and 3D ionic lattice view."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Air (mixture)",
+    "target": "",
+    "recommendation": "Link 'օդ' (air) to a mixture card breaking it into N2/O2/Ar/CO2 components, each clickable to its element/molecule."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Bronze (alloy)",
+    "target": "",
+    "recommendation": "Link 'bronze' (բրոնզե արձան) to an alloy card showing Cu + Sn composition with clickable constituent elements."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Vinegar (acetic acid)",
+    "target": "CH3COOH",
+    "recommendation": "Link 'քացախ' (vinegar) to an acetic acid substance/molecule card (CH3COOH) shown as a liquid in the 3D viewer."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "label": "Chalk (calcium carbonate)",
+    "target": "CaCO3",
+    "recommendation": "Link 'կավիճ' (chalk) to a CaCO3 substance card, solid state, with clickable Ca/C/O constituents."
+   }
+  ]
+ },
+ {
+  "page": 38,
+  "pageType": "lesson",
+  "topic": "Appendix 1: lab safety rules",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Lab safety rules (bulleted list)",
+    "recommendation": "Turn the bulleted list of safety rules into an interactive checklist/glossary: each rule is a tappable card with an icon (coat/gloves/goggles, ventilation, no tasting, waste disposal, etc.). Optionally a 'lab safety quiz' mode that checks the student understood each rule."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "",
+    "label": "Acids (թթուներ)",
+    "recommendation": "Make 'acids' a clickable glossary term opening a short card on what acids are and why they damage unprotected skin; link forward to acid substances/formulas covered later (e.g. H2SO4, HCl)."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "",
+    "label": "Alkalis (ալկալիներ)",
+    "recommendation": "Make 'alkalis' a clickable glossary term with a card explaining bases/alkalis and their hazard; link to base substances (e.g. NaOH) used elsewhere in the book."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "",
+    "label": "Toxic / liquid substances handling",
+    "recommendation": "Glossary tooltips for general safety terms (toxic substances, liquids, reagents/ազդանյութեր) explaining safe handling; reinforce the no-tasting and read-the-label rules."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "",
+    "label": "Smelling a substance correctly (test tube 25-30 cm, waft toward nose)",
+    "recommendation": "Build a small interactive 'safe technique' animation/mini-simulation: hold the test tube 25-30 cm from the face and waft air toward the nose. Good intro micro-interaction for the reaction player's safety layer; could be a guided animated demo rather than a reaction."
+   }
+  ]
+ },
+ {
+  "page": 39,
+  "pageType": "front-matter",
+  "topic": "Chapter 2 opener: basic chemistry concepts — atom structure, isotopes, elements, periodic table (learning outcomes)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen (թթվածին)",
+    "recommendation": "Make the symbol O clickable to open our element card for Oxygen (Z=8), with link into the 3D-atom view showing nucleus and electron shells."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "N",
+    "label": "Nitrogen (ազոտ)",
+    "recommendation": "Clickable symbol N -> Nitrogen element card (Z=7); offer 'enter the atom' to inspect protons/neutrons/electrons referenced in outcome 2."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "P",
+    "label": "Phosphorus (ֆոսֆոր)",
+    "recommendation": "Clickable symbol P -> Phosphorus element card (Z=15)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "H",
+    "label": "Hydrogen (ջրածին)",
+    "recommendation": "Clickable symbol H -> Hydrogen element card (Z=1); good hook to the isotope outcome (protium/deuterium/tritium) below."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon (ածխածին)",
+    "recommendation": "Clickable symbol C -> Carbon element card (Z=6); link to 12C used in the atomic mass unit definition (outcome 7)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Na",
+    "label": "Sodium (նատրիում)",
+    "recommendation": "Clickable symbol Na -> Sodium element card (Z=11); tag as a metal for the metal/non-metal classification outcome."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Ca",
+    "label": "Calcium (կալցիում)",
+    "recommendation": "Clickable symbol Ca -> Calcium element card (Z=20); tag as metal."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Fe",
+    "label": "Iron (երկաթ)",
+    "recommendation": "Clickable symbol Fe -> Iron element card (Z=26); tag as metal."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Cl",
+    "label": "Chlorine (քլոր)",
+    "recommendation": "Clickable symbol Cl -> Chlorine element card (Z=17); tag as non-metal."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "target": "",
+    "label": "Atom structure (nucleus, protons, neutrons, electrons)",
+    "recommendation": "On outcomes 2-3, embed our interactive 3D-atom (R3F) showing nucleus with protons/neutrons and electron shells, with toggles for relative mass and charge of each subatomic particle."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "1H",
+    "label": "Protium 1/1 H (P)",
+    "recommendation": "Render the isotope notation A/Z X interactively; clicking shows that the bottom number = Z (protons) and top = mass number (protons+neutrons). Protium = 1 proton, 0 neutrons."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "2H",
+    "label": "Deuterium 2/1 H (D)",
+    "recommendation": "Interactive isotope chip for Deuterium: 1 proton + 1 neutron; visually add a neutron to the protium nucleus to illustrate isotopes (outcomes 4 and 6)."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "3H",
+    "label": "Tritium 3/1 H (T)",
+    "recommendation": "Interactive isotope chip for Tritium: 1 proton + 2 neutrons; complete the H-isotope set H/D/T as a small animated comparison."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "12C",
+    "label": "Carbon-12 (12/6 C)",
+    "recommendation": "Clickable isotope notation for 12C; tie to outcome 7 — define atomic mass unit as 1/12 of the mass of a 12C atom in a small explainer popover."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "14C",
+    "label": "Carbon-14 (14/6 C)",
+    "recommendation": "Isotope chip for 14C (6 protons, 8 neutrons); pair with 12C to demonstrate same element, different mass number."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "text",
+    "target": "",
+    "label": "Periodic table reference (outcomes 8-11)",
+    "recommendation": "Embed our live interactive periodic table here as the chapter's anchor: support metal vs non-metal coloring, and highlight an element's period, group and atomic number when selected — directly serving outcomes 8-11."
+   },
+   {
+    "kind": "quiz",
+    "where": "whole-page",
+    "label": "Chapter 2 learning outcomes",
+    "recommendation": "Turn the 11 'you will be able to...' outcomes into a chapter checklist / progress tracker; convert each into a short self-check quiz item (e.g. 'What is the charge of an electron?', 'How many neutrons in tritium?') that unlocks as the student progresses through the chapter."
+   }
+  ]
+ },
+ {
+  "page": 40,
+  "pageType": "lesson",
+  "topic": "Atom and chemical element (intro): substances are built from particles",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "heading",
+    "label": "Lesson title: Atom / Chemical element",
+    "target": "",
+    "recommendation": "Make the chapter heading 'Ատոմ. Քիմիական տարր' a tappable concept anchor that opens an interactive glossary card defining 'atom' and 'chemical element', with a button to jump to our live periodic table where these concepts come alive."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key term: atom (անբաժանելի)",
+    "target": "",
+    "recommendation": "Turn the term 'ատոմ' (and its Greek origin ἄτομος = indivisible) into a clickable glossary popover. Show etymology, Democritus context, and a 'see inside an atom' link that launches our 3D atom scene (nucleus + electron shells)."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Term: structural particles (կառուցվածքային մասնիկներ)",
+    "target": "",
+    "recommendation": "Clickable definition for 'կառուցվածքային մասնիկներ' (structural particles) and 'նյութ' (substance) / 'ֆիզիկական մարմին' (physical body). Animated mini-diagram showing body -> substance -> particles -> atom hierarchy."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 16: house assembled from constructor parts",
+    "target": "",
+    "recommendation": "Make Figure 16 an interactive analogy widget: a small house built from LEGO-like blocks that the user can disassemble by tap/drag into its parts, paralleled side-by-side with a substance disassembling into atoms. Reinforces the 'matter is built from indivisible parts' idea."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Democritus thought-experiment (2500 years ago)",
+    "target": "",
+    "recommendation": "Build a 'keep dividing' interactive: user repeatedly cuts/halves a piece of matter until it reaches a single indivisible atom, illustrating Democritus's hypothesis. Ends by revealing the atom and offering a link to the periodic table of elements."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "label": "Concept bridge to chemical elements",
+    "target": "",
+    "recommendation": "Since this page introduces 'chemical element' conceptually, place a teaser tile that embeds/launches our live interactive periodic table so students can immediately explore real elements once the abstract concept is introduced."
+   }
+  ]
+ },
+ {
+  "page": 41,
+  "pageType": "lesson",
+  "topic": "Atoms and the concept of a chemical element (LEGO analogy)",
+  "interactions": [
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 17: castle rebuilt from house blocks",
+    "target": "",
+    "recommendation": "Make Fig.17 an interactive 'reaction rearrangement' animation: show construction blocks disassembling from one structure (house) and reassembling into another (castle) without changing block type/shape/color. Build a small toggle/slider 'house <-> castle' that visually proves the lesson point that atoms are conserved and merely regroup during a chemical reaction. Link to the molecule-assembly lab to reinforce conservation of atoms."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Definition: atom = smallest chemically indivisible particle",
+    "target": "",
+    "recommendation": "Turn the bolded atom definition into a tappable glossary term that opens a card with the definition and a link to our 3D atom view (nucleus + electron shells). Include a one-line note that atoms are not destroyed or created in reactions, only transferred between substances."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Concept introduced: 'chemical element'",
+    "target": "",
+    "recommendation": "Make the term 'chemical element' a glossary tooltip that defines an element as a set/type of identical atoms, and links to our interactive periodic table so students see real element types right after the analogy."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 18: groups of identical construction-set parts",
+    "target": "",
+    "recommendation": "Make Fig.18 interactive: blocks fly into bins grouped by shape/size/color, then morph each bin's label into a real element type (e.g. 'all the H atoms', 'all the O atoms'). End the animation with a clickable bridge button to the live periodic table, mapping the 'group identical parts' analogy onto 'group identical atoms = element'."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Concept: chemical reaction (new substances form)",
+    "target": "",
+    "recommendation": "Highlight the inline term 'chemical reaction' as a glossary chip linking to the reaction player, with a short explainer that reactions form new substances by rearranging the same atoms."
+   }
+  ]
+ },
+ {
+  "page": 42,
+  "pageType": "lesson",
+  "topic": "Chemical element — a type of atoms (definition)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "H",
+    "label": "Hydrogen (ջրածին) as example element",
+    "recommendation": "Make the word 'ջրածին/hydrogen' clickable to open our element card for H (Z=1), showing atom structure (1 proton, 1 electron). Reinforces 'element = type of atoms' by visually grouping identical H atoms."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen (թթվածին) as example element",
+    "recommendation": "Make 'թթվածին/oxygen' clickable to open the element card for O (Z=8) with its atom (8 protons, 8 electrons). Pair with H to set up the water example used in question 5."
+   },
+   {
+    "kind": "substance",
+    "where": "text",
+    "target": "H2O",
+    "label": "Water (ջուր) composed of H and O atoms",
+    "recommendation": "Make 'ջուր/water' an interactive chip that opens our 3D water molecule (H2O) and highlights it is built from hydrogen and oxygen atoms — directly supporting question 5d about water's composition."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Key terms: atom, chemical element, type of atoms",
+    "recommendation": "Turn the highlighted definition box ('chemical element = a definite type of atoms with identical properties') and the key-terms line (structural particles, atom, chemical element, type of atoms) into a tappable glossary with concise definitions and links to the atom-structure scene."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "region",
+    "target": "",
+    "label": "Atom vs element concept (one atom vs a whole type)",
+    "recommendation": "Embed a small interactive widget contrasting a single atom (one glowing particle with mass/size) versus a 'type of atoms' (a cluster of identical atoms), illustrating the text's distinction that an atom is concrete while 'element' is a general concept."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "target": "",
+    "label": "Q1-Q3: smallest particle, define atom, define element",
+    "recommendation": "Convert the three short-answer questions into an interactive quiz with free-text or reveal-answer cards (smallest particle of matter = atom; definitions of atom and chemical element)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "target": "",
+    "label": "Q4: fill-in-the-blank sentences (a, b, c)",
+    "recommendation": "Build a drag/tap fill-in-the-blank exercise: a) atom is indivisible particle of an element; b) during chemical reactions atoms pass from one substance to another; c) the 'parts' making up a substance are called chemical elements. Auto-check answers."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "target": "",
+    "label": "Q5: choose the correct expression (pairs a-d)",
+    "recommendation": "Make a multiple-choice 'pick the correct phrasing' quiz from the four pairs, emphasizing the atom-vs-element distinction (e.g. 5d: water is made of hydrogen and oxygen ATOMS, not 'elements'). Give explanatory feedback referencing the element cards for H and O."
+   }
+  ]
+ },
+ {
+  "page": 43,
+  "pageType": "questions",
+  "topic": "Atom vs chemical element — chapter summary and review",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "\"Du arden gites\" summary box (atom / chemical element definitions)",
+    "target": "",
+    "recommendation": "Turn the boxed key statements (structural particles, atoms not created/destroyed in reactions, definition of chemical element as a type of atom) into expandable glossary cards. Highlight terms 'atom' and 'chemical element' as tappable concept chips that open short definition popovers, each linking to our live periodic table to show that an element = one type of atom."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "\"Du arden karogh es\" learning-objectives box",
+    "target": "",
+    "recommendation": "Render as a checklist of learning goals (define and distinguish atom vs chemical element; describe their features) that the student can self-mark; tie each checkbox to the matching glossary card and the quiz below."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Fill-in table exercise: match statements (a-e) to Atom vs Chemical element",
+    "target": "",
+    "recommendation": "Build a drag-and-drop / two-column sorting quiz. The five statements (has mass; is an indivisible particle; is a type of indivisible particle; chemically indivisible; is a general/collective concept) are draggable chips the user sorts into 'Atom' and 'Chemical element' columns, with instant validation and explanation feedback."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "label": "Empty 2-column answer table (Atom | Chemical element)",
+    "target": "",
+    "recommendation": "Make the empty 'Atom / Chemical element' table the interactive answer surface for the sorting quiz above: editable/fillable cells that accept the dropped statement chips and persist the student's answers, with a check-answers button."
+   }
+  ]
+ },
+ {
+  "page": 44,
+  "pageType": "lesson",
+  "topic": "The language of chemistry: element symbols as the alphabet of chemistry",
+  "interactions": [
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Language analogy diagram: Sound -> Letter -> Word -> Sentence",
+    "target": "",
+    "recommendation": "Make this flow diagram an interactive horizontal stepper. Tapping each box (Sound, Letter, Word, Sentence) reveals a short explainer and highlights the parallel chemistry box directly below it (paired with the chemistry-language row), reinforcing the linguistic analogy."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Chemistry-language analogy diagram: Element name -> Element symbol -> Formula -> Equation",
+    "target": "",
+    "recommendation": "Turn this lower flow diagram into the core interactive of the page. Each node opens a live example: 'Element symbol' box -> open our interactive periodic table to pick a symbol; 'Formula' box -> show a sample formula (e.g. H2O) with a clickable 3D molecule; 'Equation' box -> open the reaction player with a simple example (e.g. 2H2 + O2 -> 2H2O). Animate the progression from a single element to a full equation."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "text",
+    "label": "Concept: chemical symbols 'live in a special system'",
+    "target": "",
+    "recommendation": "Where the text says chemical signs live in a special system (the analogue of the alphabet), embed our live interactive periodic table as that 'system'. Let the learner click any cell to see the element's name and symbol, directly demonstrating the name<->symbol pairing introduced here."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: chemical element, chemical symbol, chemical formula, chemical equation",
+    "target": "",
+    "recommendation": "Add tappable glossary chips for the core terms (chemical element, chemical symbol, chemical formula, chemical equation, atom). Each chip opens a short definition card; link 'chemical element' and 'chemical symbol' to the periodic table, 'formula' to a 3D molecule view, and 'equation' to the reaction player."
+   },
+   {
+    "kind": "element",
+    "where": "heading",
+    "label": "Lesson intro: 'you will learn the symbols and names of some chemical elements'",
+    "target": "",
+    "recommendation": "This lesson promises learning element symbols and names. Add a 'Start learning symbols' call-to-action that launches a flashcard/matching mini-game (name <-> symbol) sourced from our periodic-table dataset, as a companion to this introductory page."
+   }
+  ]
+ },
+ {
+  "page": 45,
+  "pageType": "lesson",
+  "topic": "History of chemical element names and symbols (Dalton, Berzelius)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Carbon — Carboneum (C)",
+    "target": "C",
+    "recommendation": "Make the example 'Carboneum (ածխածին)՝ C' clickable to open our element card for Carbon, showing the Latin name origin alongside Z=6, electron config and Armenian name."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Calcium — Calcium (Ca)",
+    "target": "Ca",
+    "recommendation": "Make 'Calcium (կալցիում)՝ Ca' clickable to open the Calcium element card; highlight how the second letter 'a' is added because the initial letters of several elements coincide (the rule this page teaches)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Cadmium — Cadmium (Cd)",
+    "target": "Cd",
+    "recommendation": "Make 'Cadmium (կադմիում)՝ Cd' clickable to open the Cadmium element card, reinforcing the two-letter symbol rule (C / Ca / Cd contrast)."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 19 — Dalton's element symbols",
+    "target": "",
+    "recommendation": "Build an interactive gallery overlaying Dalton's 1800s pictorial symbols with their modern equivalents; tapping each historic glyph reveals the modern symbol and links to our live element card. Optional toggle: 'Dalton view' vs 'Berzelius/modern view'."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "label": "118 known elements / 92 natural",
+    "target": "",
+    "recommendation": "At the sentence stating there are 118 known elements (92 natural, the rest synthetic), embed our live interactive periodic table with a filter toggle that color-codes natural vs artificially created elements, letting the student visually confirm the 92/118 split."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "text",
+    "label": "Common symbols to learn (Table 1 reference)",
+    "target": "",
+    "recommendation": "The page points to 'Table 1' of frequently-used symbols. Embed a compact interactive subset of our periodic table for the most-common elements as a flashcard/pronunciation trainer (Latin name, symbol, Armenian name, audio)."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Symbol-naming rule builder",
+    "target": "",
+    "recommendation": "Interactive mini-tool teaching Berzelius's rule: type a Latin element name (e.g. Carboneum) and watch the app derive the symbol (first capital letter, plus a following lowercase letter when initials collide), validating against C/Ca/Cd examples."
+   },
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "label": "Recap: who introduced symbols & how many elements",
+    "target": "",
+    "recommendation": "Turn the lesson's key facts into a short quiz: Dalton (introduced symbols/pictographs replacement) vs Berzelius (Latin-letter symbols), 118 total elements, 92 natural. Match-the-pair and fill-in questions with instant feedback."
+   }
+  ]
+ },
+ {
+  "page": 46,
+  "pageType": "mixed",
+  "topic": "Symbols and names of chemical elements (Armenian/Latin)",
+  "interactions": [
+   {
+    "kind": "table",
+    "where": "table",
+    "label": "Table 1: 20 elements with symbol, pronunciation, Armenian & Latin names",
+    "target": "",
+    "recommendation": "Make every table row a clickable element card. Tapping a row (e.g. Fe) opens our element card / atom view showing nucleus + electron shells. Add a toggle to cross-link each row to its position in our live interactive periodic table, and show the spoken pronunciation (audio playback of the Armenian pronunciation column like 'Հաշ', 'Ցե')."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Hydrogen (H) — Ջրածին / Հիդրոգենիում",
+    "target": "H",
+    "recommendation": "Clickable element card -> atom view (1 proton, 1 electron). Highlight H in embedded periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Oxygen (O) — Թթվածին / Օքսիգենիում",
+    "target": "O",
+    "recommendation": "Element card -> atom view; link to molecules where O appears (H2O, CO2)."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Nitrogen (N) — Ազոտ / Նիտրոգենիում",
+    "target": "N",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Chlorine (Cl) — Քլոր / Քլորում",
+    "target": "Cl",
+    "recommendation": "Element card -> atom view; link to NaCl combination in the molecule lab."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Bromine (Br) — Բրոմ / Բրոմում",
+    "target": "Br",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Iodine (I) — Յոդ / Իոդում",
+    "target": "I",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Carbon (C) — Ածխածին / Կարբոնեում",
+    "target": "C",
+    "recommendation": "Element card -> atom view; link to CO2 / organic molecules in lab."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Sulfur (S) — Ծծումբ / Սուլֆուր",
+    "target": "S",
+    "recommendation": "Element card -> atom view; link to H2SO4 / SO2."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Phosphorus (P) — Ֆոսֆոր / Ֆոսֆորուս",
+    "target": "P",
+    "recommendation": "Element card -> atom view; note historical Armenian name 'լուսածին' from the text below."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Aluminium (Al) — Ալյումին / Ալյումինիում",
+    "target": "Al",
+    "recommendation": "Element card -> atom view; note historical Armenian name 'պաղլեղածին'."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Iron (Fe) — Երկաթ / Ֆերում",
+    "target": "Fe",
+    "recommendation": "Element card -> atom view; show why symbol Fe differs from Armenian name Երկաթ."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Copper (Cu) — Պղինձ / Կուպրում",
+    "target": "Cu",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Gold (Au) — Ոսկի / Աուրում",
+    "target": "Au",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Silver (Ag) — Արծաթ / Արգենտում",
+    "target": "Ag",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Mercury (Hg) — Սնդիկ / Հիդրարգիրում",
+    "target": "Hg",
+    "recommendation": "Element card -> atom view; explain Hg symbol vs name mismatch."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Calcium (Ca) — Կալցիում",
+    "target": "Ca",
+    "recommendation": "Element card -> atom view; note historical Armenian name 'կրածին'; link to CaO/CaCO3."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Magnesium (Mg) — Մագնեզիում",
+    "target": "Mg",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Lead (Pb) — Կապար / Պլյումբում",
+    "target": "Pb",
+    "recommendation": "Element card -> atom view; explain Pb symbol vs name mismatch."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Potassium (K) — Կալիում",
+    "target": "K",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Sodium (Na) — Նատրիում",
+    "target": "Na",
+    "recommendation": "Element card -> atom view; link to NaCl combination in lab."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Zinc (Zn) — Ցինկ / Ցինկում",
+    "target": "Zn",
+    "recommendation": "Element card -> atom view; highlight in periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Oganesson (Og, element 118) named after Yuri Oganessian",
+    "target": "Og",
+    "recommendation": "Clickable element card for Og (Z=118). Add a short bio popup of Armenian physicist Yuri Oganessian and highlight Og in the embedded periodic table; tie-in trivia about elements 114-118 discovered in Dubna."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "label": "Periodic-table cross-link anchor for this elements list",
+    "target": "",
+    "recommendation": "Embed a compact live interactive periodic table beside Table 1 that highlights exactly the 20 elements listed here, so students see where each named element sits. Selecting a table row scrolls/zooms the periodic table to that element."
+   },
+   {
+    "kind": "glossary",
+    "where": "heading",
+    "label": "Section heading: chemical element, symbols and names",
+    "target": "",
+    "recommendation": "Turn the heading 'Քիմիական տարր, քիմիական տարրերի նշաններ և անվանումներ' into an expandable glossary entry defining 'chemical element' and 'chemical symbol', with the historical note (H. Vahanyan's 1853 work and old Armenian element names: լուսածին=P, պաղլեղածին=Al, կրածին=Ca, երկաթ=Fe)."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "label": "Symbol <-> Armenian name matching",
+    "target": "",
+    "recommendation": "Auto-generate a matching/drag quiz from Table 1: match symbol to Armenian name, or recall the symbol from a given name. Include a 'tricky pairs' mode for symbols not matching the Armenian name (Fe/Երկաթ, Cu/Պղինձ, Au/Ոսկի, Ag/Արծաթ, Hg/Սնդիկ, Pb/Կապար, Na, K)."
+   }
+  ]
+ },
+ {
+  "page": 47,
+  "pageType": "questions",
+  "topic": "Chemical element symbols: Latin names, notation, pronunciation (exercises)",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q1: natural vs artificial elements count",
+    "target": "",
+    "recommendation": "Turn into a short-answer/numeric quiz item: how many natural elements are known and how many were made artificially. Validate the answer and link to our periodic table highlighting synthetic (transuranium) elements."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q2: why one-letter vs two-letter symbols",
+    "target": "",
+    "recommendation": "Open-text/explanation quiz with a model answer; pair with an interactive demo showing one-letter (H, C, O) vs two-letter (Fe, Ca) symbols on our periodic table."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q3: list elements whose name starts with 'A'",
+    "target": "",
+    "recommendation": "Interactive task tied to our periodic table: user filters/clicks elements starting with the given letter; auto-check against the answer and show Armenian names."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "label": "Q4: match Latin name <-> symbol <-> pronunciation",
+    "target": "",
+    "recommendation": "Build a drag-and-drop / line-matching quiz from this 3-column table (Carboneum->C, Nitrogenium->N, Phosphorus->P, Sulfur->S, plus H). Each correct match opens that element's card."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Nitrogen symbol N (Nitrogenium)",
+    "target": "N",
+    "recommendation": "Make symbol N clickable to open the element card for nitrogen with Latin name and pronunciation."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Phosphorus symbol P",
+    "target": "P",
+    "recommendation": "Make symbol P clickable to open the phosphorus element card."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Hydrogen symbol H",
+    "target": "H",
+    "recommendation": "Make symbol H clickable to open the hydrogen element card."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Carbon symbol C (Carboneum)",
+    "target": "C",
+    "recommendation": "Make symbol C clickable to open the carbon element card."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Sulfur symbol S (Sulfur)",
+    "target": "S",
+    "recommendation": "Make symbol S clickable to open the sulfur element card."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q5: fill blanks for compounds FeS, CH4, CuBr2",
+    "target": "",
+    "recommendation": "Fill-in-the-blank quiz: name the constituent elements (Armenian names) and the kind of particle/compound. Each blank validated; show the assembled molecule in our reaction/molecule viewer."
+   },
+   {
+    "kind": "molecule",
+    "where": "text",
+    "label": "Iron(II) sulfide FeS",
+    "target": "FeS",
+    "recommendation": "Link to a molecule/compound view of FeS showing it is built from Fe and S; offer to open it in the molecule builder."
+   },
+   {
+    "kind": "molecule",
+    "where": "text",
+    "label": "Methane CH4",
+    "target": "CH4",
+    "recommendation": "Link to 3D methane model in our molecule viewer, highlighting C and H atoms."
+   },
+   {
+    "kind": "molecule",
+    "where": "text",
+    "label": "Copper bromide CuBr2",
+    "target": "CuBr2",
+    "recommendation": "Link to compound view of copper bromide built from Cu and Br; show qualitative composition."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Iron Fe (in FeS)",
+    "target": "Fe",
+    "recommendation": "Clickable Fe symbol opening iron element card."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Copper Cu (in CuBr2)",
+    "target": "Cu",
+    "recommendation": "Clickable Cu symbol opening copper element card."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Bromine Br (in CuBr2)",
+    "target": "Br",
+    "recommendation": "Clickable Br symbol opening bromine element card."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "label": "Q6: write symbols for elements on a medicine label",
+    "target": "",
+    "recommendation": "Interactive task from the supplement-label table: user types/picks the symbol for each listed element (Phosphorus->P, Copper->Cu, Iron->Fe, Calcium->Ca, Iodine->I, Magnesium->Mg). Auto-check and link each to its element card on our periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Phosphorus (label)",
+    "target": "P",
+    "recommendation": "Element card link for phosphorus from the medicine label."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Copper (label)",
+    "target": "Cu",
+    "recommendation": "Element card link for copper from the medicine label."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Iron (label)",
+    "target": "Fe",
+    "recommendation": "Element card link for iron from the medicine label."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Calcium (label)",
+    "target": "Ca",
+    "recommendation": "Element card link for calcium from the medicine label."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Iodine (label)",
+    "target": "I",
+    "recommendation": "Element card link for iodine from the medicine label."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "label": "Magnesium (label)",
+    "target": "Mg",
+    "recommendation": "Element card link for magnesium from the medicine label."
+   }
+  ]
+ },
+ {
+  "page": 48,
+  "pageType": "lesson",
+  "topic": "Recap: chemical element symbols (Latin naming rule, 118 elements, 92 natural)",
+  "interactions": [
+   {
+    "kind": "periodic-table-embed",
+    "where": "text",
+    "target": "",
+    "label": "118 known chemical elements",
+    "recommendation": "On the mention of '118 known elements, 92 natural', embed our live interactive periodic table inline. Add a filter toggle highlighting the 92 naturally occurring elements vs the artificial (synthetic) ones, so students can visually confirm the 92/118 split stated in the text."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "",
+    "label": "Element symbol naming rule",
+    "recommendation": "Build a small interactive demo of the rule 'symbol = first capital letter of the Latin name; add a lowercase second letter when initials collide'. Let the user hover/click any element to reveal its Latin name with the source letters of the symbol highlighted (e.g. show how the symbol derives from the Latin spelling). Tie each element to its element card showing Armenian + Latin + symbol."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Natural vs artificial elements",
+    "recommendation": "Add glossary tooltips for the terms 'natural element' (occurs in nature, 92) and 'artificial/synthetic element' (created by humans). Clicking opens a short definition plus a filtered periodic-table view of each set."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "'You already can' self-check",
+    "recommendation": "Turn the 'Du arden karogh es' (You already can) checklist into an interactive self-assessment quiz: (1) given a symbol, type/select the element name; (2) given an Armenian or Latin name, pick the correct symbol; (3) match Armenian <-> Latin names. Use our periodic table as the answer surface and track score in the user's profile."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Internet task: history of element naming",
+    "recommendation": "Convert the 'present the naming history of at least 3 elements' assignment into a guided research/answer activity: student picks 3 elements from the interactive table, and for each opens a card with the etymology/history of its name (with space to write their own summary). Could be a submittable mini-project area."
+   }
+  ]
+ },
+ {
+  "page": 49,
+  "pageType": "lesson",
+  "topic": "Atomic structure and intra-atomic particles (protons, neutrons, electrons)",
+  "interactions": [
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Intra-atomic particles: protons, neutrons, electrons",
+    "target": "",
+    "recommendation": "The lesson introduces the three subatomic particles. Embed our interactive 3D atom view (web/src/scene/) here with labeled, clickable protons, neutrons, and electrons. Tapping each particle shows its name and charge (proton +, electron -, neutron neutral). Tie into our existing 'inside the atom' nucleus + electron-shell visualization."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 20: model of atomic mass, size and structure",
+    "target": "",
+    "recommendation": "Top-right diagram showing an atom's mass/size/structure model. Make it an interactive 3D atom embed: let the user rotate, zoom into the nucleus, and toggle labels for mass vs. size vs. internal structure. Could include a slider comparing relative sizes."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Figure 21: Thomson's 'plum pudding / cake' atomic model",
+    "target": "",
+    "recommendation": "Bottom-right diagram of Thomson's 1904 model (negative electrons = raisins embedded in positive 'dough'). Build a small interactive historical-models viewer: animate the plum-pudding sphere, highlight the embedded negative electrons, and offer a 'compare models' toggle (Thomson vs. later Rutherford/Bohr) so students see how the atomic model evolved."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: proton, neutron, electron, charge, Thomson",
+    "target": "",
+    "recommendation": "Make the bolded/new terms (proton, neutron, electron, negative charge, J.J. Thomson, plum-pudding model, 1897/1904) tappable glossary entries with short definitions and a mini-portrait/date card for Thomson's discovery of the electron."
+   },
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "label": "Lesson learning objectives as a self-check",
+    "target": "",
+    "recommendation": "The intro states what the student will learn (atom has complex structure; the three intra-atomic particles). Convert this into a short interactive quiz: 'Match particle to its charge', 'Who discovered the electron and when?', 'What did Thomson's model claim?' Use it as an end-of-lesson knowledge check."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Thomson's electric-current / charged-particle experiment (1897)",
+    "target": "",
+    "recommendation": "The text describes how 19th-century physicists and Thomson showed electric current is a stream of negatively charged particles, leading to discovery of the electron. Build an animated explainer/reaction-player-style sequence visualizing a cathode-ray-style beam of negative particles being deflected, illustrating how Thomson concluded electrons exist."
+   }
+  ]
+ },
+ {
+  "page": 50,
+  "pageType": "lesson",
+  "topic": "Atomic structure: planetary model, nucleus, protons, neutrons, electrons",
+  "interactions": [
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Fig. 22 — Planetary model of the atom",
+    "target": "",
+    "recommendation": "Replace the static Rutherford planetary-model illustration with our live 3D atom view: nucleus at center with electrons orbiting like planets. Animate orbital motion; let the user spin/zoom. Add a toggle to switch between the simplified planetary view and the real electron-shell view used elsewhere in the app."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Fig. 23 — Labeled atom structure diagram",
+    "target": "",
+    "recommendation": "Make the labeled diagram (Proton / Neutron / Electron / Nucleus) an interactive callout: clicking each Armenian label highlights that particle in the 3D atom, shows charge (+1 / 0 / -1) and relative mass (neutron approximately equal to proton; electron approximately 2000x lighter). Tie it to our atom-embed."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "region",
+    "label": "Oxygen atom example (8 protons, 8 electrons)",
+    "target": "O",
+    "recommendation": "Embed an interactive oxygen atom illustrating the text's example: nucleus with 8 protons and 8 electrons (electrically neutral). Let the user add/remove a proton to see how electron count must match for neutrality, reinforcing 'electrons = protons'."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Hydrogen (mentioned re: proton discovery)",
+    "target": "H",
+    "recommendation": "Make 'ջրածին' (hydrogen) a tap target linking to the H element card, noting its nucleus is a single proton — the simplest atom, used by Rutherford to identify the proton."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Oxygen (example atom)",
+    "target": "O",
+    "recommendation": "Make 'թթվածին' (oxygen) a tap target linking to the O element card and the atom-embed showing its 8 protons / 8 electrons."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: nucleus, proton, neutron, electron, charge, planetary model",
+    "target": "",
+    "recommendation": "Add tap-to-define glossary chips for միջուկ (nucleus), պրոտոն (proton), նեյտրոն (neutron), էլեկտրոն (electron), լիցք (charge), էլեկտրաչեզոք (electrically neutral). Each opens a short card with charge/mass facts and a link to the atom visualization."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Rutherford & Chadwick discoveries (historical)",
+    "target": "",
+    "recommendation": "Add a short illustrated timeline / animation: 1911 Rutherford's gold-foil scattering experiment leading to the nuclear model, and 1932 Chadwick discovering the neutron. Show why a nucleus of only protons would repel and 'fall apart', and how neutrons hold it together."
+   },
+   {
+    "kind": "quiz",
+    "where": "heading",
+    "label": "Inline question: 'What is the structure of the atomic nucleus?'",
+    "target": "",
+    "recommendation": "Turn the rhetorical question (line 14) into a quick interactive check: ask the user to assemble a neutral atom's nucleus by choosing the right number of protons/neutrons/electrons for a given element (e.g., oxygen), with instant feedback."
+   }
+  ]
+ },
+ {
+  "page": 51,
+  "pageType": "questions",
+  "topic": "Atomic structure review: nucleus, electron, proton, neutron (Armenian)",
+  "interactions": [
+   {
+    "kind": "atom-embed",
+    "where": "heading",
+    "target": "",
+    "label": "Key terms: nucleus, electron, proton, neutron",
+    "recommendation": "Below the orange key-terms banner, embed our interactive 3D atom model with toggleable labels for nucleus (միջուկ), proton, neutron, electron, and the 'planetary model' («Ատոմի մոլորակային մոդել»). Each term is a clickable glossary chip that highlights the matching part of the atom."
+   },
+   {
+    "kind": "glossary",
+    "where": "heading",
+    "target": "",
+    "label": "Terms banner (atomic structure vocabulary)",
+    "recommendation": "Make each term in the banner (atomic structure, planetary model, nucleus, electron, proton, neutron, electroneutral particle) a tappable glossary entry with a short definition popover in Armenian."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Review questions 1-5 (conceptual)",
+    "recommendation": "Turn open-ended questions 1-5 (atom structure, nucleus structure, charge of electron/proton, Chadwick discovering the neutron, role of neutrons) into a guided quiz with free-text or multiple-choice answers and reveal-answer cards. Q4 (Chadwick) can be a single-choice question."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Fill-in-the-blank statements (Q6)",
+    "recommendation": "Make Q6 (a: proton and neutron masses are nearly equal; b: proton mass ~2000x electron mass) interactive fill-in-the-blank inputs with instant validation."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Compare models question (Q7)",
+    "recommendation": "Q7 asks who proposed the 'cake/plum-pudding' («կեքս») model vs the 'planetary model' and to compare them. Build a side-by-side interactive comparison of Thomson's plum-pudding vs Rutherford's planetary atom, with a drag-the-scientist-to-model matching step."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "target": "",
+    "label": "Fill-in table: electron/proton counts for Al, S, Ag, C (Q8)",
+    "recommendation": "Make the table (Q8) an interactive fill-in grid. Given atomic number, learner fills missing electron/proton counts for Al(13), S(16), Ag(47), C(6); auto-check against Z. Each element symbol is clickable to open its element card / live periodic table."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "target": "Al",
+    "label": "Aluminium (Z=13)",
+    "recommendation": "Link the 'Al' cell to our element card showing Z=13, 13 protons, 13 electrons, and a mini atom diagram."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "target": "S",
+    "label": "Sulfur (Z=16)",
+    "recommendation": "Link the 'S' cell to our element card showing Z=16, 16 protons/electrons; helps learner solve the missing electron count."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "target": "Ag",
+    "label": "Silver (Z=47)",
+    "recommendation": "Link the 'Ag' cell to our element card showing Z=47, 47 protons/electrons; helps solve the missing electron count."
+   },
+   {
+    "kind": "element",
+    "where": "table",
+    "target": "C",
+    "label": "Carbon (Z=6)",
+    "recommendation": "Link the 'C' cell to our element card showing Z=6, 6 protons/electrons; helps solve the missing proton count."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "target": "",
+    "label": "Matching: particle charge to name (Q9)",
+    "recommendation": "Turn Q9 into a drag-and-drop matching activity: match charge (positive / negative / neutral) to particle name (atom, electron, proton, neutron). Note the distractor 'atom' has no single charge — validate accordingly."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "whole-page",
+    "target": "",
+    "label": "Periodic table reference for Q8",
+    "recommendation": "Provide a 'open periodic table' button so learners can look up atomic numbers (Z) for Al, S, Ag, C needed to complete the table; embed our live interactive periodic table."
+   }
+  ]
+ },
+ {
+  "page": 52,
+  "pageType": "lesson",
+  "topic": "Atomic structure: nucleus, protons, neutrons, electrons (recap + plasticine model task)",
+  "interactions": [
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "target": "",
+    "label": "Atom structure recap (nucleus + electrons)",
+    "recommendation": "Embed our interactive 3D atom view (web/src/scene/) next to the 'Դու արդեն գիտես' summary. Let the learner rotate the atom, with labeled callouts for nucleus (միջուկ), proton (պրոտոն), neutron (նեյտրոն), electron (էլեկտրոն). Toggle to highlight the positively charged nucleus vs negatively charged electron cloud described in the text."
+   },
+   {
+    "kind": "figure",
+    "where": "text",
+    "target": "",
+    "label": "Rutherford planetary model of the atom",
+    "recommendation": "Build an animated 'planetary model' visualization referenced in the text (Rutherford / Արեգակնային համակարգի նման): central nucleus with electrons orbiting like a solar system. Animate orbit motion; include a side-by-side toggle between the simple planetary model and the realistic electron-shell model to show the analogy and its limits."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "",
+    "label": "Particle property comparison (proton / neutron / electron)",
+    "recommendation": "Create an interactive comparison card for the three subatomic particles. Tappable rows for relative mass and charge: proton (+, mass ~1), neutron (0, mass ~1, ~equal to proton), electron (-, mass ~1/2000 of proton). Reinforce the text's facts: proton mass ~2000x electron mass, electrons count = protons count, atom is electrically neutral. This directly serves the 'Դու արդեն կարող ես' learning objective (present relative mass and charge)."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "'You already can' self-check objectives",
+    "recommendation": "Turn the two 'Դու արդեն կարող ես' objectives into a short self-check quiz: (1) drag-and-label the parts of an atom (nucleus, proton, neutron, electron); (2) match each particle to its charge (+/0/-) and relative mass. Auto-grade with instant feedback tied to the page's facts."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "",
+    "label": "Plasticine nucleus-model hands-on task (figure 23)",
+    "recommendation": "Provide a digital companion to the two-color plasticine task ('pattern figure 23'): an interactive nucleus builder where the learner drags colored balls (one color = protons, another = neutrons) into a nucleus to match a target diagram. Validates particle counts and gives a build-along guide for the physical plasticine activity. Note: figure 23 itself is on the referenced page, not shown here."
+   }
+  ]
+ },
+ {
+  "page": 53,
+  "pageType": "lesson",
+  "topic": "Isotopes and mass number (atom structure: nucleus, protons, neutrons, electrons)",
+  "interactions": [
+   {
+    "kind": "atom-embed",
+    "where": "heading",
+    "label": "Lesson title: Isotopes (Իզոտոպներ §2/4)",
+    "target": "",
+    "recommendation": "Anchor an interactive atom viewer for the whole lesson: embed our 3D atom scene (nucleus with protons/neutrons + electron shells) and add an isotope toggle that lets the user change the neutron count of one element (e.g. hydrogen 1H/2H/3H, or carbon 12C/13C/14C) to see how isotopes differ only in neutrons while Z stays fixed."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Atom = nucleus + electrons; protons (+), neutrons (neutral)",
+    "target": "",
+    "recommendation": "On the intro paragraph, add a clickable mini atom diagram that highlights each named particle on hover/tap: electron (negative charge), proton (positive), neutron (neutral). Reuse our atom-scene particle labels so terms in the text map to glowing parts of the model."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Block diagram: Atom -> {Nucleus -> Protons, Neutrons; Electrons}",
+    "target": "",
+    "recommendation": "Turn the tree/structure diagram into an interactive concept map. Each node (Atom, Nucleus, Protons, Neutrons, Electrons) becomes clickable, opening a glossary popover and jumping to the corresponding part of the embedded 3D atom. Animate the breakdown: tap Atom -> expands into Nucleus + Electrons -> Nucleus expands into Protons + Neutrons."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: isotope, mass number, nucleus, proton, neutron, electron, charge",
+    "target": "",
+    "recommendation": "Add tap-to-define glossary chips for the bolded/new terms (իզոտոպ = isotope, զանգվածային թիվ = mass number, միջուկ = nucleus, պրոտոն, նեյտրոն, էլեկտրոն). Each entry shows a short definition plus a link to the atom viewer."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Concept: mass number = protons + neutrons; electron mass negligible (~1/2000 of proton)",
+    "target": "",
+    "recommendation": "Build a small interactive calculator/visualizer: sliders for proton and neutron counts that compute mass number A = Z + N in real time, with a visual mass-scale showing the electron as ~2000x lighter (negligible). Reinforces why atomic mass is determined by the nucleus."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Two rhetorical study questions (What determines atomic mass? / What is the atom's main characteristic?)",
+    "target": "",
+    "recommendation": "Convert the two highlighted question prompts into a quick self-check quiz: a multiple-choice item ('What mainly determines an atom's mass?' -> nucleus mass) and a follow-up about the atom's defining characteristic (proton/nuclear charge), with instant feedback explaining electron mass is ignored."
+   }
+  ]
+ },
+ {
+  "page": 54,
+  "pageType": "lesson",
+  "topic": "Chemical element defined by nuclear charge; isotopes (carbon example)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon (ածխածին) — isotope example",
+    "recommendation": "Make every mention of carbon link to our Carbon element card showing Z=6, electron config, and a panel listing its 3 natural isotopes (C-12, C-13, C-14) with neutron counts 6/7/8. Cross-link to the atom viewer."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "figure",
+    "target": "C",
+    "label": "Figure 24 — composition of carbon isotopes",
+    "recommendation": "Embed an interactive 3D atom/nucleus viewer beside Figure 24. Show three carbon nuclei side by side, each with 6 protons but 6, 7, or 8 neutrons, plus the electron shell. Let the user toggle between isotopes and watch the nucleus repopulate with neutrons while protons stay fixed; surface the Z=6 label and mass number for each."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Key terms: chemical element, isotope, nuclear charge, proton, neutron, electron, electrically neutral atom",
+    "recommendation": "Turn the two boxed definitions (chemical element = atoms with same nuclear positive charge / same proton count; isotopes = same protons, different neutrons) into tappable glossary chips with concise pop-over definitions, linked to the atom model."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "target": "",
+    "label": "Atom is electrically neutral (electrons = protons)",
+    "recommendation": "Add a small interactive atom diagram demonstrating charge neutrality: a live counter where adding/removing protons forces an equal electron count, visually proving the atom is neutral. Reinforces why nuclear charge, not mass, defines the element."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "C",
+    "label": "Isotope builder mini-activity",
+    "recommendation": "Build a sandbox where the learner sets the proton count to pick an element (lock to 6 = carbon) then varies neutrons to generate each isotope. App confirms 'same element, different mass' and displays the isotope notation with Z at lower-left of the symbol, matching the textbook's notation."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "target": "",
+    "label": "Hook to live periodic table via nuclear charge / Z",
+    "recommendation": "Since the page teaches that nuclear charge (Z) determines which element an atom is, add an inline 'find this element' control that opens our interactive periodic table highlighting position Z=6 (Carbon), letting the user scrub Z and watch the highlighted element change."
+   }
+  ]
+ },
+ {
+  "page": 55,
+  "pageType": "lesson",
+  "topic": "Isotopes, mass number, and applications of isotopes",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon (Z=6)",
+    "recommendation": "Link every mention of carbon and its isotopes (12C, 13C, 14C) to the Carbon element card, opening the 3D atom view with the isotope toggle (vary neutron count 6/7/8) and showing Z=6 stays constant while N changes."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen (18O)",
+    "recommendation": "Link oxygen mention to the Oxygen element card; highlight the 18O isotope used to study reaction mechanisms, with a short note/animation of isotope labeling in a chemical reaction."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "P",
+    "label": "Phosphorus (32P)",
+    "recommendation": "Link phosphorus mention to the Phosphorus element card; show the 32P isotope and a tooltip on its medical/agricultural (plant fertilization) applications."
+   },
+   {
+    "kind": "formula",
+    "where": "heading",
+    "target": "A=Z+N",
+    "label": "Mass number formula",
+    "recommendation": "Make A=Z+N an interactive mini-calculator: user sets Z and N (or picks an isotope) and the app computes mass number A live, with carbon 12/13/14 as preset examples."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "C",
+    "label": "Carbon isotopes diagram (blue/red spheres)",
+    "recommendation": "Replace the static figure with an interactive nuclide builder: three carbon isotope nuclei (12C, 13C, 14C) rendered with red=protons (6 always) and blue=neutrons (6/7/8); clicking each shows its A, Z, N and stable/unstable status. Ties directly into the Think question on this page."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "C",
+    "label": "Think question (Մտածի՛ր)",
+    "recommendation": "Turn the 'Think' box into an interactive quiz: identify which spheres show protons (nuclear charge) per carbon isotope, explain why blue (neutron) counts differ, and name the proton+neutron sum (mass number). Auto-check against the nuclide builder above."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "Key terms box",
+    "recommendation": "Make the highlighted terms (isotope, mass number, natural isotope, stable isotope, unstable isotope) clickable glossary chips with concise definitions and links back to the relevant figure/example on the page."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon-14 radiocarbon dating (Areni)",
+    "recommendation": "Build an interactive 'carbon clock' module: animate 14C decay over time and let the user date the Areni (Vayots Dzor) leather shoe find (~5500 years), reinforcing the unstable-isotope concept with an Armenian cultural anchor and a map pin."
+   }
+  ]
+ },
+ {
+  "page": 56,
+  "pageType": "questions",
+  "topic": "Atomic structure and isotopes (review exercises)",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q1-2: define 'chemical element' & 'isotope'",
+    "target": "",
+    "recommendation": "Turn the two open-definition prompts into short open-answer cards with a reveal/model-answer toggle tied to glossary entries for 'chemical element' and 'isotope'."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q3: choose correct statement about the atom (charge)",
+    "target": "",
+    "recommendation": "Single-choice multiple-choice quiz (options a-d). Correct = 'atom is electrically neutral'. Auto-grade with explanation of why the atom is neutral (protons = electrons)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q4: fill-in-the-blanks about mass in nucleus & mass number",
+    "target": "",
+    "recommendation": "Fill-in-the-blank interactive: a) 'mass' concentrated in the nucleus; b) mass number = protons + neutrons. Validate typed/drag answers."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "figure",
+    "label": "Three hydrogen isotopes: protium, deuterium, tritium",
+    "target": "H",
+    "recommendation": "Embed our interactive 3D atom viewer showing 1H (protium), 2H/D (deuterium), 3H/T (tritium): nucleus with p/n counts and one electron shell. Let user toggle between isotopes and highlight that tritium (3H) is the most unstable answer for Q5."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q5: interpret figure, name most unstable H isotope",
+    "target": "H",
+    "recommendation": "Link this question directly to the atom-embed above; clicking the unstable isotope (tritium) confirms the answer with a note on radioactivity/half-life."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Q6: isotope notations 14/6 C, 16/8 O, 15/7 N",
+    "target": "C",
+    "recommendation": "Make each isotope notation clickable to open the atom viewer for carbon-14, oxygen-16, nitrogen-15, showing p/n/e counts so students can find the commonality (asked in Q6)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Elements referenced: carbon, oxygen, nitrogen, hydrogen",
+    "target": "C",
+    "recommendation": "Link element names/symbols (C, O, N, H) to their periodic-table element cards with Z, neutron count and electron configuration."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "label": "Q7: complete table of electrons/protons/neutrons/isotope",
+    "target": "",
+    "recommendation": "Interactive fillable table: rows for oxygen (17/8 O), carbon, hydrogen, and an unknown (Z=6? mislabeled - protons 6, neutrons 7 -> N or C isotope). User fills '?' cells for electrons/protons/neutrons; auto-validate against Z and mass number, with hints from element cards."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "QR code: isotope game-task",
+    "target": "",
+    "recommendation": "Replace the printed QR with an in-app launch button opening our 'isotope game' mini-activity (drag protons/neutrons to build isotopes, score against targets)."
+   }
+  ]
+ },
+ {
+  "page": 57,
+  "pageType": "mixed",
+  "topic": "Atomic nucleus, isotopes, and mass number (summary and exercises)",
+  "interactions": [
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key concepts: nucleus charge, chemical element, isotope, mass number",
+    "target": "",
+    "recommendation": "Make the bold terms in the 'You already know' summary block tappable glossary chips: 'chemical element' (atom type by nuclear charge), 'isotope' (same protons, different neutrons), 'mass number A = Z + N', 'electrically neutral atom'. Each opens a short definition popover with a mini diagram linking the symbols Z, N, A to a labeled atom."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Mass number relation A = Z + N",
+    "target": "",
+    "recommendation": "Embed a small interactive nucleus widget tied to the A = Z + N statement: sliders/steppers for protons (Z) and neutrons (N) that live-update the mass number A and show the resulting nucleus filling with red (+) protons and gray neutrons."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Diagram of an atomic nucleus (protons + neutrons)",
+    "target": "",
+    "recommendation": "Replace the static nucleus illustration (7 red '+' protons among gray neutron spheres) with our live 3D atom-nucleus model. Let the user add/remove protons and neutrons to recreate the two cases asked in the exercise (7p+8n and 7p+7n) and watch the element/isotope label update."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Build-a-nucleus task: 7p+8n and 7p+7n models",
+    "target": "N",
+    "recommendation": "Turn the 'draw a similar nucleus model' task into an interactive nucleus builder: presets for case (a) 7 protons + 8 neutrons and case (b) 7 protons + 7 neutrons. Auto-identify the element as Nitrogen (Z=7), render it as N-15 and N-14, and feed the result into the quiz below."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "4 sub-questions about the built nuclei",
+    "target": "N",
+    "recommendation": "Convert the 4 numbered exercises into an interactive quiz: (1) name the particles (protons/neutrons), (2) determine count of negative particles (electrons) and name them, (3) compute mass number A for each nucleus (15 and 14), (4) name the relationship of these atoms (isotopes). Validate answers against the nucleus the student built and give instant feedback."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Self-check 'You can already' objectives",
+    "target": "",
+    "recommendation": "Turn the 'You already can' objectives (define isotope and mass number; list isotopes and explain symbol notation) into a short self-assessment checklist with optional flashcard prompts and a worked example of isotope notation (e.g., showing Z, N, A on a nuclide symbol)."
+   },
+   {
+    "kind": "element-embed",
+    "where": "region",
+    "label": "Nitrogen as the element behind the 7-proton nucleus",
+    "target": "N",
+    "recommendation": "Add a contextual link to the Nitrogen element card (Z=7) when the exercise's 7-proton nucleus is identified, showing its isotopes N-14 and N-15 and how proton count fixes the element while neutron count fixes the isotope."
+   }
+  ]
+ },
+ {
+  "page": 58,
+  "pageType": "questions",
+  "topic": "Practical Work 1: Atomic structure, isotopes, protons/neutrons/electrons",
+  "interactions": [
+   {
+    "kind": "quiz",
+    "where": "whole-page",
+    "label": "Practical Work 1 exercise set (6 tasks)",
+    "target": "",
+    "recommendation": "Turn the entire practical work into an interactive quiz module 'Atomic Structure'. Tasks 1-6 each become a graded step: fill-in-the-blank (Q1), isotope comparison (Q2), element-from-clue (Q3-Q4), true/false grid (Q5), neutron calculation (Q6). Auto-check answers, give immediate feedback, and award a completion badge to the user's profile."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q1 fill-in-the-blank: atom is made of nucleus and ___; nucleus is made of ___ and neutrons",
+    "target": "",
+    "recommendation": "Render as drag-or-type blanks. Accept 'electrons' and 'protons'. On correct answer, animate a small atom diagram showing the named part lighting up (electron shell / proton)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q2 isotope series: 13C, 14C, 14N, 16O, 17O — equal neutron counts & stability",
+    "target": "",
+    "recommendation": "Interactive isotope cards for ¹³₆C, ¹⁴₆C, ¹⁴₇N, ¹⁶₈O, ¹⁷₈O. User clicks the two isotopes with equal neutron numbers (¹⁴C and ¹⁷O both have 8... compute live) and picks the more stable one; app shows neutron/proton tally per card and explains stability."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Q3: identify element with 8 neutrons and mass number A=14",
+    "target": "N",
+    "recommendation": "Embed our 3D atom builder seeded so the learner sets protons until A=14 with 8 neutrons -> reveals Nitrogen (N, Z=6 gives 8n... compute: 14-8=6 -> Carbon). Let app compute Z=mass-neutrons and reveal the element card with pronunciation/name."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Q4: identify element where neutrons = protons+1 and mass = 3x protons",
+    "target": "",
+    "recommendation": "Provide a solver widget: user enters proton count, app checks constraints (N=Z+1, A=3Z) and links to the resulting element card in our interactive periodic table."
+   },
+   {
+    "kind": "quiz",
+    "where": "table",
+    "label": "Q5 true/false grid (rows: Ճիշտ է / Սխալ է; columns ա-դ) on atom statements",
+    "target": "",
+    "recommendation": "Recreate the empty true/false answer table as a clickable grid. Four statements (a-d) about proton count, proton vs neutron count, protons vs electrons, particle masses; learner marks True/False per column, app validates and explains each (note statement d about electron mass is intentionally wrong)."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Q6 isotopes: 25Na, 25Mg, 26Mg, 27Al — count neutrons, find the odd one",
+    "target": "",
+    "recommendation": "Show four isotope cards ²⁵₁₁Na, ²⁵₁₂Mg, ²⁶₁₂Mg, ²⁷₁₃Al; auto-calculate neutrons (A-Z) on tap, then ask user to pick the 'odd' isotope, with reasoning hint."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Elements appearing in isotope notation",
+    "target": "C",
+    "recommendation": "Make each element symbol in the isotope notations (C, N, O, Na, Mg, Al) a tappable link opening its card in our live periodic table, highlighting Z and standard atomic mass."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Nitrogen referenced in isotopes",
+    "target": "N",
+    "recommendation": "Link N (nitrogen) symbol to its periodic-table element card."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Oxygen referenced in isotopes",
+    "target": "O",
+    "recommendation": "Link O (oxygen) symbol to its periodic-table element card."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Sodium isotope 25Na",
+    "target": "Na",
+    "recommendation": "Link Na symbol to its element card; show that Z=11."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Magnesium isotopes 25Mg, 26Mg",
+    "target": "Mg",
+    "recommendation": "Link Mg symbol to its element card; show that Z=12."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Aluminium isotope 27Al",
+    "target": "Al",
+    "recommendation": "Link Al symbol to its element card; show that Z=13."
+   }
+  ]
+ },
+ {
+  "page": 59,
+  "pageType": "lesson",
+  "topic": "Atomic mass and relative atomic mass",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "H",
+    "label": "Hydrogen — lightest element",
+    "recommendation": "Hydrogen is cited as the lightest element with m0(H)=1.6735x10^-27 kg. Make 'ջրածին/H' a tappable link that opens our element card for Hydrogen (Z=1), showing real atomic mass (1.008 u), the atom model (1 proton, 1 electron), and a note that its relative atomic mass Ar=1 is the historical reference unit."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "",
+    "label": "Figure 25 — 7 spheres of same material, different sizes",
+    "recommendation": "Turn the row of 7 spheres into an interactive 'relative mass' widget. User taps the smallest sphere (m7=0.2 g) to set it as the unit, then taps any other sphere to see 'this is N times heavier.' Pre-load the example from the text (largest=10 g => 50x). This makes the relative-mass analogy hands-on before transferring it to atoms."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "Ar",
+    "label": "Relative atomic mass (Ar)",
+    "recommendation": "Add a glossary/concept popover for Ar = relative atomic mass, m0 = absolute atomic mass, and 'atomic mass unit (a.m.u.)'. Show the defining relation Ar = m0(element) / m0(unit) with an inline calculator where the student picks an element and sees how Ar is derived, mirroring the sphere analogy."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "",
+    "label": "Sphere comparison thought-experiment",
+    "recommendation": "Build a mini reaction/measurement player: a virtual balance where the 7 spheres can be weighed against copies of the smallest one. Dragging spheres onto the scale visually demonstrates 'how many unit-masses balance this sphere', reinforcing the concept of measuring mass relative to a chosen unit."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Concept check — atomic mass",
+    "recommendation": "Generate a short auto-graded quiz from the lesson: (1) define relative atomic mass; (2) given smallest sphere = 0.2 g and largest = 10 g, compute the ratio (answer 50); (3) why are real atomic masses inconvenient to use directly (because numbers like 1.6735x10^-27 kg are too small). Provide instant feedback and a worked solution."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "target": "",
+    "label": "Bridge to periodic table Ar values",
+    "recommendation": "At the end of the lesson, embed our live interactive periodic table in 'relative atomic mass' display mode so students can browse Ar values for all elements and confirm hydrogen has the smallest, connecting this abstract lesson to concrete data."
+   }
+  ]
+ },
+ {
+  "page": 60,
+  "pageType": "lesson",
+  "topic": "Relative atomic mass (Ar) and the atomic mass unit; carbon-12 standard",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon-12 isotope (reference standard)",
+    "recommendation": "Link the 12C mention to a carbon element card showing the isotope explicitly: nucleus with 6 protons + 6 neutrons, real mass 1.993e-26 kg, and a note that 1/12 of this mass = 1 atomic mass unit (1.66e-27 kg). Open our atom-embed for carbon when tapped."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen worked example (Ar = 16)",
+    "recommendation": "Make the oxygen example clickable -> oxygen element card. Animate the calculation: real atom mass m0 = 2.656e-26 kg divided by the a.m.u. (1.66e-27 kg) = 16. Show step-by-step that oxygen's atom is 16x the unit mass."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "target": "Ar = m0 / (1/12 m(12C))",
+    "label": "Relative atomic mass formula",
+    "recommendation": "Build an interactive formula widget: user picks any element, app fills in its real atomic mass m0 and computes Ar live against the a.m.u. Highlight what A and r in the symbol Ar stand for (Atom / relative) with hover tooltips."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "target": "C",
+    "label": "Sphere/atom illustrations at top of page",
+    "recommendation": "Diagrams depict atoms as spheres being compared by mass (the gravity/balance analogy). Turn into an interactive balance: drag an unknown atom onto a scale against twelve 'unit' masses to discover its Ar, reinforcing the comparison concept."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "Compute Ar / a.m.u. concept check",
+    "recommendation": "Add an inline mini-quiz: given an element's real atomic mass, compute its Ar; and conceptual questions ('Why does Ar have no unit?', 'What is 1 a.m.u. equal to?'). Auto-check against our element dataset's real masses."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "whole-page",
+    "label": "Connect Ar values to the periodic table",
+    "recommendation": "Embed a compact live periodic table where each element tile shows its Ar; tapping an element opens the same Ar calculation as on this page, tying the abstract definition to concrete values for all 118 elements."
+   }
+  ]
+ },
+ {
+  "page": 61,
+  "pageType": "lesson",
+  "topic": "Relative atomic mass (Ar) and real atomic mass; history of atomic mass unit",
+  "interactions": [
+   {
+    "kind": "periodic-table-embed",
+    "where": "text",
+    "label": "Ar values live in the periodic table (ПՀ)",
+    "target": "",
+    "recommendation": "The opening line states all elements' Ar (fractional) are given in the periodic system. Embed our live interactive periodic table here; clicking any cell shows that element's Ar and lets the user toggle between exact (fractional) and rounded-to-integer values referenced in the lesson."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Oxygen, Ar(O)=15.9994 ≈ 16",
+    "target": "O",
+    "recommendation": "Link 'О' to an element card for Oxygen showing Ar=15.9994 and the rounding to 16; include isotopes 16O/17O/18O (mentioned later) as a sub-panel."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Magnesium, Ar(Mg)=24.305 ≈ 24",
+    "target": "Mg",
+    "recommendation": "Link 'Mg' to an element card for Magnesium showing Ar=24.305 rounded to 24."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Chlorine, Ar(Cl)=35.453 ≈ 35.5 (the exception)",
+    "target": "Cl",
+    "recommendation": "Link 'Cl' to a Chlorine card; highlight it as the noted exception kept at 35.5 (not rounded to whole number) and explain via isotope mix."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Nitrogen worked example, Ar(N)=14",
+    "target": "N",
+    "recommendation": "Link 'N' to a Nitrogen card; tie it to the worked example computing real atomic mass m0(N)=14·1.66e-27 kg."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Hydrogen — first mass standard (Dalton 1804)",
+    "target": "H",
+    "recommendation": "Link 'ջրածին/H' to a Hydrogen card; note its historical role as Dalton's hydrogen unit (lightest atom, mass = 1)."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "label": "Real atomic mass formula m0(X)=Ar(X)·1.66e-27 kg",
+    "target": "m0(X)=Ar(X)*1.66e-27",
+    "recommendation": "Build an interactive calculator widget: user enters or picks an element, app fills Ar and computes m0 in kg and g, mirroring the Nitrogen example (m0(N)=2.33e-26 kg)."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "label": "Dalton's definition Ar(X)=m0(X)/m0(H)",
+    "target": "Ar(X)=m0(X)/m0(H)",
+    "recommendation": "Make this an interactive definition tooltip: animate comparing an element's atom mass against a hydrogen atom to show how the relative ratio (Ar) arises."
+   },
+   {
+    "kind": "glossary",
+    "where": "region",
+    "label": "Key terms box (atomic mass, real mass, Ar, amu, 1/12 of carbon atom)",
+    "target": "",
+    "recommendation": "Turn the highlighted key-terms strip into clickable glossary chips: 'real atomic mass', 'relative atomic mass Ar', 'atomic mass unit (amu)', '1/12 of a carbon-12 atom' — each opening a short definition popover."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Oxygen isotopes 16O, 17O, 18O (history section)",
+    "target": "O",
+    "recommendation": "Add an isotope explorer for Oxygen: show 16O/17O/18O with neutron counts, explaining why physicists chose 1/16 of 16O while chemists used the average — link to the modern carbon-12 standard."
+   },
+   {
+    "kind": "experiment",
+    "where": "text",
+    "label": "Historical timeline: Dalton 1804 → O-unit → 1860 Karlsruhe Congress",
+    "target": "",
+    "recommendation": "Build an interactive scrollable timeline of the atomic-mass-unit history (Dalton's H-unit 1804, switch to O-unit, 1900s isotope discovery, 1860 Karlsruhe Congress agreement) with tappable milestones."
+   }
+  ]
+ },
+ {
+  "page": 62,
+  "pageType": "questions",
+  "topic": "Relative atomic mass and the atomic mass unit (exercises)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "C",
+    "label": "Carbon-12 (12C) isotope",
+    "recommendation": "Make the ¹²C reference (and ¹²C-14 in statement z) clickable -> open our carbon element card showing the nucleus with 6 protons + 6 neutrons, and highlight that 1 amu = 1/12 of this atom's mass. Tie into an isotope toggle (12C vs 14C) inside the atom-embed."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "O",
+    "label": "Oxygen-16 (16O) isotope",
+    "recommendation": "Clickable ¹⁶O -> oxygen element card / atom-embed with 8 protons + 8 neutrons; used to illustrate the historical 1/16-of-oxygen mass-unit definition contrasted with the modern carbon standard."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "H",
+    "label": "Hydrogen atom mass comparison",
+    "recommendation": "Clickable hydrogen reference -> H element card; show it as the lightest atom to answer Q1 ('which element has the smallest atomic mass'), with a comparison animation against C and O."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Mg",
+    "label": "Magnesium (Ar=24)",
+    "recommendation": "In exercise 5, make 'magnesium' a chip linking to the Mg element card; auto-fill its Ar (24) so the student can compute one atom's real mass and check against our data."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Cl",
+    "label": "Chlorine (Ar=35.5)",
+    "recommendation": "Link 'chlorine' in exercise 5 to the Cl element card; use Ar=35.5 as a teaching example of a non-integer relative atomic mass (relates to statement d about whole-number values)."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Ca",
+    "label": "Calcium (Ar=40)",
+    "recommendation": "Link 'calcium' in exercise 5 to the Ca element card; supply Ar=40 for the symbol-writing + real-mass calculation task."
+   },
+   {
+    "kind": "element",
+    "where": "text",
+    "target": "Cu",
+    "label": "Copper (Ar=64)",
+    "recommendation": "Link 'copper' in exercise 5 to the Cu element card; supply Ar=64 for the calculation; let student verify the chemical symbol Cu they must write."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "text",
+    "target": "",
+    "label": "Periodic table (ПՀ) reference",
+    "recommendation": "Statements (d) and (e) reference looking up Ar values in the periodic table. Embed our live interactive periodic table inline so students can tap an element and read its real (non-rounded) relative atomic mass, directly testing the true/false claims about whole-number rounding."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Questions 1-3 (short-answer concepts)",
+    "recommendation": "Turn the three conceptual questions (smallest atom mass; meaning of relative atomic mass; definition of the atomic mass unit) into a short-answer/flip-card quiz with model answers and links to the relevant atom-embeds."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Question 4 (a-z) true/false statements",
+    "recommendation": "Build a 6-item true/false quiz (statements a through z) with instant feedback and a one-line explanation each: e.g. Ar has no units (false), modern unit is based on carbon not oxygen (false), Ar values in the table are NOT exact whole numbers (false), 1 amu is 1/12 of carbon-12 not carbon-14 (false)."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "target": "",
+    "label": "Question 5 (compute real atomic masses)",
+    "recommendation": "Interactive calculator/quiz: student writes symbols for Mg, Cl, Ca, Cu and computes each atom's real mass in grams from its Ar (x 1 amu = 1.66e-24 g). Auto-generate the answer table with the verifying calculation, matching the 'present as a table' instruction."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "target": "",
+    "label": "Group card-passing activity",
+    "recommendation": "Gamify the bottom group activity as a multiplayer/relay mode: cards show element name + real atomic mass; players pass turns to fill in (1) chemical symbol, (2) relative atomic mass, (3) mass expressed in amu. App validates each step using our element dataset."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "target": "",
+    "label": "Key terms: atomic mass unit (amu / զ.ա.մ.), Ar",
+    "recommendation": "Add tap-to-define glossary tooltips for 'atomic mass unit (զ.ա.մ.)', 'relative atomic mass (Ar)', and 'isotope', each with a short definition and link to the C-12 atom-embed that anchors the unit's definition."
+   }
+  ]
+ },
+ {
+  "page": 63,
+  "pageType": "lesson",
+  "topic": "Relative atomic mass and the atomic mass unit (carbon-12 standard)",
+  "interactions": [
+   {
+    "kind": "element",
+    "where": "text",
+    "label": "Carbon-12 isotope (¹²C)",
+    "target": "C",
+    "recommendation": "The ¹²C isotope is the reference standard for the atomic mass unit. Make every '¹²C' / 'ածխածին' mention clickable to open our Carbon element card, with an isotope view highlighting carbon-12 (6 protons, 6 neutrons) inside the atom — tie it to the a.m.u. definition shown on this page."
+   },
+   {
+    "kind": "atom-embed",
+    "where": "text",
+    "label": "Atom as a sphere / atomic mass",
+    "target": "C",
+    "recommendation": "Embed a small interactive 3D atom viewer next to the paragraph describing atoms as spherical particles. Let the user inspect the carbon-12 nucleus (protons + neutrons) and see how nucleon count relates to mass — reinforces why Ar of C ≈ 12."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "label": "Atomic mass unit definition: 1 a.m.u. = (1.993·10⁻²⁶ kg)/12 = 1.66·10⁻²⁷ kg",
+    "target": "1 a.m.u.",
+    "recommendation": "Turn the a.m.u. derivation equation into an interactive callout: show the ¹²C mass (1.993·10⁻²⁶ kg), divide by 12 with an animated step, and reveal 1.66·10⁻²⁷ kg (1.66·10⁻²⁴ g). Include a unit toggle kg/g."
+   },
+   {
+    "kind": "formula",
+    "where": "text",
+    "label": "Relative atomic mass Ar = m₀ / (1/12 mass of ¹²C)",
+    "target": "Ar = m0 / (1.66·10⁻²⁷ kg)",
+    "recommendation": "Build an interactive Ar calculator widget: enter the real atomic mass m₀ (kg) of any element's atom and it returns the dimensionless Ar (and vice versa: pick an element → get m₀). Directly supports the stated learning goal 'compute real atomic mass from Ar and back'."
+   },
+   {
+    "kind": "periodic-table-embed",
+    "where": "region",
+    "label": "Source of Ar values for elements",
+    "target": "",
+    "recommendation": "Embed our live interactive periodic table in a side panel so students can pick any element and read its Ar, then feed that Ar into the calculator above to compute the real atomic mass — connecting this abstract lesson to concrete element data."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: atomic mass unit (զ.ա.մ.), relative atomic mass (Ar), real atomic mass (m₀), isotope",
+    "target": "",
+    "recommendation": "Add hover/tap glossary tooltips for the bolded concepts (Ar, m₀, զ.ա.մ., ¹²C իզոտոպ). Each tooltip gives a one-line definition in the selected UI language (Armenian/Russian/English) matching the textbook wording."
+   },
+   {
+    "kind": "quiz",
+    "where": "region",
+    "label": "'Du arden karoġ es' learning objectives + salt-weighing problem",
+    "target": "",
+    "recommendation": "Convert the 'You can now...' objectives and the salt-spoon comparison exercise (compare mass of 1 teaspoon vs 1 tablespoon vs 1 ladle of salt; ratio questions a/b) into an interactive quiz: an estimation/ratio mini-task with numeric input and instant feedback, framing everyday mass comparison as a warm-up to atomic-scale ratios."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Weigh and compare salt portions (teaspoon / tablespoon / ladle)",
+    "target": "salt",
+    "recommendation": "Offer a simple virtual 'balance' experiment: drag teaspoon, tablespoon, and ladle portions of salt (NaCl) onto a scale to read masses and compute ratios, mirroring the printed task. Link 'salt' to a substance card for NaCl."
+   }
+  ]
+ },
+ {
+  "page": 64,
+  "pageType": "lesson",
+  "topic": "Periodic Law and Periodic System of chemical elements (Mendeleev)",
+  "interactions": [
+   {
+    "kind": "periodic-table-embed",
+    "where": "whole-page",
+    "label": "Periodic System intro",
+    "target": "",
+    "recommendation": "This lesson introduces Mendeleev's Periodic System. Embed our live interactive periodic table as a companion panel/sidebar so the student can immediately explore the structure being described (periods, groups, 60+ elements known in the 19th century). Add a toggle to show only the ~63 elements known by 1869 to illustrate the historical classification problem."
+   },
+   {
+    "kind": "glossary",
+    "where": "text",
+    "label": "Key terms: periodicity, periodic law, classification",
+    "target": "",
+    "recommendation": "Make the bolded terms (պարբերականություն / periodicity, պարբերական օրենք / periodic law, դասակարգում / classification, քիմիական տարր / chemical element, ատոմ, միջուկ) clickable glossary chips that open short definitions; cross-link 'chemical element', 'atom', 'nucleus' to the prior lessons referenced at the top of the page."
+   },
+   {
+    "kind": "figure",
+    "where": "figure",
+    "label": "Portrait/illustration of D. I. Mendeleev",
+    "target": "",
+    "recommendation": "The header/illustration relates to Mendeleev (1869 discovery). Build a tappable info card: short biography, timeline of element classification attempts (19th century, 60+ elements), and the 1869 formulation of the periodic law, with a link to the interactive periodic table he created."
+   },
+   {
+    "kind": "experiment",
+    "where": "region",
+    "label": "Think sidebar: give other examples of periodicity",
+    "target": "",
+    "recommendation": "Convert the 'Մտածի՛ր / Think' prompt (12 months -> year changes, 3 months -> season, 7 days -> Sunday, birthday each year) into an interactive matching/sorting mini-activity where students identify repeating (periodic) phenomena, then submit their own example in a free-text answer area."
+   },
+   {
+    "kind": "quiz",
+    "where": "text",
+    "label": "Comprehension: what is periodicity / why classify elements",
+    "target": "",
+    "recommendation": "Generate a short quiz from the lesson: Who discovered the periodic law and in what year (Mendeleev, 1869)? What is periodicity? Why was classifying the elements necessary (to study/compare/apply atom and substance properties)? Use multiple-choice plus one short-answer, with instant feedback."
+   }
+  ]
+ }
+]

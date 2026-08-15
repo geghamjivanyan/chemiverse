@@ -1,0 +1,2486 @@
+{
+  "head" : {
+    "vars" : [ "z", "hy", "en", "ru" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "водород"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "hydrogen"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ջրածին"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "гелий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "helium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "հելիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "литий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "lithium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "լիթիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "бериллий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "beryllium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բերիլիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "бор"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "boron"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բոր"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "углерод"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "carbon"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ածխածին"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "6"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "азот"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "nitrogen"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ազոտ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "кислород"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "oxygen"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "թթվածին"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "8"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "фтор"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "fluorine"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ֆտոր"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "неон"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "neon"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նեոն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "натрий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "sodium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նատրիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "магний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "magnesium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "մագնեզիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "алюминий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "aluminium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ալյումին"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "кремний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "silicon"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "սիլիցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "14"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "фосфор"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "phosphorus"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ֆոսֆոր"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "15"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "сера"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "sulfur"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ծծումբ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "хлор"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "chlorine"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "քլոր"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "17"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "аргон"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "argon"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "արգոն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "18"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "калий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "potassium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կալիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "19"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "кальций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "calcium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կալցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "20"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "скандий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "scandium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "սկանդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "титан"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "titanium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "տիտան"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "22"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ванадий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "vanadium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "վանադիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "23"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "хром"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "chromium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "քրոմ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "24"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "марганец"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "manganese"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "մանգան"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "25"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "железо"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "iron"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "երկաթ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "26"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "кобальт"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "cobalt"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կոբալտ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "27"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "никель"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "nickel"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նիկել"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "28"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "медь"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "copper"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պղինձ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "29"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "цинк"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "zinc"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ցինկ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "30"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "галлий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gallium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "գալիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "31"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "германий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "germanium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "գերմանիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "32"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "мышьяк"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "arsenic"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "արսեն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "33"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "селен"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "selenium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "սելեն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "34"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "бром"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bromine"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բրոմ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "35"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "криптон"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "krypton"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կրիպտոն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "36"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "рубидий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rubidium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռուբիդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "37"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "стронций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "strontium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ստրոնցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "38"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "иттрий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "yttrium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "իտրիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "39"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "цирконий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "zirconium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ցիրկոնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "40"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ниобий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "niobium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նիոբիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "41"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "молибден"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "molybdenum"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "մոլիբդեն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "42"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "технеций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "technetium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "տեխնեցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "43"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "рутений"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ruthenium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռութենիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "44"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "родий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rhodium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռոդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "45"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "палладий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "palladium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պալադիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "46"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "серебро"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "silver"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "արծաթ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "47"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "кадмий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "cadmium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կադմիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "48"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "индий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "indium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ինդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "49"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "олово"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tin"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "անագ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "50"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "сурьма"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "antimony"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ծարիր"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "51"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "теллур"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tellurium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "տելուր"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "52"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "иод"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "iodine"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "յոդ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "53"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ксенон"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "xenon"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "քսենոն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "54"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "цезий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "caesium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ցեզիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "55"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "барий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "barium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բարիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "56"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "лантан"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "lanthanum"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "լանթան"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "57"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "церий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "cerium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ցերիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "58"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "празеодим"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "praseodymium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պրազեդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "59"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "неодим"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "neodymium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նեոդիմ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "60"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "прометий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "promethium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պրոմեթիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "61"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "самарий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "samarium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "սամարիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "62"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "европий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "europium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "եվրոպիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "63"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "гадолиний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gadolinium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "գադոլինիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "64"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "тербий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "terbium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "տերբիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "65"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "диспрозий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "dysprosium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "դիսպրոզիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "66"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "гольмий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "holmium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "հոլմիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "67"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "эрбий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "erbium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "էրբիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "68"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "тулий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "thulium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "թուլիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "69"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "иттербий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "ytterbium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "իտերբիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "70"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "лютеций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "lutetium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "լուտեցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "71"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "гафний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "hafnium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "հաֆնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "72"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "тантал"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tantalum"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "տանտալ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "73"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "вольфрам"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tungsten"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "վոլֆրամ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "74"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "рений"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rhenium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռենիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "75"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "осмий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "osmium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "օսմիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "76"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "иридий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "iridium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "իրիդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "77"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "платина"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "platinum"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պլատին"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "78"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "золото"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gold"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ոսկի"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "79"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ртуть"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mercury"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "սնդիկ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "80"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "таллий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "thallium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "թալիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "81"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "свинец"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "lead"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կապար"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "82"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "висмут"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bismuth"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բիսմութ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "83"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "полоний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "polonium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պոլոնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "84"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "астат"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "astatine"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "աստատ"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "85"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "радон"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "radon"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռադոն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "86"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "франций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "francium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ֆրանսիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "87"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "радий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "radium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռադիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "88"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "актиний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "actinium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ակտինիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "89"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "торий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "thorium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "թորիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "90"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "протактиний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "protactinium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պրոտակտինիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "91"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "уран"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "uranium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ուրան"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "92"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "нептуний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "neptunium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նեպտունիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "93"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "плутоний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "plutonium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "պլուտոնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "94"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "америций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "americium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ամերիցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "95"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "кюрий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "curium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կյուրիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "96"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "берклий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "berkelium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բերկլիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "97"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "калифорний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "californium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կալիֆոռնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "98"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "эйнштейний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "einsteinium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "էյնշտեյնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "99"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "фермий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "fermium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ֆերմիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "менделевий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mendelevium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "մենդելևիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "101"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "нобелий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "nobelium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "նոբելիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "102"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "лоуренсий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "lawrencium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "լոուրենսիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "103"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "резерфордий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rutherfordium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռեզերֆորդիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "104"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "дубний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "dubnium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "դուբնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "105"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "сиборгий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "seaborgium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "սիբորգիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "106"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "борий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bohrium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "բորիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "107"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "хассий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "hassium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "հասիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "108"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "мейтнерий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "meitnerium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "մայտներիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "109"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "дармштадтий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "darmstadtium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "դարմշտադտիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "рентгений"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "roentgenium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "ռենտգենիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "111"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "коперниций"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "copernicium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "կոպեռնիցիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "112"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "нихоний"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "nihonium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "Նիհոնիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "113"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "флеровий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "flerovium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "Ֆլերովիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "114"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "московий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "moscovium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "Մոսկովիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "115"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "ливерморий"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "livermorium"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "Լիվերմորիում"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "116"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "теннессин"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "tennessine"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "Թենեսսին"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "117"
+      }
+    }, {
+      "ru" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "оганесон"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "oganesson"
+      },
+      "hy" : {
+        "xml:lang" : "hy",
+        "type" : "literal",
+        "value" : "օգանեսոն"
+      },
+      "z" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "118"
+      }
+    } ]
+  }
+}

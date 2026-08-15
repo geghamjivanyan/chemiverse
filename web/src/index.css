@@ -1,0 +1,490 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/* ====== дизайн-токены (shadcn, нейтральная палитра) ====== */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: 'Inter Variable', 'Noto Sans Armenian', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+}
+
+:root {
+  --radius: 0.625rem;
+  /* мягкий контраст: фон не чисто-чёрный, текст не чисто-белый — комфортнее глазам */
+  --background: oklch(0.17 0 0);
+  --foreground: oklch(0.9 0 0);
+  --card: oklch(0.235 0 0);
+  --card-foreground: oklch(0.9 0 0);
+  --popover: oklch(0.235 0 0);
+  --popover-foreground: oklch(0.9 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.9 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.75 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.9 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 14%);
+  --ring: oklch(0.556 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.9 0 0);
+  --sidebar-primary: oklch(0.985 0 0);
+  --sidebar-primary-foreground: oklch(0.205 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.9 0 0);
+  --sidebar-border: oklch(1 0 0 / 8%);
+  --sidebar-ring: oklch(0.556 0 0);
+  /* акценты для 3D-сцен и жестов (не часть интерфейса) */
+  --cyan: #36e3ff;
+  --panel-brd: rgba(120, 150, 220, 0.16);
+}
+
+/* ====== светлая тема ТОЛЬКО для учебника "Atom Structure" (golden) ======
+   Переопределяет дизайн-токены shadcn на светлую палитру в пределах поддерева
+   с классом .golden-light. Не влияет на остальное приложение и на Chemistry 7/7.2. */
+.golden-light {
+  --background: oklch(1 0 0);              /* белый фон */
+  --foreground: oklch(0.26 0.02 256);      /* тёмный текст (не чёрный) */
+  --card: oklch(1 0 0);                     /* белые карточки — разделяются мягкой границей/тенью */
+  --card-foreground: oklch(0.26 0.02 256);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.26 0.02 256);
+  --primary: oklch(0.55 0.2 258);          /* синий акцент */
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.968 0.004 256);      /* очень светло-серые поверхности */
+  --secondary-foreground: oklch(0.36 0.02 256);
+  --muted: oklch(0.968 0.004 256);
+  --muted-foreground: oklch(0.52 0.02 256);
+  --accent: oklch(0.955 0.013 256);         /* лёгкий сине-серый ховер */
+  --accent-foreground: oklch(0.32 0.03 256);
+  --destructive: oklch(0.58 0.22 25);       /* красный — только ошибки */
+  --border: oklch(0.922 0.004 256);         /* мягкие границы */
+  --input: oklch(0.922 0.004 256);
+  --ring: oklch(0.55 0.2 258);
+  color-scheme: light;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow: hidden;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* тонкий тёмный скроллбар (вместо белого толстого) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--foreground) 18%, transparent) transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--foreground) 16%, transparent);
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--foreground) 28%, transparent);
+}
+
+/* ====== слой управления рукой (MediaPipe) ====== */
+.hand-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+}
+.hand-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  will-change: transform;
+}
+.hand-cursor .hc-ring {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  margin: -23px 0 0 -23px;
+  border: 2px solid var(--cyan);
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(54, 227, 255, 0.6);
+  transition: transform 0.12s, background 0.12s;
+  /* --pp (0..1) — прогресс щипка: кольцо сжимается к точке срабатывания */
+  transform: scale(calc(1 - var(--pp, 0) * 0.45));
+}
+.hand-cursor .hc-mode {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  font-size: 13px;
+  color: var(--cyan);
+  text-shadow: 0 0 8px rgba(54, 227, 255, 0.8);
+  white-space: nowrap;
+  pointer-events: none;
+}
+.hand-cursor .hc-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: var(--cyan);
+  border-radius: 50%;
+}
+.hand-cursor.pinching .hc-ring {
+  transform: scale(0.55);
+  background: rgba(54, 227, 255, 0.25);
+}
+.hand-cursor.clicked .hc-ring {
+  transform: scale(0.4);
+  background: rgba(54, 227, 255, 0.5);
+}
+.hand-cam {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  width: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--panel-brd);
+  background: #05080f;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+.hand-video {
+  width: 100%;
+  display: block;
+  transform: scaleX(-1);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  opacity: 0.85;
+}
+.hand-cam[data-status='loading'] .hand-video,
+.hand-cam[data-status='denied'] .hand-video {
+  opacity: 0.2;
+}
+.hand-skel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  transform: scaleX(-1);
+  pointer-events: none;
+}
+.hand-cam-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.62rem;
+  color: var(--cyan);
+  background: linear-gradient(transparent, rgba(5, 8, 15, 0.9));
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ====== таблица Менделеева (сетка + плитки) ====== */
+.ptable {
+  display: grid;
+  grid-template-columns: 1.2rem repeat(18, minmax(0, 1fr));
+  grid-template-rows: 0.95rem repeat(7, auto) 0.3rem repeat(2, auto);
+  gap: 4px;
+  width: 100%;
+  max-width: calc((100vh - 9.5rem) * 1.8);
+  margin-inline: auto;
+}
+.axis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--muted-foreground);
+}
+.fmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--muted-foreground);
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+}
+.tile {
+  position: relative;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  min-width: 0;
+  padding: 2px;
+  border: 1px solid color-mix(in srgb, var(--c) 50%, transparent);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--c) 22%, var(--card));
+  color: var(--foreground);
+  cursor: pointer;
+  overflow: hidden;
+  transition: background 0.12s, border-color 0.12s, box-shadow 0.12s;
+}
+.tile:hover,
+.tile:focus-visible {
+  border-color: var(--c);
+  background: color-mix(in srgb, var(--c) 36%, var(--card));
+  outline: none;
+  z-index: 5;
+}
+.tile.is-selected {
+  border-color: var(--c);
+  box-shadow: inset 0 0 0 1px var(--c);
+  background: color-mix(in srgb, var(--c) 44%, var(--card));
+  z-index: 4;
+}
+.tile.is-dimmed {
+  opacity: 0.22;
+}
+.tile-z {
+  position: absolute;
+  top: 5cqw;
+  left: 8cqw;
+  font-size: 15cqw;
+  color: var(--muted-foreground);
+  font-variant-numeric: tabular-nums;
+}
+.tile-mass {
+  position: absolute;
+  top: 5cqw;
+  right: 7cqw;
+  font-size: 12cqw;
+  color: var(--muted-foreground);
+  font-variant-numeric: tabular-nums;
+}
+.tile-sym {
+  font-size: 34cqw;
+  font-weight: 700;
+  line-height: 1;
+  color: color-mix(in srgb, var(--c) 70%, white);
+}
+.tile-name {
+  font-size: 12cqw;
+  color: var(--muted-foreground);
+  max-width: 94%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 3cqw;
+}
+
+/* ====== 3D-холсты (молекула / атом) ====== */
+.mol-canvas {
+  height: 340px;
+  background: radial-gradient(circle at 50% 45%, rgba(54, 227, 255, 0.07), transparent 70%);
+}
+.atom-canvas {
+  height: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--panel-brd);
+  background: radial-gradient(circle at 50% 45%, rgba(54, 227, 255, 0.06), transparent 70%);
+  cursor: grab;
+}
+.atom-canvas:active {
+  cursor: grabbing;
+}
+
+/* ====== режим «Лупа» — полноэкранный атом ====== */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+.inspect-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: radial-gradient(circle at 50% 40%, #0c1226, #05070e 75%);
+  animation: fade 0.2s ease;
+}
+.inspect-stage canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+.inspect-head {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.4rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  pointer-events: none;
+}
+.inspect-sym {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--cyan);
+  text-shadow: 0 0 20px rgba(54, 227, 255, 0.5);
+}
+.inspect-name {
+  font-size: 1.1rem;
+  color: var(--foreground);
+}
+.inspect-hint {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+  letter-spacing: 0.04em;
+  text-align: center;
+  pointer-events: none;
+}
+.inspect-ion {
+  margin-left: 0.15rem;
+  font-size: 1.1rem;
+  color: #ffb347;
+  text-shadow: 0 0 12px rgba(255, 179, 71, 0.6);
+}
+.inspect-flash {
+  position: absolute;
+  top: 4.2rem;
+  left: 1.4rem;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--panel-brd);
+  border-radius: 999px;
+  background: rgba(8, 12, 26, 0.7);
+  font-size: 0.85rem;
+  color: var(--foreground);
+  pointer-events: none;
+  animation: fade 0.2s ease;
+}
+.inspect-actions {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.inspect-actions button {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--panel-brd);
+  border-radius: 999px;
+  background: rgba(8, 12, 26, 0.72);
+  color: var(--foreground);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.inspect-actions button:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+.inspect-actions button.active {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: rgba(54, 227, 255, 0.12);
+}
+.inspect-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--panel-brd);
+  background: rgba(8, 12, 26, 0.7);
+  color: var(--foreground);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.inspect-close:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+/* ====== адаптив / доступность ====== */
+@media (max-width: 900px) {
+  body {
+    overflow: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+/* Перетаскивание разделителей панелей: курсор/без выделения + iframe не перехватывает мышь */
+body.resizing-panes {
+  cursor: col-resize !important;
+  user-select: none !important;
+}
+body.resizing-panes iframe {
+  pointer-events: none !important;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "chemverse",
+  "version": "0.0.0",
+  "private": true,
+  "description": "CHEMVERSE — интерактивная таблица Менделеева и сборка молекул. Документация: /var/www/claude",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev:server": "pnpm --filter server dev",
+    "build": "pnpm --filter shared build && pnpm --filter web build && pnpm --filter server build",
+    "start": "pnpm --filter server start",
+    "test": "pnpm -r test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "playwright": "^1.61.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1"
+  }
+}

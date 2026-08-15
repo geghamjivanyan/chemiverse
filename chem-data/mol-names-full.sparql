@@ -1,0 +1,6 @@
+SELECT ?cid ?ru ?hy WHERE {
+  ?c wdt:P662 ?cid .
+  OPTIONAL { ?c rdfs:label ?ru FILTER(LANG(?ru)="ru") }
+  OPTIONAL { ?c rdfs:label ?hy FILTER(LANG(?hy)="hy") }
+  FILTER(BOUND(?ru) || BOUND(?hy))
+}
